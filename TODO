@@ -1,0 +1,34 @@
+springside Commit:5afe60a790aa7b2854484079ce79511c51020606 2014/04/14 23:36:17
+https://github.com/springside/springside4/wiki
+https://oss.sonatype.org
+------ next ------
+文档、异常、测试、规则、兼容性、提升
+------ next ------
+数据库
+	使用 dbutils、unitils
+	测试事务性
+应用支持
+	Guice or CDI
+异常
+	抛出和处理
+	建立异常体系
+	国际化和本地化
+日志
+	定制日志文件的位置
+	使用 MDC 增强日志
+	国际化和本地化
+测试
+	assertJ
+	单元测试
+	Mock
+文档
+	增强 Javadoc
+检查规则
+	final 关键字
+	整理开发规范
+依赖
+	OSGi
+发展计划
+	如何扩展
+	发现新需求
+
