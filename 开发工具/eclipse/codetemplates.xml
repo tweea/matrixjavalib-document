@@ -22,7 +22,6 @@
 	</template>
 	<template autoinsert="false" context="filecomment_context" deleted="false" description="Comment for created Java files"
 		enabled="true" id="org.eclipse.jdt.ui.text.codetemplates.filecomment" name="filecomment">/*
- * $$Id: codetemplates.xml 899 2014-01-22 15:29:43Z tweea@263.net $$
  * 版权所有 ${year} Matrix。
  * 保留所有权利。
  */</template>

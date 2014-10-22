@@ -15,4 +15,4 @@
 *.jsp = svn:keywords=Id
 *.txt = svn:keywords=Id
 *.xml = svn:keywords=Id
-在上述扩展名的文件中加入 $Id: 设置说明.txt 644 2013-08-27 09:20:27Z tweea $ 即可获得自动属性信息
+在上述扩展名的文件中加入 $Id$ 即可获得自动属性信息
