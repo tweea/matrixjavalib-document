@@ -50,7 +50,7 @@ c）禁用拼写检查
 		  增加全部
 	设置 Java->Compiler->Javadoc
 		Malformed Javadoc Comments 为 Warning
-		Only consider members as visible as 为 Default
+		Only consider members as visible as 为 Package
 		Validate tag arguments 为选中
 		Missing tag descriptions 为 Validate all standard tags
 

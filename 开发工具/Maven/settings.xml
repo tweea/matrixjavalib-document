@@ -130,26 +130,6 @@ under the License.
       <passphrase>optional; leave empty if not used.</passphrase>
     </server>
     -->
-		<server>
-			<id>mirror</id>
-			<username>admin</username>
-			<password>jfieu5ar</password>
-		</server>
-		<server>
-			<id>internal.release</id>
-			<username>admin</username>
-			<password>jfieu5ar</password>
-		</server>
-		<server>
-			<id>internal.snapshot</id>
-			<username>admin</username>
-			<password>jfieu5ar</password>
-		</server>
-		<server>
-			<id>internal.site</id>
-			<username>maven</username>
-			<password>maven</password>
-		</server>
   </servers>
 
   <!-- mirrors
