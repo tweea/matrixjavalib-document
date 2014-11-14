@@ -27,7 +27,7 @@ c）禁用拼写检查
 	在 Java->Code Style->Organize Imports 中导入 gs.importorder
 
 4、设置项目默认 Java 版本（已包含在 epf 文件中）
-	设置 Java->Compiler 中的 JDK Compliance 的 Compiler compliance level 为 1.6
+	设置 Java->Compiler 中的 JDK Compliance 的 Compiler compliance level 为 1.7
 
 5、错误警告，检查一些常规的编码错误（已包含在 epf 文件中）
 	在 Java->Compiler->Errors/Warinings
