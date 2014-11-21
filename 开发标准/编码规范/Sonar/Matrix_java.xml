@@ -2310,7 +2310,7 @@
 			<parameters>
 				<parameter>
 					<key>header</key>
-					<value>^/\*$\n^ \* Copyright.+\$$</value>
+					<value>^/\*$\n^ \* .+$</value>
 				</parameter>
 			</parameters>
 		</rule>
