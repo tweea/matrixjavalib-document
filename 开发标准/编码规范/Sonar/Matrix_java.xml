@@ -2539,12 +2539,6 @@
 		</rule>
 		<rule>
 			<repositoryKey>pmd</repositoryKey>
-			<key>GuardDebugLogging</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>pmd</repositoryKey>
 			<key>CheckResultSet</key>
 			<priority>MAJOR</priority>
 			<parameters />
@@ -2756,12 +2750,6 @@
 		<rule>
 			<repositoryKey>pmd</repositoryKey>
 			<key>BooleanInversion</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>pmd</repositoryKey>
-			<key>InsufficientStringBufferDeclaration</key>
 			<priority>MAJOR</priority>
 			<parameters />
 		</rule>
@@ -4805,12 +4793,6 @@
 		</rule>
 		<rule>
 			<repositoryKey>pmd</repositoryKey>
-			<key>GuardLogStatement</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>pmd</repositoryKey>
 			<key>CheckSkipResult</key>
 			<priority>MINOR</priority>
 			<parameters />
@@ -4861,12 +4843,6 @@
 			<repositoryKey>squid</repositoryKey>
 			<key>S1244</key>
 			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>pmd</repositoryKey>
-			<key>GodClass</key>
-			<priority>MAJOR</priority>
 			<parameters />
 		</rule>
 		<rule>
@@ -5529,12 +5505,6 @@
 			<parameters />
 		</rule>
 		<rule>
-			<repositoryKey>fb-contrib</repositoryKey>
-			<key>EXS_EXCEPTION_SOFTENING_NO_CONSTRAINTS</key>
-			<priority>INFO</priority>
-			<parameters />
-		</rule>
-		<rule>
 			<repositoryKey>squid</repositoryKey>
 			<key>S1294</key>
 			<priority>CRITICAL</priority>
@@ -5573,12 +5543,6 @@
 		<rule>
 			<repositoryKey>pmd-unit-tests</repositoryKey>
 			<key>UseAssertTrueInsteadOfAssertEquals</key>
-			<priority>MINOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>pmd</repositoryKey>
-			<key>UseObjectForClearerAPI</key>
 			<priority>MINOR</priority>
 			<parameters />
 		</rule>
