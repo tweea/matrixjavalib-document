@@ -5218,12 +5218,6 @@
 		</rule>
 		<rule>
 			<repositoryKey>fb-contrib</repositoryKey>
-			<key>EXS_EXCEPTION_SOFTENING_NO_CHECKED</key>
-			<priority>INFO</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>fb-contrib</repositoryKey>
 			<key>CNC_COLLECTION_NAMING_CONFUSION</key>
 			<priority>INFO</priority>
 			<parameters />
