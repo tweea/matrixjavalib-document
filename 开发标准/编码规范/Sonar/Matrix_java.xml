@@ -2574,17 +2574,6 @@
 		</rule>
 		<rule>
 			<repositoryKey>checkstyle</repositoryKey>
-			<key>com.puppycrawl.tools.checkstyle.checks.metrics.NPathComplexityCheck</key>
-			<priority>MAJOR</priority>
-			<parameters>
-				<parameter>
-					<key>max</key>
-					<value>512</value>
-				</parameter>
-			</parameters>
-		</rule>
-		<rule>
-			<repositoryKey>checkstyle</repositoryKey>
 			<key>com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck</key>
 			<priority>MINOR</priority>
 			<parameters />
@@ -5755,17 +5744,6 @@
 				<parameter>
 					<key>tagOrder</key>
 					<value>@author, @version, @param, @return, @throws, @exception, @see, @since, @serial, @serialField, @serialData, @deprecated</value>
-				</parameter>
-			</parameters>
-		</rule>
-		<rule>
-			<repositoryKey>checkstyle</repositoryKey>
-			<key>com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck</key>
-			<priority>MAJOR</priority>
-			<parameters>
-				<parameter>
-					<key>allowNoEmptyLineBetweenFields</key>
-					<value>false</value>
 				</parameter>
 			</parameters>
 		</rule>
