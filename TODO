@@ -13,6 +13,7 @@ https://oss.sonatype.org
 异常
 	国际化和本地化
 日志
+	jul slf4j 配置
 	国际化和本地化
 测试
 	单元测试
