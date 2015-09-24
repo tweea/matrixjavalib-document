@@ -4637,12 +4637,6 @@
 			<parameters />
 		</rule>
 		<rule>
-			<repositoryKey>checkstyle</repositoryKey>
-			<key>com.puppycrawl.tools.checkstyle.checks.javadoc.SummaryJavadocCheck</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
 			<repositoryKey>squid</repositoryKey>
 			<key>S2188</key>
 			<priority>CRITICAL</priority>
