@@ -56,19 +56,7 @@
 		</rule>
 		<rule>
 			<repositoryKey>pmd</repositoryKey>
-			<key>ConstructorCallsOverridableMethod</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>pmd</repositoryKey>
 			<key>AvoidArrayLoops</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>pmd</repositoryKey>
-			<key>UnusedFormalParameter</key>
 			<priority>MAJOR</priority>
 			<parameters />
 		</rule>
@@ -182,12 +170,6 @@
 		</rule>
 		<rule>
 			<repositoryKey>pmd</repositoryKey>
-			<key>EmptyFinalizer</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>pmd</repositoryKey>
 			<key>UseStringBufferLength</key>
 			<priority>MINOR</priority>
 			<parameters />
@@ -206,38 +188,8 @@
 		</rule>
 		<rule>
 			<repositoryKey>findbugs</repositoryKey>
-			<key>NM_FIELD_NAMING_CONVENTION</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>RV_NEGATING_RESULT_OF_COMPARETO</key>
-			<priority>MINOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>EQ_CHECK_FOR_OPERAND_NOT_COMPATIBLE_WITH_THIS</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
 			<key>TQ_MAYBE_SOURCE_VALUE_REACHES_NEVER_SINK</key>
 			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>VA_FORMAT_STRING_BAD_ARGUMENT</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>DMI_THREAD_PASSED_WHERE_RUNNABLE_EXPECTED</key>
-			<priority>MAJOR</priority>
 			<parameters />
 		</rule>
 		<rule>
@@ -266,73 +218,13 @@
 		</rule>
 		<rule>
 			<repositoryKey>findbugs</repositoryKey>
-			<key>IJU_TEARDOWN_NO_SUPER</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>DM_BOXED_PRIMITIVE_TOSTRING</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>NM_BAD_EQUAL</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>IJU_SUITE_NOT_STATIC</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>IM_MULTIPLYING_RESULT_OF_IREM</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>SR_NOT_CHECKED</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>DB_DUPLICATE_SWITCH_CLAUSES</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
 			<key>NP_NULL_PARAM_DEREF_NONVIRTUAL</key>
 			<priority>CRITICAL</priority>
 			<parameters />
 		</rule>
 		<rule>
 			<repositoryKey>findbugs</repositoryKey>
-			<key>RV_RETURN_VALUE_IGNORED</key>
-			<priority>MINOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>RV_EXCEPTION_NOT_THROWN</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
 			<key>DP_CREATE_CLASSLOADER_INSIDE_DO_PRIVILEGED</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>MS_SHOULD_BE_REFACTORED_TO_BE_FINAL</key>
 			<priority>MAJOR</priority>
 			<parameters />
 		</rule>
@@ -346,12 +238,6 @@
 			<repositoryKey>findbugs</repositoryKey>
 			<key>INT_VACUOUS_COMPARISON</key>
 			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>MS_FINAL_PKGPROTECT</key>
-			<priority>MAJOR</priority>
 			<parameters />
 		</rule>
 		<rule>
@@ -374,49 +260,7 @@
 		</rule>
 		<rule>
 			<repositoryKey>findbugs</repositoryKey>
-			<key>BX_BOXING_IMMEDIATELY_UNBOXED_TO_PERFORM_COERCION</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>BIT_SIGNED_CHECK_HIGH_BIT</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>RV_CHECK_FOR_POSITIVE_INDEXOF</key>
-			<priority>MINOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
 			<key>DMI_USELESS_SUBSTRING</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>DM_MONITOR_WAIT_ON_CONDITION</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>NP_LOAD_OF_KNOWN_NULL_VALUE</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>EQ_OVERRIDING_EQUALS_NOT_SYMMETRIC</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>EC_UNRELATED_INTERFACES</key>
 			<priority>CRITICAL</priority>
 			<parameters />
 		</rule>
@@ -428,56 +272,8 @@
 		</rule>
 		<rule>
 			<repositoryKey>findbugs</repositoryKey>
-			<key>SE_COMPARATOR_SHOULD_BE_SERIALIZABLE</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>DE_MIGHT_IGNORE</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>DMI_BAD_MONTH</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>FI_MISSING_SUPER_CALL</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>IJU_SETUP_NO_SUPER</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>CD_CIRCULAR_DEPENDENCY</key>
-			<priority>INFO</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>SQL_BAD_PREPARED_STATEMENT_ACCESS</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
 			<key>EQ_UNUSUAL</key>
 			<priority>MINOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>SE_TRANSIENT_FIELD_OF_NONSERIALIZABLE_CLASS</key>
-			<priority>MAJOR</priority>
 			<parameters />
 		</rule>
 		<rule>
@@ -512,24 +308,6 @@
 		</rule>
 		<rule>
 			<repositoryKey>findbugs</repositoryKey>
-			<key>BC_IMPOSSIBLE_INSTANCEOF</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>SE_NONFINAL_SERIALVERSIONID</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>RV_REM_OF_RANDOM_INT</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
 			<key>AM_CREATES_EMPTY_JAR_FILE_ENTRY</key>
 			<priority>MAJOR</priority>
 			<parameters />
@@ -542,19 +320,7 @@
 		</rule>
 		<rule>
 			<repositoryKey>findbugs</repositoryKey>
-			<key>RV_RETURN_VALUE_IGNORED_INFERRED</key>
-			<priority>MINOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
 			<key>DM_STRING_CTOR</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>SE_NO_SERIALVERSIONID</key>
 			<priority>MAJOR</priority>
 			<parameters />
 		</rule>
@@ -572,38 +338,8 @@
 		</rule>
 		<rule>
 			<repositoryKey>findbugs</repositoryKey>
-			<key>EC_UNRELATED_TYPES_USING_POINTER_EQUALITY</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
 			<key>UUF_UNUSED_PUBLIC_OR_PROTECTED_FIELD</key>
 			<priority>INFO</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>SQL_BAD_RESULTSET_ACCESS</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>BX_BOXING_IMMEDIATELY_UNBOXED</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>IJU_ASSERT_METHOD_INVOKED_FROM_RUN_METHOD</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>VA_FORMAT_STRING_BAD_CONVERSION_FROM_ARRAY</key>
-			<priority>MAJOR</priority>
 			<parameters />
 		</rule>
 		<rule>
@@ -615,24 +351,6 @@
 		<rule>
 			<repositoryKey>findbugs</repositoryKey>
 			<key>SI_INSTANCE_BEFORE_FINALS_ASSIGNED</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>RpC_REPEATED_CONDITIONAL_TEST</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>NP_SYNC_AND_NULL_CHECK_FIELD</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>DLS_DEAD_LOCAL_STORE_IN_RETURN</key>
 			<priority>CRITICAL</priority>
 			<parameters />
 		</rule>
@@ -650,55 +368,7 @@
 		</rule>
 		<rule>
 			<repositoryKey>findbugs</repositoryKey>
-			<key>WA_NOT_IN_LOOP</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>OS_OPEN_STREAM_EXCEPTION_PATH</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>DMI_ANNOTATION_IS_NOT_VISIBLE_TO_REFLECTION</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>NP_ALWAYS_NULL</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>STCAL_STATIC_CALENDAR_INSTANCE</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>UUF_UNUSED_FIELD</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>NP_GUARANTEED_DEREF_ON_EXCEPTION_PATH</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
 			<key>IS_FIELD_NOT_GUARDED</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>NP_CLONE_COULD_RETURN_NULL</key>
 			<priority>CRITICAL</priority>
 			<parameters />
 		</rule>
@@ -716,109 +386,7 @@
 		</rule>
 		<rule>
 			<repositoryKey>findbugs</repositoryKey>
-			<key>UCF_USELESS_CONTROL_FLOW</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>DMI_USING_REMOVEALL_TO_CLEAR_COLLECTION</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>NP_EQUALS_SHOULD_HANDLE_NULL_ARGUMENT</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>SQL_PREPARED_STATEMENT_GENERATED_FROM_NONCONSTANT_STRING</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>ICAST_BAD_SHIFT_AMOUNT</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>ICAST_IDIV_CAST_TO_DOUBLE</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>SE_READ_RESOLVE_MUST_RETURN_OBJECT</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
 			<key>BOA_BADLY_OVERRIDDEN_ADAPTER</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>SIO_SUPERFLUOUS_INSTANCEOF</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>USM_USELESS_SUBCLASS_METHOD</key>
-			<priority>INFO</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>WMI_WRONG_MAP_ITERATOR</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>UCF_USELESS_CONTROL_FLOW_NEXT_LINE</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>EI_EXPOSE_STATIC_REP2</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>NP_GUARANTEED_DEREF</key>
-			<priority>BLOCKER</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>WA_AWAIT_NOT_IN_LOOP</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>NM_FUTURE_KEYWORD_USED_AS_MEMBER_IDENTIFIER</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>SC_START_IN_CTOR</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>DMI_INVOKING_HASHCODE_ON_ARRAY</key>
 			<priority>CRITICAL</priority>
 			<parameters />
 		</rule>
@@ -826,18 +394,6 @@
 			<repositoryKey>findbugs</repositoryKey>
 			<key>UR_UNINIT_READ_CALLED_FROM_SUPER_CONSTRUCTOR</key>
 			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>SA_LOCAL_SELF_COMPUTATION</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>VA_FORMAT_STRING_ILLEGAL</key>
-			<priority>CRITICAL</priority>
 			<parameters />
 		</rule>
 		<rule>
@@ -854,38 +410,8 @@
 		</rule>
 		<rule>
 			<repositoryKey>findbugs</repositoryKey>
-			<key>SE_READ_RESOLVE_IS_STATIC</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
 			<key>RI_REDUNDANT_INTERFACES</key>
 			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>MTIA_SUSPECT_SERVLET_INSTANCE_FIELD</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>FI_FINALIZER_ONLY_NULLS_FIELDS</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>VA_FORMAT_STRING_NO_PREVIOUS_ARGUMENT</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>OBL_UNSATISFIED_OBLIGATION</key>
-			<priority>INFO</priority>
 			<parameters />
 		</rule>
 		<rule>
@@ -908,44 +434,14 @@
 		</rule>
 		<rule>
 			<repositoryKey>findbugs</repositoryKey>
-			<key>IA_AMBIGUOUS_INVOCATION_OF_INHERITED_OR_OUTER_METHOD</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>BIT_AND_ZZ</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
 			<key>DM_STRING_VOID_CTOR</key>
 			<priority>MAJOR</priority>
 			<parameters />
 		</rule>
 		<rule>
 			<repositoryKey>findbugs</repositoryKey>
-			<key>UL_UNRELEASED_LOCK</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
 			<key>HRS_REQUEST_PARAMETER_TO_HTTP_HEADER</key>
 			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>CN_IMPLEMENTS_CLONE_BUT_NOT_CLONEABLE</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>DL_SYNCHRONIZATION_ON_SHARED_CONSTANT</key>
-			<priority>CRITICAL</priority>
 			<parameters />
 		</rule>
 		<rule>
@@ -962,109 +458,13 @@
 		</rule>
 		<rule>
 			<repositoryKey>findbugs</repositoryKey>
-			<key>SA_FIELD_SELF_COMPARISON</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>SE_INNER_CLASS</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>CI_CONFUSED_INHERITANCE</key>
-			<priority>MINOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>UWF_UNWRITTEN_FIELD</key>
-			<priority>MINOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>FI_USELESS</key>
-			<priority>MINOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>NM_METHOD_CONSTRUCTOR_CONFUSION</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>ML_SYNC_ON_UPDATED_FIELD</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>FL_MATH_USING_FLOAT_PRECISION</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>VA_FORMAT_STRING_EXPECTED_MESSAGE_FORMAT_SUPPLIED</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>DMI_NONSERIALIZABLE_OBJECT_WRITTEN</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>MTIA_SUSPECT_STRUTS_INSTANCE_FIELD</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>EQ_OTHER_USE_OBJECT</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
 			<key>RCN_REDUNDANT_COMPARISON_OF_NULL_AND_NONNULL_VALUE</key>
 			<priority>CRITICAL</priority>
 			<parameters />
 		</rule>
 		<rule>
 			<repositoryKey>findbugs</repositoryKey>
-			<key>VA_FORMAT_STRING_USES_NEWLINE</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>MS_CANNOT_BE_FINAL</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
 			<key>NP_STORE_INTO_NONNULL_FIELD</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>DMI_INVOKING_TOSTRING_ON_ANONYMOUS_ARRAY</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>IM_BAD_CHECK_FOR_ODD</key>
 			<priority>CRITICAL</priority>
 			<parameters />
 		</rule>
@@ -1082,42 +482,6 @@
 		</rule>
 		<rule>
 			<repositoryKey>findbugs</repositoryKey>
-			<key>ICAST_INT_CAST_TO_DOUBLE_PASSED_TO_CEIL</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>ODR_OPEN_DATABASE_RESOURCE_EXCEPTION_PATH</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>CN_IDIOM</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>DMI_SCHEDULED_THREAD_POOL_EXECUTOR_WITH_ZERO_CORE_THREADS</key>
-			<priority>MINOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>GC_UNCHECKED_TYPE_IN_GENERIC_CALL</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>DL_SYNCHRONIZATION_ON_BOOLEAN</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
 			<key>SW_SWING_METHODS_INVOKED_IN_SWING_THREAD</key>
 			<priority>MAJOR</priority>
 			<parameters />
@@ -1126,18 +490,6 @@
 			<repositoryKey>findbugs</repositoryKey>
 			<key>SF_DEAD_STORE_DUE_TO_SWITCH_FALLTHROUGH_TO_THROW</key>
 			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>NP_NULL_ON_SOME_PATH_FROM_RETURN_VALUE</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>DM_DEFAULT_ENCODING</key>
-			<priority>MAJOR</priority>
 			<parameters />
 		</rule>
 		<rule>
@@ -1166,43 +518,13 @@
 		</rule>
 		<rule>
 			<repositoryKey>findbugs</repositoryKey>
-			<key>DMI_VACUOUS_SELF_COLLECTION_CALL</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
 			<key>DMI_FUTILE_ATTEMPT_TO_CHANGE_MAXPOOL_SIZE_OF_SCHEDULED_THREAD_POOL_EXECUTOR</key>
 			<priority>MINOR</priority>
 			<parameters />
 		</rule>
 		<rule>
 			<repositoryKey>findbugs</repositoryKey>
-			<key>BIT_AND</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>DMI_COLLECTIONS_SHOULD_NOT_CONTAIN_THEMSELVES</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>OBL_UNSATISFIED_OBLIGATION_EXCEPTION_EDGE</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
 			<key>HE_SIGNATURE_DECLARES_HASHING_OF_UNHASHABLE_CLASS</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>EC_NULL_ARG</key>
 			<priority>CRITICAL</priority>
 			<parameters />
 		</rule>
@@ -1220,43 +542,13 @@
 		</rule>
 		<rule>
 			<repositoryKey>findbugs</repositoryKey>
-			<key>DLS_DEAD_LOCAL_STORE</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>RV_ABSOLUTE_VALUE_OF_RANDOM_INT</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>FE_FLOATING_POINT_EQUALITY</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
 			<key>NP_NONNULL_FIELD_NOT_INITIALIZED_IN_CONSTRUCTOR</key>
 			<priority>CRITICAL</priority>
 			<parameters />
 		</rule>
 		<rule>
 			<repositoryKey>findbugs</repositoryKey>
-			<key>NM_SAME_SIMPLE_NAME_AS_INTERFACE</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
 			<key>WL_USING_GETCLASS_RATHER_THAN_CLASS_LITERAL</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>SQL_NONCONSTANT_STRING_PASSED_TO_EXECUTE</key>
 			<priority>CRITICAL</priority>
 			<parameters />
 		</rule>
@@ -1270,18 +562,6 @@
 			<repositoryKey>findbugs</repositoryKey>
 			<key>NP_PARAMETER_MUST_BE_NONNULL_BUT_MARKED_AS_NULLABLE</key>
 			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>STCAL_INVOKE_ON_STATIC_CALENDAR_INSTANCE</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>DMI_BIGDECIMAL_CONSTRUCTED_FROM_DOUBLE</key>
-			<priority>MAJOR</priority>
 			<parameters />
 		</rule>
 		<rule>
@@ -1304,38 +584,8 @@
 		</rule>
 		<rule>
 			<repositoryKey>findbugs</repositoryKey>
-			<key>RV_REM_OF_HASHCODE</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
 			<key>DMI_ENTRY_SETS_MAY_REUSE_ENTRY_OBJECTS</key>
 			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>ICAST_INT_CAST_TO_FLOAT_PASSED_TO_ROUND</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>RV_ABSOLUTE_VALUE_OF_HASHCODE</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>DMI_CALLING_NEXT_FROM_HASNEXT</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>NP_NULL_ON_SOME_PATH</key>
-			<priority>CRITICAL</priority>
 			<parameters />
 		</rule>
 		<rule>
@@ -1352,49 +602,7 @@
 		</rule>
 		<rule>
 			<repositoryKey>findbugs</repositoryKey>
-			<key>EQ_GETCLASS_AND_CLASS_CONSTANT</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>SA_FIELD_DOUBLE_ASSIGNMENT</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>VA_FORMAT_STRING_ARG_MISMATCH</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>BX_UNBOXED_AND_COERCED_FOR_TERNARY_OPERATOR</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>DMI_LONG_BITS_TO_DOUBLE_INVOKED_ON_INT</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>IJU_NO_TESTS</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
 			<key>RE_POSSIBLE_UNINTENDED_PATTERN</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>SA_LOCAL_SELF_COMPARISON</key>
 			<priority>CRITICAL</priority>
 			<parameters />
 		</rule>
@@ -1418,50 +626,8 @@
 		</rule>
 		<rule>
 			<repositoryKey>findbugs</repositoryKey>
-			<key>SA_FIELD_SELF_COMPUTATION</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>NO_NOTIFY_NOT_NOTIFYALL</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>BX_UNBOXING_IMMEDIATELY_REBOXED</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
 			<key>SF_DEAD_STORE_DUE_TO_SWITCH_FALLTHROUGH</key>
 			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>LI_LAZY_INIT_UPDATE_STATIC</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>SE_NONLONG_SERIALVERSIONID</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>ODR_OPEN_DATABASE_RESOURCE</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>RC_REF_COMPARISON_BAD_PRACTICE</key>
-			<priority>MAJOR</priority>
 			<parameters />
 		</rule>
 		<rule>
@@ -1473,30 +639,6 @@
 		<rule>
 			<repositoryKey>findbugs</repositoryKey>
 			<key>ITA_INEFFICIENT_TO_ARRAY</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>SIC_INNER_SHOULD_BE_STATIC</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>ES_COMPARING_PARAMETER_STRING_WITH_EQ</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>IL_CONTAINER_ADDED_TO_ITSELF</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>VA_FORMAT_STRING_BAD_CONVERSION</key>
 			<priority>CRITICAL</priority>
 			<parameters />
 		</rule>
@@ -1514,18 +656,6 @@
 		</rule>
 		<rule>
 			<repositoryKey>findbugs</repositoryKey>
-			<key>MS_MUTABLE_ARRAY</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>UW_UNCOND_WAIT</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
 			<key>VO_VOLATILE_INCREMENT</key>
 			<priority>CRITICAL</priority>
 			<parameters />
@@ -1538,68 +668,14 @@
 		</rule>
 		<rule>
 			<repositoryKey>findbugs</repositoryKey>
-			<key>CO_COMPARETO_RESULTS_MIN_VALUE</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
 			<key>UOE_USE_OBJECT_EQUALS</key>
 			<priority>INFO</priority>
 			<parameters />
 		</rule>
 		<rule>
 			<repositoryKey>findbugs</repositoryKey>
-			<key>DL_SYNCHRONIZATION_ON_UNSHARED_BOXED_PRIMITIVE</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>NP_BOOLEAN_RETURN_NULL</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>DL_SYNCHRONIZATION_ON_BOXED_PRIMITIVE</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>DE_MIGHT_DROP</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>RV_DONT_JUST_NULL_CHECK_READLINE</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
 			<key>BAC_BAD_APPLET_CONSTRUCTOR</key>
 			<priority>INFO</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>URF_UNREAD_FIELD</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>NP_NULL_INSTANCEOF</key>
-			<priority>BLOCKER</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>MS_PKGPROTECT</key>
-			<priority>MAJOR</priority>
 			<parameters />
 		</rule>
 		<rule>
@@ -1616,42 +692,6 @@
 		</rule>
 		<rule>
 			<repositoryKey>findbugs</repositoryKey>
-			<key>RV_CHECK_COMPARETO_FOR_SPECIFIC_RETURN_VALUE</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>ICAST_INT_2_LONG_AS_INSTANT</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>SWL_SLEEP_WITH_LOCK_HELD</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>FI_PUBLIC_SHOULD_BE_PROTECTED</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>STI_INTERRUPTED_ON_CURRENTTHREAD</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>BIT_SIGNED_CHECK</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
 			<key>UWF_FIELD_NOT_INITIALIZED_IN_CONSTRUCTOR</key>
 			<priority>MINOR</priority>
 			<parameters />
@@ -1664,43 +704,7 @@
 		</rule>
 		<rule>
 			<repositoryKey>findbugs</repositoryKey>
-			<key>FI_EMPTY</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>NP_CLOSING_NULL</key>
-			<priority>BLOCKER</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>UWF_NULL_FIELD</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
 			<key>NN_NAKED_NOTIFY</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>OS_OPEN_STREAM</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>NM_SAME_SIMPLE_NAME_AS_SUPERCLASS</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>J2EE_STORE_OF_NON_SERIALIZABLE_OBJECT_INTO_SESSION</key>
 			<priority>CRITICAL</priority>
 			<parameters />
 		</rule>
@@ -1712,61 +716,13 @@
 		</rule>
 		<rule>
 			<repositoryKey>findbugs</repositoryKey>
-			<key>SIC_INNER_SHOULD_BE_STATIC_ANON</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>NM_CLASS_NOT_EXCEPTION</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
 			<key>FB_UNEXPECTED_WARNING</key>
 			<priority>INFO</priority>
 			<parameters />
 		</rule>
 		<rule>
 			<repositoryKey>findbugs</repositoryKey>
-			<key>SE_METHOD_MUST_BE_PRIVATE</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>QBA_QUESTIONABLE_BOOLEAN_ASSIGNMENT</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>SS_SHOULD_BE_STATIC</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>EC_ARRAY_AND_NONARRAY</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>BIT_IOR</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
 			<key>SE_TRANSIENT_FIELD_NOT_RESTORED</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>VA_FORMAT_STRING_EXTRA_ARGUMENTS_PASSED</key>
 			<priority>MAJOR</priority>
 			<parameters />
 		</rule>
@@ -1784,38 +740,8 @@
 		</rule>
 		<rule>
 			<repositoryKey>findbugs</repositoryKey>
-			<key>INT_VACUOUS_BIT_OPERATION</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
 			<key>IL_INFINITE_LOOP</key>
 			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>EQ_COMPARING_CLASS_NAMES</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>NP_ALWAYS_NULL_EXCEPTION</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>DB_DUPLICATE_BRANCHES</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>IMSE_DONT_CATCH_IMSE</key>
-			<priority>MAJOR</priority>
 			<parameters />
 		</rule>
 		<rule>
@@ -1832,26 +758,8 @@
 		</rule>
 		<rule>
 			<repositoryKey>findbugs</repositoryKey>
-			<key>EC_UNRELATED_CLASS_AND_INTERFACE</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>NP_DEREFERENCE_OF_READLINE_VALUE</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
 			<key>BC_IMPOSSIBLE_CAST</key>
 			<priority>BLOCKER</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>NP_NULL_ON_SOME_PATH_EXCEPTION</key>
-			<priority>CRITICAL</priority>
 			<parameters />
 		</rule>
 		<rule>
@@ -1868,49 +776,13 @@
 		</rule>
 		<rule>
 			<repositoryKey>findbugs</repositoryKey>
-			<key>UM_UNNECESSARY_MATH</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
 			<key>RCN_REDUNDANT_NULLCHECK_WOULD_HAVE_BEEN_A_NPE</key>
 			<priority>CRITICAL</priority>
 			<parameters />
 		</rule>
 		<rule>
 			<repositoryKey>findbugs</repositoryKey>
-			<key>EQ_DOESNT_OVERRIDE_EQUALS</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
 			<key>NM_LCASE_TOSTRING</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>DM_USELESS_THREAD</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>JML_JSR166_CALLING_WAIT_RATHER_THAN_AWAIT</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>FI_NULLIFY_SUPER</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>MS_MUTABLE_HASHTABLE</key>
 			<priority>MAJOR</priority>
 			<parameters />
 		</rule>
@@ -1922,26 +794,8 @@
 		</rule>
 		<rule>
 			<repositoryKey>findbugs</repositoryKey>
-			<key>DM_NEW_FOR_GETCLASS</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
 			<key>IM_AVERAGE_COMPUTATION_COULD_OVERFLOW</key>
 			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>SE_BAD_FIELD_INNER_CLASS</key>
-			<priority>MINOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>NP_UNWRITTEN_FIELD</key>
-			<priority>MAJOR</priority>
 			<parameters />
 		</rule>
 		<rule>
@@ -1953,18 +807,6 @@
 		<rule>
 			<repositoryKey>findbugs</repositoryKey>
 			<key>TQ_COMPARING_VALUES_WITH_INCOMPATIBLE_TYPE_QUALIFIERS</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>RC_REF_COMPARISON</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>MF_CLASS_MASKS_FIELD</key>
 			<priority>MAJOR</priority>
 			<parameters />
 		</rule>
@@ -1982,37 +824,7 @@
 		</rule>
 		<rule>
 			<repositoryKey>findbugs</repositoryKey>
-			<key>SE_NO_SUITABLE_CONSTRUCTOR</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>MWN_MISMATCHED_NOTIFY</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>STCAL_INVOKE_ON_STATIC_DATE_FORMAT_INSTANCE</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>SA_LOCAL_DOUBLE_ASSIGNMENT</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
 			<key>DP_DO_INSIDE_DO_PRIVILEGED</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>RV_RETURN_VALUE_IGNORED2</key>
 			<priority>MAJOR</priority>
 			<parameters />
 		</rule>
@@ -2030,38 +842,8 @@
 		</rule>
 		<rule>
 			<repositoryKey>findbugs</repositoryKey>
-			<key>DM_RUN_FINALIZERS_ON_EXIT</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>STCAL_STATIC_SIMPLE_DATE_FORMAT_INSTANCE</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>FI_FINALIZER_NULLS_FIELDS</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>FE_TEST_IF_EQUAL_TO_NOT_A_NUMBER</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
 			<key>TLW_TWO_LOCK_WAIT</key>
 			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>DMI_CONSTANT_DB_PASSWORD</key>
-			<priority>BLOCKER</priority>
 			<parameters />
 		</rule>
 		<rule>
@@ -2072,49 +854,7 @@
 		</rule>
 		<rule>
 			<repositoryKey>findbugs</repositoryKey>
-			<key>DMI_COLLECTION_OF_URLS</key>
-			<priority>BLOCKER</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>NM_METHOD_NAMING_CONVENTION</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>SIC_THREADLOCAL_DEADLY_EMBRACE</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
 			<key>NM_WRONG_PACKAGE_INTENTIONAL</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>INT_BAD_REM_BY_1</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>ES_COMPARING_STRINGS_WITH_EQ</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>QF_QUESTIONABLE_FOR_LOOP</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>VA_FORMAT_STRING_BAD_CONVERSION_TO_BOOLEAN</key>
 			<priority>MAJOR</priority>
 			<parameters />
 		</rule>
@@ -2138,24 +878,6 @@
 		</rule>
 		<rule>
 			<repositoryKey>findbugs</repositoryKey>
-			<key>BC_EQUALS_METHOD_SHOULD_WORK_FOR_ALL_OBJECTS</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>ML_SYNC_ON_FIELD_TO_GUARD_CHANGING_THAT_FIELD</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>MWN_MISMATCHED_WAIT</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
 			<key>DM_NEXTINT_VIA_NEXTDOUBLE</key>
 			<priority>MAJOR</priority>
 			<parameters />
@@ -2169,18 +891,6 @@
 		<rule>
 			<repositoryKey>findbugs</repositoryKey>
 			<key>DLS_DEAD_LOCAL_STORE_OF_NULL</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>DMI_BLOCKING_METHODS_ON_URL</key>
-			<priority>BLOCKER</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>NP_NULL_ON_SOME_PATH_MIGHT_BE_INFEASIBLE</key>
 			<priority>CRITICAL</priority>
 			<parameters />
 		</rule>
@@ -2210,74 +920,8 @@
 		</rule>
 		<rule>
 			<repositoryKey>findbugs</repositoryKey>
-			<key>DMI_INVOKING_TOSTRING_ON_ARRAY</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>NP_ARGUMENT_MIGHT_BE_NULL</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
 			<key>CO_ABSTRACT_SELF</key>
 			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>RV_RETURN_VALUE_OF_PUTIFABSENT_IGNORED</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>UL_UNRELEASED_LOCK_EXCEPTION_PATH</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>SE_BAD_FIELD</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>SA_LOCAL_SELF_ASSIGNMENT</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>NP_UNWRITTEN_PUBLIC_OR_PROTECTED_FIELD</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>RR_NOT_CHECKED</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>ST_WRITE_TO_STATIC_FROM_INSTANCE_METHOD</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>NP_TOSTRING_COULD_RETURN_NULL</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>GC_UNRELATED_TYPES</key>
-			<priority>CRITICAL</priority>
 			<parameters />
 		</rule>
 		<rule>
@@ -2288,19 +932,7 @@
 		</rule>
 		<rule>
 			<repositoryKey>findbugs</repositoryKey>
-			<key>DM_STRING_TOSTRING</key>
-			<priority>INFO</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
 			<key>AM_CREATES_EMPTY_ZIP_FILE_ENTRY</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>NS_NON_SHORT_CIRCUIT</key>
 			<priority>MAJOR</priority>
 			<parameters />
 		</rule>
@@ -2318,61 +950,13 @@
 		</rule>
 		<rule>
 			<repositoryKey>findbugs</repositoryKey>
-			<key>SIC_INNER_SHOULD_BE_STATIC_NEEDS_THIS</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>LI_LAZY_INIT_STATIC</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>NM_FUTURE_KEYWORD_USED_AS_IDENTIFIER</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>ICAST_INTEGER_MULTIPLY_CAST_TO_LONG</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>STI_INTERRUPTED_ON_UNKNOWNTHREAD</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
 			<key>DMI_DOH</key>
 			<priority>MAJOR</priority>
 			<parameters />
 		</rule>
 		<rule>
 			<repositoryKey>findbugs</repositoryKey>
-			<key>SA_FIELD_SELF_ASSIGNMENT</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
 			<key>DMI_EMPTY_DB_PASSWORD</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>IJU_BAD_SUITE_METHOD</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>VA_FORMAT_STRING_MISSING_ARGUMENT</key>
 			<priority>CRITICAL</priority>
 			<parameters />
 		</rule>
@@ -2396,25 +980,7 @@
 		</rule>
 		<rule>
 			<repositoryKey>findbugs</repositoryKey>
-			<key>ISC_INSTANTIATE_STATIC_CLASS</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
 			<key>BC_BAD_CAST_TO_ABSTRACT_COLLECTION</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>IT_NO_SUCH_ELEMENT</key>
-			<priority>MINOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>MSF_MUTABLE_SERVLET_FIELD</key>
 			<priority>MAJOR</priority>
 			<parameters />
 		</rule>
@@ -2426,68 +992,8 @@
 		</rule>
 		<rule>
 			<repositoryKey>findbugs</repositoryKey>
-			<key>JLM_JSR166_LOCK_MONITORENTER</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>SE_NONSTATIC_SERIALVERSIONID</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>BC_VACUOUS_INSTANCEOF</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>RC_REF_COMPARISON_BAD_PRACTICE_BOOLEAN</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>NS_DANGEROUS_NON_SHORT_CIRCUIT</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
 			<key>BC_IMPOSSIBLE_DOWNCAST_OF_TOARRAY</key>
 			<priority>BLOCKER</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>MS_OOI_PKGPROTECT</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>EC_UNRELATED_TYPES</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>MS_EXPOSE_REP</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>NP_IMMEDIATE_DEREFERENCE_OF_READLINE</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>ESync_EMPTY_SYNC</key>
-			<priority>MAJOR</priority>
 			<parameters />
 		</rule>
 		<rule>
@@ -2499,12 +1005,6 @@
 		<rule>
 			<repositoryKey>findbugs</repositoryKey>
 			<key>UMAC_UNCALLABLE_METHOD_OF_ANONYMOUS_CLASS</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>DLS_OVERWRITTEN_INCREMENT</key>
 			<priority>CRITICAL</priority>
 			<parameters />
 		</rule>
@@ -2584,17 +1084,6 @@
 			<key>com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAfterCheck</key>
 			<priority>MINOR</priority>
 			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>checkstyle</repositoryKey>
-			<key>com.puppycrawl.tools.checkstyle.checks.header.RegexpHeaderCheck</key>
-			<priority>MAJOR</priority>
-			<parameters>
-				<parameter>
-					<key>header</key>
-					<value>^/\*$\n^ \* .+$</value>
-				</parameter>
-			</parameters>
 		</rule>
 		<rule>
 			<repositoryKey>checkstyle</repositoryKey>
@@ -2996,12 +1485,6 @@
 		</rule>
 		<rule>
 			<repositoryKey>pmd</repositoryKey>
-			<key>BooleanInversion</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>pmd</repositoryKey>
 			<key>ConfusingTernary</key>
 			<priority>MAJOR</priority>
 			<parameters />
@@ -3259,12 +1742,6 @@
 		</rule>
 		<rule>
 			<repositoryKey>squid</repositoryKey>
-			<key>S1318</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>squid</repositoryKey>
 			<key>S1219</key>
 			<priority>CRITICAL</priority>
 			<parameters />
@@ -3313,31 +1790,9 @@
 		</rule>
 		<rule>
 			<repositoryKey>squid</repositoryKey>
-			<key>S1191</key>
-			<priority>MAJOR</priority>
-			<parameters>
-				<parameter>
-					<key>exclude</key>
-					<value></value>
-				</parameter>
-			</parameters>
-		</rule>
-		<rule>
-			<repositoryKey>squid</repositoryKey>
 			<key>S1155</key>
 			<priority>MAJOR</priority>
 			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>squid</repositoryKey>
-			<key>TrailingCommentCheck</key>
-			<priority>MINOR</priority>
-			<parameters>
-				<parameter>
-					<key>legalCommentPattern</key>
-					<value>^\s*+[^\s]++$</value>
-				</parameter>
-			</parameters>
 		</rule>
 		<rule>
 			<repositoryKey>squid</repositoryKey>
@@ -3786,12 +2241,6 @@
 		</rule>
 		<rule>
 			<repositoryKey>findbugs</repositoryKey>
-			<key>DM_BOXED_PRIMITIVE_FOR_PARSING</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
 			<key>NP_METHOD_RETURN_RELAXING_ANNOTATION</key>
 			<priority>MAJOR</priority>
 			<parameters />
@@ -3799,12 +2248,6 @@
 		<rule>
 			<repositoryKey>findbugs</repositoryKey>
 			<key>NP_METHOD_PARAMETER_TIGHTENS_ANNOTATION</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>findbugs</repositoryKey>
-			<key>DLS_DEAD_LOCAL_INCREMENT_IN_RETURN</key>
 			<priority>MAJOR</priority>
 			<parameters />
 		</rule>
@@ -5334,12 +3777,6 @@
 		</rule>
 		<rule>
 			<repositoryKey>squid</repositoryKey>
-			<key>S1294</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>squid</repositoryKey>
 			<key>S1213</key>
 			<priority>MINOR</priority>
 			<parameters />
@@ -5716,25 +4153,6 @@
 		</rule>
 		<rule>
 			<repositoryKey>checkstyle</repositoryKey>
-			<key>com.puppycrawl.tools.checkstyle.checks.annotation.AnnotationLocationCheck</key>
-			<priority>MAJOR</priority>
-			<parameters>
-				<parameter>
-					<key>allowSamelineSingleParameterlessAnnotation</key>
-					<value>true</value>
-				</parameter>
-				<parameter>
-					<key>allowSamelineParametrizedAnnotation</key>
-					<value>false</value>
-				</parameter>
-				<parameter>
-					<key>allowSamelineMultipleAnnotations</key>
-					<value>false</value>
-				</parameter>
-			</parameters>
-		</rule>
-		<rule>
-			<repositoryKey>checkstyle</repositoryKey>
 			<key>com.puppycrawl.tools.checkstyle.checks.javadoc.NonEmptyAtclauseDescriptionCheck</key>
 			<priority>MAJOR</priority>
 			<parameters />
@@ -5807,6 +4225,1128 @@
 			<key>com.puppycrawl.tools.checkstyle.checks.javadoc.SingleLineJavadocCheck</key>
 			<priority>MAJOR</priority>
 			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>checkstyle</repositoryKey>
+			<key>com.puppycrawl.tools.checkstyle.checks.annotation.AnnotationLocationCheck</key>
+			<priority>MAJOR</priority>
+			<parameters>
+				<parameter>
+					<key>allowSamelineParameterizedAnnotation</key>
+					<value>false</value>
+				</parameter>
+				<parameter>
+					<key>allowSamelineSingleParameterlessAnnotation</key>
+					<value>true</value>
+				</parameter>
+				<parameter>
+					<key>allowSamelineMultipleAnnotations</key>
+					<value>false</value>
+				</parameter>
+			</parameters>
+		</rule>
+		<rule>
+			<repositoryKey>squid</repositoryKey>
+			<key>TrailingCommentCheck</key>
+			<priority>MINOR</priority>
+			<parameters>
+				<parameter>
+					<key>legalTrailingCommentPattern</key>
+					<value>^\s*+[^\s]++$</value>
+				</parameter>
+			</parameters>
+		</rule>
+		<rule>
+			<repositoryKey>squid</repositoryKey>
+			<key>S1191</key>
+			<priority>MAJOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>checkstyle</repositoryKey>
+			<key>com.puppycrawl.tools.checkstyle.checks.header.RegexpHeaderCheck</key>
+			<priority>MAJOR</priority>
+			<parameters>
+				<parameter>
+					<key>header</key>
+					<value>^/\*$\n^ \* .+$</value>
+				</parameter>
+			</parameters>
+		</rule>
+		<rule>
+			<repositoryKey>squid</repositoryKey>
+			<key>S2162</key>
+			<priority>CRITICAL</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>squid</repositoryKey>
+			<key>S2885</key>
+			<priority>CRITICAL</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>squid</repositoryKey>
+			<key>S2167</key>
+			<priority>CRITICAL</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>squid</repositoryKey>
+			<key>S2718</key>
+			<priority>CRITICAL</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>squid</repositoryKey>
+			<key>S2976</key>
+			<priority>CRITICAL</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>squid</repositoryKey>
+			<key>S2097</key>
+			<priority>BLOCKER</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>squid</repositoryKey>
+			<key>S2864</key>
+			<priority>MAJOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>squid</repositoryKey>
+			<key>S2156</key>
+			<priority>MAJOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>squid</repositoryKey>
+			<key>S2165</key>
+			<priority>MAJOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>squid</repositoryKey>
+			<key>S2692</key>
+			<priority>CRITICAL</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>squid</repositoryKey>
+			<key>S2446</key>
+			<priority>CRITICAL</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>squid</repositoryKey>
+			<key>S2442</key>
+			<priority>BLOCKER</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>squid</repositoryKey>
+			<key>S2695</key>
+			<priority>BLOCKER</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>squid</repositoryKey>
+			<key>S2677</key>
+			<priority>BLOCKER</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>squid</repositoryKey>
+			<key>S2122</key>
+			<priority>BLOCKER</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>squid</repositoryKey>
+			<key>S2912</key>
+			<priority>MAJOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>squid</repositoryKey>
+			<key>S2325</key>
+			<priority>MINOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>squid</repositoryKey>
+			<key>S2675</key>
+			<priority>MAJOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>squid</repositoryKey>
+			<key>S2066</key>
+			<priority>CRITICAL</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>squid</repositoryKey>
+			<key>S2925</key>
+			<priority>CRITICAL</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>squid</repositoryKey>
+			<key>S2438</key>
+			<priority>CRITICAL</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>squid</repositoryKey>
+			<key>S2112</key>
+			<priority>CRITICAL</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>squid</repositoryKey>
+			<key>S1858</key>
+			<priority>MAJOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>squid</repositoryKey>
+			<key>S2057</key>
+			<priority>MAJOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>squid</repositoryKey>
+			<key>S2059</key>
+			<priority>MAJOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>squid</repositoryKey>
+			<key>S2209</key>
+			<priority>MAJOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>squid</repositoryKey>
+			<key>S1264</key>
+			<priority>MINOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>findbugs</repositoryKey>
+			<key>RANGE_ARRAY_LENGTH</key>
+			<priority>CRITICAL</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>findbugs</repositoryKey>
+			<key>RANGE_ARRAY_OFFSET</key>
+			<priority>CRITICAL</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>findbugs</repositoryKey>
+			<key>RANGE_ARRAY_INDEX</key>
+			<priority>CRITICAL</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>squid</repositoryKey>
+			<key>S2970</key>
+			<priority>CRITICAL</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>squid</repositoryKey>
+			<key>S2445</key>
+			<priority>BLOCKER</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>squid</repositoryKey>
+			<key>S1940</key>
+			<priority>MAJOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>squid</repositoryKey>
+			<key>S2153</key>
+			<priority>MAJOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>squid</repositoryKey>
+			<key>S2387</key>
+			<priority>MAJOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>squid</repositoryKey>
+			<key>S2176</key>
+			<priority>MAJOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>fb-contrib</repositoryKey>
+			<key>CRF_CONFLATING_RESOURCES_AND_FILES</key>
+			<priority>INFO</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>fb-contrib</repositoryKey>
+			<key>SLS_SUSPICIOUS_LOOP_SEARCH</key>
+			<priority>INFO</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>squid</repositoryKey>
+			<key>S1872</key>
+			<priority>CRITICAL</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>squid</repositoryKey>
+			<key>S2583</key>
+			<priority>BLOCKER</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>squid</repositoryKey>
+			<key>S2134</key>
+			<priority>MAJOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>squid</repositoryKey>
+			<key>S2166</key>
+			<priority>MAJOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>squid</repositoryKey>
+			<key>S2440</key>
+			<priority>MAJOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>squid</repositoryKey>
+			<key>S2974</key>
+			<priority>MAJOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>squid</repositoryKey>
+			<key>S2063</key>
+			<priority>MAJOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>fb-contrib</repositoryKey>
+			<key>CSI_CHAR_SET_ISSUES_USE_STANDARD_CHARSET_NAME</key>
+			<priority>INFO</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>fb-contrib</repositoryKey>
+			<key>CSI_CHAR_SET_ISSUES_USE_STANDARD_CHARSET</key>
+			<priority>INFO</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>fb-contrib</repositoryKey>
+			<key>CSI_CHAR_SET_ISSUES_UNKNOWN_ENCODING</key>
+			<priority>INFO</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>fb-contrib</repositoryKey>
+			<key>CBC_CONTAINS_BASED_CONDITIONAL</key>
+			<priority>INFO</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>findbugs</repositoryKey>
+			<key>ME_MUTABLE_ENUM_FIELD</key>
+			<priority>CRITICAL</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>squid</repositoryKey>
+			<key>S2061</key>
+			<priority>CRITICAL</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>squid</repositoryKey>
+			<key>S2154</key>
+			<priority>CRITICAL</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>squid</repositoryKey>
+			<key>S1989</key>
+			<priority>CRITICAL</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>checkstyle</repositoryKey>
+			<key>com.puppycrawl.tools.checkstyle.checks.blocks.EmptyCatchBlockCheck</key>
+			<priority>MAJOR</priority>
+			<parameters>
+				<parameter>
+					<key>exceptionVariableName</key>
+					<value>^$</value>
+				</parameter>
+				<parameter>
+					<key>commentFormat</key>
+					<value>.*</value>
+				</parameter>
+			</parameters>
+		</rule>
+		<rule>
+			<repositoryKey>findbugs</repositoryKey>
+			<key>DM_INVALID_MIN_MAX</key>
+			<priority>MAJOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>squid</repositoryKey>
+			<key>S2175</key>
+			<priority>CRITICAL</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>squid</repositoryKey>
+			<key>S2388</key>
+			<priority>MAJOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>squid</repositoryKey>
+			<key>S1939</key>
+			<priority>MINOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>squid</repositoryKey>
+			<key>S2065</key>
+			<priority>MINOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>checkstyle</repositoryKey>
+			<key>com.puppycrawl.tools.checkstyle.checks.javadoc.SummaryJavadocCheck</key>
+			<priority>MAJOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>squid</repositoryKey>
+			<key>S2188</key>
+			<priority>CRITICAL</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>squid</repositoryKey>
+			<key>S2696</key>
+			<priority>CRITICAL</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>squid</repositoryKey>
+			<key>S2183</key>
+			<priority>CRITICAL</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>squid</repositoryKey>
+			<key>S2110</key>
+			<priority>CRITICAL</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>squid</repositoryKey>
+			<key>S2186</key>
+			<priority>CRITICAL</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>squid</repositoryKey>
+			<key>S2391</key>
+			<priority>CRITICAL</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>squid</repositoryKey>
+			<key>S2694</key>
+			<priority>MAJOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>squid</repositoryKey>
+			<key>S2924</key>
+			<priority>MAJOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>squid</repositoryKey>
+			<key>S2444</key>
+			<priority>CRITICAL</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>squid</repositoryKey>
+			<key>S2222</key>
+			<priority>CRITICAL</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>squid</repositoryKey>
+			<key>S2164</key>
+			<priority>CRITICAL</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>squid</repositoryKey>
+			<key>S2681</key>
+			<priority>CRITICAL</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>squid</repositoryKey>
+			<key>S2701</key>
+			<priority>MAJOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>squid</repositoryKey>
+			<key>S3047</key>
+			<priority>MAJOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>squid</repositoryKey>
+			<key>S1640</key>
+			<priority>MAJOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>squid</repositoryKey>
+			<key>S1845</key>
+			<priority>MAJOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>squid</repositoryKey>
+			<key>S864</key>
+			<priority>MAJOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>squid</repositoryKey>
+			<key>S2386</key>
+			<priority>CRITICAL</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>squid</repositoryKey>
+			<key>S2384</key>
+			<priority>CRITICAL</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>squid</repositoryKey>
+			<key>S2676</key>
+			<priority>CRITICAL</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>squid</repositoryKey>
+			<key>S2118</key>
+			<priority>CRITICAL</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>squid</repositoryKey>
+			<key>S2441</key>
+			<priority>CRITICAL</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>squid</repositoryKey>
+			<key>S2447</key>
+			<priority>CRITICAL</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>squid</repositoryKey>
+			<key>S2259</key>
+			<priority>BLOCKER</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>squid</repositoryKey>
+			<key>S1659</key>
+			<priority>MINOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>squid</repositoryKey>
+			<key>S2786</key>
+			<priority>MAJOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>findbugs</repositoryKey>
+			<key>DC_PARTIALLY_CONSTRUCTED</key>
+			<priority>MAJOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>findbugs</repositoryKey>
+			<key>ME_ENUM_FIELD_SETTER</key>
+			<priority>CRITICAL</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>squid</repositoryKey>
+			<key>S2257</key>
+			<priority>BLOCKER</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>squid</repositoryKey>
+			<key>S2095</key>
+			<priority>BLOCKER</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>squid</repositoryKey>
+			<key>S2133</key>
+			<priority>MAJOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>squid</repositoryKey>
+			<key>S2130</key>
+			<priority>MAJOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>squid</repositoryKey>
+			<key>S2131</key>
+			<priority>MAJOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>squid</repositoryKey>
+			<key>S2301</key>
+			<priority>MAJOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>squid</repositoryKey>
+			<key>S2333</key>
+			<priority>MINOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>findsecbugs</repositoryKey>
+			<key>BAD_HEXA_CONVERSION</key>
+			<priority>MAJOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>findsecbugs</repositoryKey>
+			<key>WEAK_FILENAMEUTILS</key>
+			<priority>INFO</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>findsecbugs</repositoryKey>
+			<key>BLOWFISH_KEY_SIZE</key>
+			<priority>MAJOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>findsecbugs</repositoryKey>
+			<key>CIPHER_INTEGRITY</key>
+			<priority>MAJOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>findsecbugs</repositoryKey>
+			<key>JAXRS_ENDPOINT</key>
+			<priority>INFO</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>findsecbugs</repositoryKey>
+			<key>JAXWS_ENDPOINT</key>
+			<priority>INFO</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>findsecbugs</repositoryKey>
+			<key>PADDING_ORACLE</key>
+			<priority>MAJOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>findsecbugs</repositoryKey>
+			<key>DES_USAGE</key>
+			<priority>MAJOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>findsecbugs</repositoryKey>
+			<key>ECB_MODE</key>
+			<priority>MAJOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>findsecbugs</repositoryKey>
+			<key>HAZELCAST_SYMMETRIC_ENCRYPTION</key>
+			<priority>MAJOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>findsecbugs</repositoryKey>
+			<key>HARD_CODE_PASSWORD</key>
+			<priority>MAJOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>findsecbugs</repositoryKey>
+			<key>STRUTS1_ENDPOINT</key>
+			<priority>INFO</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>findsecbugs</repositoryKey>
+			<key>STRUTS2_ENDPOINT</key>
+			<priority>INFO</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>findsecbugs</repositoryKey>
+			<key>TAPESTRY_ENDPOINT</key>
+			<priority>INFO</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>findsecbugs</repositoryKey>
+			<key>SPRING_ENDPOINT</key>
+			<priority>INFO</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>findsecbugs</repositoryKey>
+			<key>WICKET_ENDPOINT</key>
+			<priority>INFO</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>findsecbugs</repositoryKey>
+			<key>SERVLET_HEADER</key>
+			<priority>INFO</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>findsecbugs</repositoryKey>
+			<key>HARD_CODE_KEY</key>
+			<priority>INFO</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>findsecbugs</repositoryKey>
+			<key>SCRIPT_ENGINE_INJECTION</key>
+			<priority>CRITICAL</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>findsecbugs</repositoryKey>
+			<key>CUSTOM_MESSAGE_DIGEST</key>
+			<priority>MAJOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>findsecbugs</repositoryKey>
+			<key>WEAK_MESSAGE_DIGEST</key>
+			<priority>MAJOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>findsecbugs</repositoryKey>
+			<key>PATH_TRAVERSAL_OUT</key>
+			<priority>MAJOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>findsecbugs</repositoryKey>
+			<key>COMMAND_INJECTION</key>
+			<priority>CRITICAL</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>findsecbugs</repositoryKey>
+			<key>PATH_TRAVERSAL_IN</key>
+			<priority>MAJOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>findsecbugs</repositoryKey>
+			<key>SPEL_INJECTION</key>
+			<priority>CRITICAL</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>findsecbugs</repositoryKey>
+			<key>LDAP_INJECTION</key>
+			<priority>CRITICAL</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>findsecbugs</repositoryKey>
+			<key>NULL_CIPHER</key>
+			<priority>MAJOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>findsecbugs</repositoryKey>
+			<key>SQL_INJECTION_HIBERNATE</key>
+			<priority>CRITICAL</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>findsecbugs</repositoryKey>
+			<key>PREDICTABLE_RANDOM</key>
+			<priority>MAJOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>findsecbugs</repositoryKey>
+			<key>SQL_INJECTION_JDO</key>
+			<priority>CRITICAL</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>findsecbugs</repositoryKey>
+			<key>SQL_INJECTION_JPA</key>
+			<priority>CRITICAL</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>findsecbugs</repositoryKey>
+			<key>XPATH_INJECTION</key>
+			<priority>CRITICAL</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>findsecbugs</repositoryKey>
+			<key>XSS_JSP_PRINT</key>
+			<priority>CRITICAL</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>findsecbugs</repositoryKey>
+			<key>XSS_SERVLET</key>
+			<priority>CRITICAL</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>findsecbugs</repositoryKey>
+			<key>COOKIE_USAGE</key>
+			<priority>INFO</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>findsecbugs</repositoryKey>
+			<key>REDOS</key>
+			<priority>MAJOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>findsecbugs</repositoryKey>
+			<key>STRUTS_FORM_VALIDATION</key>
+			<priority>INFO</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>findsecbugs</repositoryKey>
+			<key>FILE_UPLOAD_FILENAME</key>
+			<priority>INFO</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>findsecbugs</repositoryKey>
+			<key>SERVLET_CONTENT_TYPE</key>
+			<priority>INFO</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>findsecbugs</repositoryKey>
+			<key>SERVLET_SERVER_NAME</key>
+			<priority>INFO</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>findsecbugs</repositoryKey>
+			<key>UNENCRYPTED_SOCKET</key>
+			<priority>MAJOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>findsecbugs</repositoryKey>
+			<key>WEAK_TRUST_MANAGER</key>
+			<priority>MAJOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>findsecbugs</repositoryKey>
+			<key>RSA_NO_PADDING</key>
+			<priority>MAJOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>findsecbugs</repositoryKey>
+			<key>RSA_KEY_SIZE</key>
+			<priority>MAJOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>findsecbugs</repositoryKey>
+			<key>STATIC_IV</key>
+			<priority>MAJOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>findsecbugs</repositoryKey>
+			<key>SERVLET_HEADER_USER_AGENT</key>
+			<priority>INFO</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>findsecbugs</repositoryKey>
+			<key>SERVLET_HEADER_REFERER</key>
+			<priority>INFO</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>findsecbugs</repositoryKey>
+			<key>UNVALIDATED_REDIRECT</key>
+			<priority>MAJOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>findsecbugs</repositoryKey>
+			<key>SERVLET_QUERY_STRING</key>
+			<priority>INFO</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>findsecbugs</repositoryKey>
+			<key>SERVLET_SESSION_ID</key>
+			<priority>INFO</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>findsecbugs</repositoryKey>
+			<key>SERVLET_PARAMETER</key>
+			<priority>INFO</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>findsecbugs</repositoryKey>
+			<key>ESAPI_ENCRYPTOR</key>
+			<priority>INFO</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>findsecbugs</repositoryKey>
+			<key>XXE_SAXPARSER</key>
+			<priority>CRITICAL</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>findsecbugs</repositoryKey>
+			<key>XXE_DOCUMENT</key>
+			<priority>CRITICAL</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>findbugs</repositoryKey>
+			<key>UC_USELESS_OBJECT_STACK</key>
+			<priority>MAJOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>findbugs</repositoryKey>
+			<key>UC_USELESS_VOID_METHOD</key>
+			<priority>MAJOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>findbugs</repositoryKey>
+			<key>UC_USELESS_OBJECT</key>
+			<priority>MAJOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>squid</repositoryKey>
+			<key>S2674</key>
+			<priority>CRITICAL</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>squid</repositoryKey>
+			<key>S2123</key>
+			<priority>CRITICAL</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>squid</repositoryKey>
+			<key>S2693</key>
+			<priority>CRITICAL</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>squid</repositoryKey>
+			<key>S2055</key>
+			<priority>CRITICAL</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>squid</repositoryKey>
+			<key>S2208</key>
+			<priority>MAJOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>squid</repositoryKey>
+			<key>S2326</key>
+			<priority>MAJOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>findbugs</repositoryKey>
+			<key>RANGE_STRING_INDEX</key>
+			<priority>CRITICAL</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>squid</repositoryKey>
+			<key>S2699</key>
+			<priority>CRITICAL</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>squid</repositoryKey>
+			<key>S2185</key>
+			<priority>MAJOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>squid</repositoryKey>
+			<key>S2187</key>
+			<priority>MAJOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>squid</repositoryKey>
+			<key>S2160</key>
+			<priority>MAJOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>squid</repositoryKey>
+			<key>S1607</key>
+			<priority>MAJOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>squid</repositoryKey>
+			<key>S2159</key>
+			<priority>MAJOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>squid</repositoryKey>
+			<key>S1309</key>
+			<priority>INFO</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>squid</repositoryKey>
+			<key>S3008</key>
+			<priority>MINOR</priority>
+			<parameters>
+				<parameter>
+					<key>format</key>
+					<value>^[a-z][a-zA-Z0-9]*$</value>
+				</parameter>
+			</parameters>
+		</rule>
+		<rule>
+			<repositoryKey>squid</repositoryKey>
+			<key>StringEqualityComparisonCheck</key>
+			<priority>CRITICAL</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>findsecbugs</repositoryKey>
+			<key>XSS_REQUEST_WRAPPER</key>
+			<priority>MAJOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>findsecbugs</repositoryKey>
+			<key>XXE_XMLREADER</key>
+			<priority>CRITICAL</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>findsecbugs</repositoryKey>
+			<key>XML_DECODER</key>
+			<priority>CRITICAL</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>squid</repositoryKey>
+			<key>S2277</key>
+			<priority>CRITICAL</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>squid</repositoryKey>
+			<key>S2278</key>
+			<priority>CRITICAL</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>squid</repositoryKey>
+			<key>S2070</key>
+			<priority>CRITICAL</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>squid</repositoryKey>
+			<key>S2437</key>
+			<priority>MAJOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>pmd</repositoryKey>
+			<key>UncommentedEmptyConstructor</key>
+			<priority>MAJOR</priority>
+			<parameters>
+				<parameter>
+					<key>ignoreExplicitConstructorInvocation</key>
+					<value>false</value>
+				</parameter>
+			</parameters>
 		</rule>
 	</rules>
 </profile>
