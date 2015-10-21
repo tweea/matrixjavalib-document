@@ -33,9 +33,11 @@ c）禁用拼写检查
 	在 Java->Compiler->Errors/Warinings
 		增加 Warinings
 		* Code Style
+		  增加 Access to a non-accessible member of an enclosing type
+		  增加 Undocumented empty block
 		  增加 Resource not managed via try-with-resource
 		* Potential programming problem
-		  增加全部，除 Boxing and UnBoxing，Potential resource leak
+		  增加全部，除 Boxing and unboxing，Potential resource leak
 		* Name shadowing and confict
 		  增加全部
 		* Unecessary Code
@@ -88,3 +90,7 @@ c）禁用拼写检查
 
 五、SpringSource 设置
 	设置 Global Preference->Set all preferences
+
+六、SVN 设置
+	设置 Team->SVN->Label Decorations->Text Decorations->File，加上修改人和修改时间。
+		“ {author} {date}”
