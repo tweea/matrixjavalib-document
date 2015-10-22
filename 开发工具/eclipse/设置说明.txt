@@ -33,8 +33,6 @@ c）禁用拼写检查
 	在 Java->Compiler->Errors/Warinings
 		增加 Warinings
 		* Code Style
-		  增加 Access to a non-accessible member of an enclosing type
-		  增加 Undocumented empty block
 		  增加 Resource not managed via try-with-resource
 		* Potential programming problem
 		  增加全部，除 Boxing and unboxing，Potential resource leak
