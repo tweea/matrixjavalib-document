@@ -2015,7 +2015,7 @@
 			<parameters>
 				<parameter>
 					<key>threshold</key>
-					<value>3</value>
+					<value>7</value>
 				</parameter>
 			</parameters>
 		</rule>
@@ -3106,12 +3106,6 @@
 		<rule>
 			<repositoryKey>pmd</repositoryKey>
 			<key>LogicInversion</key>
-			<priority>MINOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>squid</repositoryKey>
-			<key>S109</key>
 			<priority>MINOR</priority>
 			<parameters />
 		</rule>
@@ -4741,12 +4735,6 @@
 		<rule>
 			<repositoryKey>squid</repositoryKey>
 			<key>S2386</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>squid</repositoryKey>
-			<key>S2384</key>
 			<priority>CRITICAL</priority>
 			<parameters />
 		</rule>
