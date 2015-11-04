@@ -5,23 +5,22 @@ https://oss.sonatype.org
 ------ next ------
 文档、异常、测试、规则、兼容性、提升
 ------ next ------
-数据库
+应用支持（app-support）
+	Guice or CDI
+数据库（db）
 	AutoRollbackConnection
 	使用 dbutils、unitils
 	测试事务性
-应用支持
-	Guice or CDI
-异常
-	国际化和本地化
 日志
-	jul slf4j 配置
+	国际化和本地化
+文档
+	增强 Javadoc
+异常
 	国际化和本地化
 测试
 	单元测试
 	Mock
-文档
-	增强 Javadoc
-检查规则
+规则
 	final 关键字
 	整理开发规范
 依赖
