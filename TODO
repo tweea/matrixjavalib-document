@@ -6,7 +6,10 @@ https://oss.sonatype.org
 文档、异常、测试、规则、兼容性、提升
 ------ next ------
 应用支持（app-support）
+	sysconfig.dev.cfg
+	支持多个系统环境
 	Guice or CDI
+	模仿 WebApplicationContextUtils
 数据库（db）
 	AutoRollbackConnection
 	使用 dbutils、unitils
