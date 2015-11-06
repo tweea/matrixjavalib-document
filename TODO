@@ -6,10 +6,13 @@ https://oss.sonatype.org
 文档、异常、测试、规则、兼容性、提升
 ------ next ------
 应用支持（app-support）
-	sysconfig.dev.cfg
+	jul via slf4j init 加载时机
 	支持多个系统环境
-	Guice or CDI
 	模仿 WebApplicationContextUtils
+	GlobalSystemContext.get()
+	sysconfig.dev.cfg
+	提升
+	Guice or CDI
 数据库（db）
 	AutoRollbackConnection
 	使用 dbutils、unitils
