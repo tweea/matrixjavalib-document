@@ -7,7 +7,6 @@ https://oss.sonatype.org
 ------ next ------
 应用支持（app-support）
 	jul via slf4j init 加载时机
-	支持多个系统环境
 	模仿 WebApplicationContextUtils
 	GlobalSystemContext.get()
 	sysconfig.dev.cfg
