@@ -7,7 +7,6 @@ https://oss.sonatype.org
 ------ next ------
 应用支持（app-support）
 	jul via slf4j init 加载时机
-	sysconfig.dev.cfg
 	web.xml 指定 SystemController class
 	ResourceLoader 问题（消息加载顺序与定制加载（默认从类路径加载）、不使用 spring-web）
 	Guice or CDI
