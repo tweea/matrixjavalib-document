@@ -8,7 +8,7 @@ https://oss.sonatype.org
 应用支持（app-support）
 	Guice or CDI
 数据库（db）
-	AutoRollbackConnection
+	flyway
 	使用 dbutils、unitils
 	测试事务性
 日志
