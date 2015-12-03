@@ -8,8 +8,7 @@ https://oss.sonatype.org
 应用支持（app-support）
 	Guice or CDI
 数据库（db）
-	flyway
-	使用 dbutils、unitils
+	unitils、flyway
 	测试事务性
 日志
 	国际化和本地化
