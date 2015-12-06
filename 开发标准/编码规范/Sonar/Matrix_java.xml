@@ -1057,12 +1057,6 @@
 		</rule>
 		<rule>
 			<repositoryKey>checkstyle</repositoryKey>
-			<key>com.puppycrawl.tools.checkstyle.checks.design.InnerTypeLastCheck</key>
-			<priority>INFO</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>checkstyle</repositoryKey>
 			<key>com.puppycrawl.tools.checkstyle.checks.whitespace.WhitespaceAroundCheck</key>
 			<priority>MINOR</priority>
 			<parameters />
