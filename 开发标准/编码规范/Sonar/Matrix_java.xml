@@ -5214,12 +5214,6 @@
 		</rule>
 		<rule>
 			<repositoryKey>squid</repositoryKey>
-			<key>S2699</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>squid</repositoryKey>
 			<key>S2185</key>
 			<priority>MAJOR</priority>
 			<parameters />
