@@ -5,6 +5,13 @@ https://oss.sonatype.org
 ------ next ------
 文档、异常、测试、规则、兼容性、提升
 ------ next ------
+规则
+	Abstract class without any methods
+	Annotation repetitions should not be wrapped
+	Copyright and license headers should be defined
+	Empty Line Separator
+	Tests should include assertions
+	Unnecessary constructor
 应用支持（app-support）
 	Guice or CDI
 数据库（db）
