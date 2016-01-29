@@ -12,6 +12,8 @@ https://oss.sonatype.org
 	Empty Line Separator
 	Tests should include assertions
 	Unnecessary constructor
+common
+	PropertiesConfigurationContainer
 应用支持（app-support）
 	Guice or CDI
 数据库（db）
