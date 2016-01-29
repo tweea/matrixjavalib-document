@@ -13,6 +13,7 @@ https://oss.sonatype.org
 	Tests should include assertions
 	Unnecessary constructor
 common
+	isDelimiterParsingDisabled
 	PropertiesConfigurationContainer
 应用支持（app-support）
 	Guice or CDI
