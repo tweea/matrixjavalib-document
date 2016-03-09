@@ -15,6 +15,7 @@ https://oss.sonatype.org
 common
 	isDelimiterParsingDisabled
 	PropertiesConfigurationContainer
+	Reflections 增加使用 Class 作为参数的方法
 应用支持（app-support）
 	Guice or CDI
 数据库（db）
