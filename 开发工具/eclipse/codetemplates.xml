@@ -18,10 +18,9 @@
  * 版权所有 ${year} Matrix。
  * 保留所有权利。
  */</template>
-	<template autoinsert="true" context="gettercomment_context" deleted="false" description="Comment for getter method"
+	<template autoinsert="false" context="gettercomment_context" deleted="false" description="Comment for getter method"
 		enabled="true" id="org.eclipse.jdt.ui.text.codetemplates.gettercomment" name="gettercomment">/**
  * 获取 ${bare_field_name}。
- * @return ${bare_field_name}
  */</template>
 	<template autoinsert="false" context="methodcomment_context" deleted="false" description="Comment for non-overriding methods"
 		enabled="true" id="org.eclipse.jdt.ui.text.codetemplates.methodcomment" name="methodcomment">/**
@@ -30,10 +29,9 @@
 	<template autoinsert="true" context="overridecomment_context" deleted="false" description="Comment for overriding methods"
 		enabled="true" id="org.eclipse.jdt.ui.text.codetemplates.overridecomment" name="overridecomment">
 	</template>
-	<template autoinsert="true" context="settercomment_context" deleted="false" description="Comment for setter method"
+	<template autoinsert="false" context="settercomment_context" deleted="false" description="Comment for setter method"
 		enabled="true" id="org.eclipse.jdt.ui.text.codetemplates.settercomment" name="settercomment">/**
  * 设置 ${bare_field_name}。
- * @param ${param} ${bare_field_name}
  */</template>
 	<template autoinsert="false" context="typecomment_context" deleted="false" description="Comment for created types"
 		enabled="true" id="org.eclipse.jdt.ui.text.codetemplates.typecomment" name="typecomment">/**
