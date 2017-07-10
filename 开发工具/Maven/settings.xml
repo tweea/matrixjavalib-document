@@ -130,6 +130,11 @@ under the License.
       <passphrase>optional; leave empty if not used.</passphrase>
     </server>
     -->
+		<server>
+			<id>nexus</id>
+			<username>username</username>
+			<password>password</password>
+		</server>
   </servers>
 
   <!-- mirrors
