@@ -5,7 +5,55 @@
 	<rules>
 		<rule>
 			<repositoryKey>javascript</repositoryKey>
+			<key>ArrayAndObjectConstructors</key>
+			<priority>MAJOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>javascript</repositoryKey>
+			<key>AssignmentWithinCondition</key>
+			<priority>MAJOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>javascript</repositoryKey>
+			<key>BitwiseOperators</key>
+			<priority>MAJOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>javascript</repositoryKey>
+			<key>BoundOrAssignedEvalOrArguments</key>
+			<priority>CRITICAL</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>javascript</repositoryKey>
 			<key>CommentedCode</key>
+			<priority>MAJOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>javascript</repositoryKey>
+			<key>ConditionalComment</key>
+			<priority>MAJOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>javascript</repositoryKey>
+			<key>ConditionalOperator</key>
+			<priority>MINOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>javascript</repositoryKey>
+			<key>ConstructorFunctionsForSideEffects</key>
+			<priority>MAJOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>javascript</repositoryKey>
+			<key>CurlyBraces</key>
 			<priority>MAJOR</priority>
 			<parameters />
 		</rule>
@@ -17,7 +65,25 @@
 		</rule>
 		<rule>
 			<repositoryKey>javascript</repositoryKey>
-			<key>WithStatement</key>
+			<key>DuplicateFunctionArgument</key>
+			<priority>CRITICAL</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>javascript</repositoryKey>
+			<key>DuplicatePropertyName</key>
+			<priority>CRITICAL</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>common-js</repositoryKey>
+			<key>DuplicatedBlocks</key>
+			<priority>MAJOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>javascript</repositoryKey>
+			<key>EmptyBlock</key>
 			<priority>MAJOR</priority>
 			<parameters />
 		</rule>
@@ -35,48 +101,6 @@
 		</rule>
 		<rule>
 			<repositoryKey>javascript</repositoryKey>
-			<key>OneStatementPerLine</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>javascript</repositoryKey>
-			<key>Semicolon</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>javascript</repositoryKey>
-			<key>CurlyBraces</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>javascript</repositoryKey>
-			<key>MultilineStringLiterals</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>javascript</repositoryKey>
-			<key>ArrayAndObjectConstructors</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>javascript</repositoryKey>
-			<key>BitwiseOperators</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>javascript</repositoryKey>
-			<key>PrimitiveWrappers</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>javascript</repositoryKey>
 			<key>ForIn</key>
 			<priority>MAJOR</priority>
 			<parameters />
@@ -89,13 +113,19 @@
 		</rule>
 		<rule>
 			<repositoryKey>javascript</repositoryKey>
-			<key>TrailingComma</key>
-			<priority>BLOCKER</priority>
+			<key>FunctionDefinitionInsideLoop</key>
+			<priority>MAJOR</priority>
 			<parameters />
 		</rule>
 		<rule>
 			<repositoryKey>javascript</repositoryKey>
-			<key>AssignmentWithinCondition</key>
+			<key>FutureReservedWords</key>
+			<priority>CRITICAL</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>javascript</repositoryKey>
+			<key>HtmlComments</key>
 			<priority>MAJOR</priority>
 			<parameters />
 		</rule>
@@ -107,13 +137,19 @@
 		</rule>
 		<rule>
 			<repositoryKey>javascript</repositoryKey>
-			<key>UnreachableCode</key>
+			<key>MissingNewlineAtEndOfFile</key>
+			<priority>MINOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>javascript</repositoryKey>
+			<key>MultilineStringLiterals</key>
 			<priority>MAJOR</priority>
 			<parameters />
 		</rule>
 		<rule>
 			<repositoryKey>javascript</repositoryKey>
-			<key>SwitchWithoutDefault</key>
+			<key>NamedFunctionExpression</key>
 			<priority>MAJOR</priority>
 			<parameters />
 		</rule>
@@ -125,7 +161,13 @@
 		</rule>
 		<rule>
 			<repositoryKey>javascript</repositoryKey>
-			<key>HtmlComments</key>
+			<key>OctalNumber</key>
+			<priority>CRITICAL</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>javascript</repositoryKey>
+			<key>OneStatementPerLine</key>
 			<priority>MAJOR</priority>
 			<parameters />
 		</rule>
@@ -137,38 +179,37 @@
 		</rule>
 		<rule>
 			<repositoryKey>javascript</repositoryKey>
-			<key>ConditionalOperator</key>
-			<priority>MINOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>javascript</repositoryKey>
 			<key>ParsingError</key>
 			<priority>MAJOR</priority>
 			<parameters />
 		</rule>
 		<rule>
 			<repositoryKey>javascript</repositoryKey>
-			<key>SingleQuote</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>common-js</repositoryKey>
-			<key>DuplicatedBlocks</key>
+			<key>PrimitiveWrappers</key>
 			<priority>MAJOR</priority>
 			<parameters />
 		</rule>
 		<rule>
 			<repositoryKey>javascript</repositoryKey>
-			<key>S1442</key>
+			<key>S100</key>
 			<priority>MAJOR</priority>
+			<parameters>
+				<parameter>
+					<key>format</key>
+					<value>^[a-z][a-zA-Z0-9]*$</value>
+				</parameter>
+			</parameters>
+		</rule>
+		<rule>
+			<repositoryKey>javascript</repositoryKey>
+			<key>S1125</key>
+			<priority>MINOR</priority>
 			<parameters />
 		</rule>
 		<rule>
 			<repositoryKey>javascript</repositoryKey>
-			<key>BoundOrAssignedEvalOrArguments</key>
-			<priority>CRITICAL</priority>
+			<key>S1126</key>
+			<priority>MINOR</priority>
 			<parameters />
 		</rule>
 		<rule>
@@ -179,14 +220,20 @@
 		</rule>
 		<rule>
 			<repositoryKey>javascript</repositoryKey>
+			<key>S1135</key>
+			<priority>INFO</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>javascript</repositoryKey>
 			<key>S1145</key>
 			<priority>MAJOR</priority>
 			<parameters />
 		</rule>
 		<rule>
 			<repositoryKey>javascript</repositoryKey>
-			<key>S1301</key>
-			<priority>MINOR</priority>
+			<key>S1154</key>
+			<priority>BLOCKER</priority>
 			<parameters />
 		</rule>
 		<rule>
@@ -197,32 +244,323 @@
 		</rule>
 		<rule>
 			<repositoryKey>javascript</repositoryKey>
-			<key>S1135</key>
-			<priority>INFO</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>javascript</repositoryKey>
 			<key>S1264</key>
 			<priority>MINOR</priority>
 			<parameters />
 		</rule>
 		<rule>
 			<repositoryKey>javascript</repositoryKey>
-			<key>FunctionDefinitionInsideLoop</key>
+			<key>S1301</key>
+			<priority>MINOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>javascript</repositoryKey>
+			<key>S1442</key>
 			<priority>MAJOR</priority>
 			<parameters />
 		</rule>
 		<rule>
 			<repositoryKey>javascript</repositoryKey>
-			<key>EmptyBlock</key>
+			<key>S1472</key>
+			<priority>CRITICAL</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>javascript</repositoryKey>
+			<key>S1656</key>
 			<priority>MAJOR</priority>
 			<parameters />
 		</rule>
 		<rule>
 			<repositoryKey>javascript</repositoryKey>
-			<key>NamedFunctionExpression</key>
+			<key>S1697</key>
+			<priority>BLOCKER</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>javascript</repositoryKey>
+			<key>S1764</key>
+			<priority>CRITICAL</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>javascript</repositoryKey>
+			<key>S1854</key>
 			<priority>MAJOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>javascript</repositoryKey>
+			<key>S1862</key>
+			<priority>CRITICAL</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>javascript</repositoryKey>
+			<key>S1871</key>
+			<priority>MAJOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>javascript</repositoryKey>
+			<key>S1994</key>
+			<priority>CRITICAL</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>javascript</repositoryKey>
+			<key>S2123</key>
+			<priority>CRITICAL</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>javascript</repositoryKey>
+			<key>S2137</key>
+			<priority>CRITICAL</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>javascript</repositoryKey>
+			<key>S2138</key>
+			<priority>CRITICAL</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>javascript</repositoryKey>
+			<key>S2228</key>
+			<priority>MAJOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>javascript</repositoryKey>
+			<key>S2251</key>
+			<priority>BLOCKER</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>javascript</repositoryKey>
+			<key>S2424</key>
+			<priority>CRITICAL</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>javascript</repositoryKey>
+			<key>S2427</key>
+			<priority>CRITICAL</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>javascript</repositoryKey>
+			<key>S2432</key>
+			<priority>CRITICAL</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>javascript</repositoryKey>
+			<key>S2508</key>
+			<priority>CRITICAL</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>javascript</repositoryKey>
+			<key>S2549</key>
+			<priority>CRITICAL</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>javascript</repositoryKey>
+			<key>S2550</key>
+			<priority>CRITICAL</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>javascript</repositoryKey>
+			<key>S2611</key>
+			<priority>CRITICAL</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>javascript</repositoryKey>
+			<key>S2685</key>
+			<priority>CRITICAL</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>javascript</repositoryKey>
+			<key>S2688</key>
+			<priority>BLOCKER</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>javascript</repositoryKey>
+			<key>S2692</key>
+			<priority>MAJOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>javascript</repositoryKey>
+			<key>S2703</key>
+			<priority>MAJOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>javascript</repositoryKey>
+			<key>S2713</key>
+			<priority>MINOR</priority>
+			<parameters>
+				<parameter>
+					<key>format</key>
+					<value>^\$[a-z][a-zA-Z0-9]*$</value>
+				</parameter>
+			</parameters>
+		</rule>
+		<rule>
+			<repositoryKey>javascript</repositoryKey>
+			<key>S2714</key>
+			<priority>MAJOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>javascript</repositoryKey>
+			<key>S2715</key>
+			<priority>MAJOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>javascript</repositoryKey>
+			<key>S2716</key>
+			<priority>MAJOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>javascript</repositoryKey>
+			<key>S2762</key>
+			<priority>MAJOR</priority>
+			<parameters>
+				<parameter>
+					<key>threshold</key>
+					<value>2</value>
+				</parameter>
+			</parameters>
+		</rule>
+		<rule>
+			<repositoryKey>javascript</repositoryKey>
+			<key>S2769</key>
+			<priority>CRITICAL</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>javascript</repositoryKey>
+			<key>S2770</key>
+			<priority>MAJOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>javascript</repositoryKey>
+			<key>S2814</key>
+			<priority>MAJOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>javascript</repositoryKey>
+			<key>S2817</key>
+			<priority>CRITICAL</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>javascript</repositoryKey>
+			<key>S2819</key>
+			<priority>CRITICAL</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>javascript</repositoryKey>
+			<key>S2870</key>
+			<priority>CRITICAL</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>javascript</repositoryKey>
+			<key>S2898</key>
+			<priority>MAJOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>javascript</repositoryKey>
+			<key>S2990</key>
+			<priority>CRITICAL</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>javascript</repositoryKey>
+			<key>S2999</key>
+			<priority>CRITICAL</priority>
+			<parameters>
+				<parameter>
+					<key>considerJSDoc</key>
+					<value>false</value>
+				</parameter>
+			</parameters>
+		</rule>
+		<rule>
+			<repositoryKey>javascript</repositoryKey>
+			<key>S3002</key>
+			<priority>CRITICAL</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>javascript</repositoryKey>
+			<key>S878</key>
+			<priority>MAJOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>javascript</repositoryKey>
+			<key>S888</key>
+			<priority>CRITICAL</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>javascript</repositoryKey>
+			<key>S905</key>
+			<priority>CRITICAL</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>javascript</repositoryKey>
+			<key>S930</key>
+			<priority>CRITICAL</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>javascript</repositoryKey>
+			<key>Semicolon</key>
+			<priority>MAJOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>javascript</repositoryKey>
+			<key>SingleQuote</key>
+			<priority>MAJOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>javascript</repositoryKey>
+			<key>StrictMode</key>
+			<priority>INFO</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>javascript</repositoryKey>
+			<key>SwitchWithoutDefault</key>
+			<priority>MAJOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>javascript</repositoryKey>
+			<key>TrailingComma</key>
+			<priority>BLOCKER</priority>
 			<parameters />
 		</rule>
 		<rule>
@@ -244,91 +582,8 @@
 		</rule>
 		<rule>
 			<repositoryKey>javascript</repositoryKey>
-			<key>ConstructorFunctionsForSideEffects</key>
+			<key>UnreachableCode</key>
 			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>javascript</repositoryKey>
-			<key>VariableShadowing</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>javascript</repositoryKey>
-			<key>S1125</key>
-			<priority>MINOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>javascript</repositoryKey>
-			<key>S878</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>javascript</repositoryKey>
-			<key>VariableDeclarationAfterUsage</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>javascript</repositoryKey>
-			<key>FutureReservedWords</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>javascript</repositoryKey>
-			<key>ConditionalComment</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>javascript</repositoryKey>
-			<key>OctalNumber</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>javascript</repositoryKey>
-			<key>DuplicatePropertyName</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>javascript</repositoryKey>
-			<key>DuplicateFunctionArgument</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>javascript</repositoryKey>
-			<key>S1472</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>javascript</repositoryKey>
-			<key>S100</key>
-			<priority>MAJOR</priority>
-			<parameters>
-				<parameter>
-					<key>format</key>
-					<value>^[a-z][a-zA-Z0-9]*$</value>
-				</parameter>
-			</parameters>
-		</rule>
-		<rule>
-			<repositoryKey>javascript</repositoryKey>
-			<key>MissingNewlineAtEndOfFile</key>
-			<priority>MINOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>javascript</repositoryKey>
-			<key>S1126</key>
-			<priority>MINOR</priority>
 			<parameters />
 		</rule>
 		<rule>
@@ -345,274 +600,19 @@
 		</rule>
 		<rule>
 			<repositoryKey>javascript</repositoryKey>
-			<key>StrictMode</key>
-			<priority>INFO</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>javascript</repositoryKey>
-			<key>S2550</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>javascript</repositoryKey>
-			<key>S2685</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>javascript</repositoryKey>
-			<key>S2898</key>
+			<key>VariableDeclarationAfterUsage</key>
 			<priority>MAJOR</priority>
 			<parameters />
 		</rule>
 		<rule>
 			<repositoryKey>javascript</repositoryKey>
-			<key>S2870</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>javascript</repositoryKey>
-			<key>S1994</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>javascript</repositoryKey>
-			<key>S2138</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>javascript</repositoryKey>
-			<key>S2424</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>javascript</repositoryKey>
-			<key>S2688</key>
-			<priority>BLOCKER</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>javascript</repositoryKey>
-			<key>S2251</key>
-			<priority>BLOCKER</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>javascript</repositoryKey>
-			<key>S2715</key>
+			<key>VariableShadowing</key>
 			<priority>MAJOR</priority>
 			<parameters />
 		</rule>
 		<rule>
 			<repositoryKey>javascript</repositoryKey>
-			<key>S2692</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>javascript</repositoryKey>
-			<key>S2999</key>
-			<priority>CRITICAL</priority>
-			<parameters>
-				<parameter>
-					<key>considerJSDoc</key>
-					<value>false</value>
-				</parameter>
-			</parameters>
-		</rule>
-		<rule>
-			<repositoryKey>javascript</repositoryKey>
-			<key>S2819</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>javascript</repositoryKey>
-			<key>S1764</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>javascript</repositoryKey>
-			<key>S2137</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>javascript</repositoryKey>
-			<key>S2228</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>javascript</repositoryKey>
-			<key>S1854</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>javascript</repositoryKey>
-			<key>S2770</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>javascript</repositoryKey>
-			<key>S2714</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>javascript</repositoryKey>
-			<key>S930</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>javascript</repositoryKey>
-			<key>S2713</key>
-			<priority>MINOR</priority>
-			<parameters>
-				<parameter>
-					<key>format</key>
-					<value>^\$[a-z][a-zA-Z0-9]*$</value>
-				</parameter>
-			</parameters>
-		</rule>
-		<rule>
-			<repositoryKey>javascript</repositoryKey>
-			<key>S1862</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>javascript</repositoryKey>
-			<key>S2769</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>javascript</repositoryKey>
-			<key>S2432</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>javascript</repositoryKey>
-			<key>S2549</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>javascript</repositoryKey>
-			<key>S1154</key>
-			<priority>BLOCKER</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>javascript</repositoryKey>
-			<key>S1697</key>
-			<priority>BLOCKER</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>javascript</repositoryKey>
-			<key>S905</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>javascript</repositoryKey>
-			<key>S888</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>javascript</repositoryKey>
-			<key>S2762</key>
-			<priority>MAJOR</priority>
-			<parameters>
-				<parameter>
-					<key>threshold</key>
-					<value>2</value>
-				</parameter>
-			</parameters>
-		</rule>
-		<rule>
-			<repositoryKey>javascript</repositoryKey>
-			<key>S3002</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>javascript</repositoryKey>
-			<key>S2427</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>javascript</repositoryKey>
-			<key>S2990</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>javascript</repositoryKey>
-			<key>S2508</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>javascript</repositoryKey>
-			<key>S2611</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>javascript</repositoryKey>
-			<key>S2123</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>javascript</repositoryKey>
-			<key>S2814</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>javascript</repositoryKey>
-			<key>S1871</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>javascript</repositoryKey>
-			<key>S2716</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>javascript</repositoryKey>
-			<key>S2817</key>
-			<priority>CRITICAL</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>javascript</repositoryKey>
-			<key>S2703</key>
-			<priority>MAJOR</priority>
-			<parameters />
-		</rule>
-		<rule>
-			<repositoryKey>javascript</repositoryKey>
-			<key>S1656</key>
+			<key>WithStatement</key>
 			<priority>MAJOR</priority>
 			<parameters />
 		</rule>
