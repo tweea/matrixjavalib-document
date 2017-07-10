@@ -1,0 +1,55 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<profile>
+	<name>Matrix</name>
+	<language>jsp</language>
+	<rules>
+		<rule>
+			<repositoryKey>common-jsp</repositoryKey>
+			<key>DuplicatedBlocks</key>
+			<priority>MAJOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>common-jsp</repositoryKey>
+			<key>FailedUnitTests</key>
+			<priority>MAJOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>findsecbugs-jsp</repositoryKey>
+			<key>JSP_INCLUDE</key>
+			<priority>CRITICAL</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>findsecbugs-jsp</repositoryKey>
+			<key>JSP_JSTL_OUT</key>
+			<priority>MAJOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>findsecbugs-jsp</repositoryKey>
+			<key>JSP_SPRING_EVAL</key>
+			<priority>CRITICAL</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>findsecbugs-jsp</repositoryKey>
+			<key>JSP_XSLT</key>
+			<priority>CRITICAL</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>common-jsp</repositoryKey>
+			<key>SkippedUnitTests</key>
+			<priority>MAJOR</priority>
+			<parameters />
+		</rule>
+		<rule>
+			<repositoryKey>findsecbugs-jsp</repositoryKey>
+			<key>XSS_JSP_PRINT</key>
+			<priority>MAJOR</priority>
+			<parameters />
+		</rule>
+	</rules>
+</profile>
