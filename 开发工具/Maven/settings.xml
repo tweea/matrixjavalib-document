@@ -130,11 +130,11 @@ under the License.
       <passphrase>optional; leave empty if not used.</passphrase>
     </server>
     -->
-		<server>
-			<id>nexus</id>
-			<username>username</username>
-			<password>password</password>
-		</server>
+    <server>
+      <id>nexus</id>
+      <username>username</username>
+      <password>password</password>
+    </server>
   </servers>
 
   <!-- mirrors
@@ -161,12 +161,12 @@ under the License.
       <url>http://my.repository.com/repo/path</url>
     </mirror>
      -->
-			<mirror>
-				<id>nexus</id>
-				<mirrorOf>*</mirrorOf>
-				<name>Mirror</name>
-				<url>https://nexus.greatsoft.net/repository/public/</url>
-			</mirror>
+    <mirror>
+      <id>nexus</id>
+      <mirrorOf>*</mirrorOf>
+      <name>Mirror</name>
+      <url>https://nexus.greatsoft.net/repository/public/</url>
+    </mirror>
   </mirrors>
 
   <!-- profiles
@@ -257,8 +257,8 @@ under the License.
     -->
     <profile>
       <id>nexus</id>
-      <!--Enable snapshots for the built in central repo to direct -->
-      <!--all requests to nexus via the mirror -->
+      <!-- Enable snapshots for the built in central repo to direct -->
+      <!-- all requests to nexus via the mirror -->
       <repositories>
         <repository>
           <id>central</id>
@@ -267,7 +267,7 @@ under the License.
           <snapshots><enabled>true</enabled></snapshots>
         </repository>
       </repositories>
-     <pluginRepositories>
+      <pluginRepositories>
         <pluginRepository>
           <id>central</id>
           <url>http://central</url>
@@ -276,7 +276,7 @@ under the License.
         </pluginRepository>
       </pluginRepositories>
     </profile>
-</profiles>
+  </profiles>
 
   <!-- activeProfiles
    | List of profiles that are active for all builds.
@@ -286,8 +286,8 @@ under the License.
     <activeProfile>anotherAlwaysActiveProfile</activeProfile>
   </activeProfiles>
   -->
-   <activeProfiles>
-    <!--make the profile active all the time -->
+  <activeProfiles>
+    <!-- make the profile active all the time -->
     <activeProfile>nexus</activeProfile>
   </activeProfiles>
 </settings>
