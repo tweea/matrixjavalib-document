@@ -16,3 +16,7 @@
         <sonar.login>username/token</sonar.login>
         <sonar.password>password/(empty)</sonar.password>
       </properties>
+3、SonarQube Scanner
+	在 sonar-scanner.properties 加入：
+		sonar.login=username/token
+		sonar.password=password/(empty)
