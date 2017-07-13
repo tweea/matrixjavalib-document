@@ -1,0 +1,18 @@
+1、可以在 Sonar 界面中生成 Token，用以取代用户名密码。
+2、Maven 配置
+	在 Maven 的 settings.xml 加入 profile：
+    <profile>
+      <id>sonar</id>
+      <activation>
+        <activeByDefault>true</activeByDefault>
+      </activation>
+      <properties>
+        <sonar.login>username/token</sonar.login>
+        <sonar.password>password/(empty)</sonar.password>
+      </properties>
+    </profile>
+	或在已有 profile 加入 properties：
+      <properties>
+        <sonar.login>username/token</sonar.login>
+        <sonar.password>password/(empty)</sonar.password>
+      </properties>

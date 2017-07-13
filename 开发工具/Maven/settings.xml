@@ -257,6 +257,11 @@ under the License.
     -->
     <profile>
       <id>nexus</id>
+      <properties>
+        <!-- Sonar -->
+        <sonar.login>username/token</sonar.login>
+        <sonar.password>password/(empty)</sonar.password>
+      </properties>
       <!-- Enable snapshots for the built in central repo to direct -->
       <!-- all requests to nexus via the mirror -->
       <repositories>
