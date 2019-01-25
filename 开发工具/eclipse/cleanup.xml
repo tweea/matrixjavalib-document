@@ -34,6 +34,8 @@
 <setting id="cleanup.qualify_static_member_accesses_with_declaring_class" value="true"/>
 <setting id="cleanup.qualify_static_method_accesses_with_declaring_class" value="false"/>
 <setting id="cleanup.remove_private_constructors" value="true"/>
+<setting id="cleanup.remove_redundant_modifiers" value="true"/>
+<setting id="cleanup.remove_redundant_semicolons" value="true"/>
 <setting id="cleanup.remove_redundant_type_arguments" value="true"/>
 <setting id="cleanup.remove_trailing_whitespaces" value="true"/>
 <setting id="cleanup.remove_trailing_whitespaces_all" value="true"/>
@@ -57,6 +59,5 @@
 <setting id="cleanup.use_this_for_non_static_field_access_only_if_necessary" value="true"/>
 <setting id="cleanup.use_this_for_non_static_method_access" value="true"/>
 <setting id="cleanup.use_this_for_non_static_method_access_only_if_necessary" value="true"/>
-<setting id="cleanup.use_type_arguments" value="false"/>
 </profile>
 </profiles>
