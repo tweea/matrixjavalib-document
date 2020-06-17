@@ -5,13 +5,6 @@ https://oss.sonatype.org
 ------ next ------
 文档、异常、测试、规则、兼容性、提升
 ------ next ------
-规则
-	Abstract class without any methods
-	Annotation repetitions should not be wrapped
-	Copyright and license headers should be defined
-	Empty Line Separator
-	Tests should include assertions
-	Unnecessary constructor
 common
 	isDelimiterParsingDisabled
 	PropertiesConfigurationContainer
@@ -31,11 +24,9 @@ common
 	单元测试
 	Mock
 规则
-	final 关键字
 	整理开发规范
 依赖
 	OSGi
 发展计划
 	如何扩展
 	发现新需求
-

@@ -99,32 +99,32 @@ protected int[] packets;
 
 ```java
 public CounterSet() {
-	this(3);
+    this(3);
 }
 
 public CounterSet(int size) {
-	this.size = size;
+    this.size = size;
 }
 ```
 
 ## 6. clone 方法和 finalize 方法
 
-可以克隆的类需要实现 clone() 方法。
+尽量避免使用 clone() 方法。
 
 尽量避免使用 finalize 方法。
 
 ```java
 @Override
 public Object clone() throws CloneNotSupportedException {
-	CounterSet obj = (CounterSet) super.clone();
-	obj.packets = (int[]) packets.clone();
-	obj.size = size;
-	return obj;
+    CounterSet obj = (CounterSet) super.clone();
+    obj.packets = (int[]) packets.clone();
+    obj.size = size;
+    return obj;
 }
 
 @Override
 protected void finalize() throws Throwable {
-	super.finalize();
+    super.finalize();
 }
 ```
 
@@ -134,11 +134,11 @@ protected void finalize() throws Throwable {
 
 ```java
 public int[] getPackets() {
-	return packets;
+    return packets;
 }
 
 public void setPackets(int[] packets) {
-	this.packets = packets;
+    this.packets = packets;
 }
 ```
 
@@ -153,9 +153,9 @@ public 的方法必须编写 JavaDoc。protected、private 和 package 的成员
 ```java
 @Override
 public cook() {
-	cookRice();
-	cookVegetable();
-	cookSoup();
+    cookRice();
+    cookVegetable();
+    cookSoup();
 }
 
 private cookRice() {
@@ -187,52 +187,52 @@ import net.matrix.world.Human;
  * 厨师。
  */
 public class Cook extends Human {
-	/**
-	 * 一口锅
-	 */
-	private Pan pan;
+    /**
+     * 一口锅
+     */
+    private Pan pan;
 
-	/**
-	 * 生而能做饭。
-	 */
-	public Cook() {
-	}
+    /**
+     * 生而能做饭。
+     */
+    public Cook() {
+    }
 
-	/**
-	 * 生而有锅。
-	 */
-	public Cook(Pan pan) {
-		this.pan = pan;
-	}
+    /**
+     * 生而有锅。
+     */
+    public Cook(Pan pan) {
+        this.pan = pan;
+    }
 
-	public Pan getPan() {
-		return pan;
-	}
+    public Pan getPan() {
+        return pan;
+    }
 
-	public void setPan(Pan pan) {
-		this.pan = pan;
-	}
+    public void setPan(Pan pan) {
+        this.pan = pan;
+    }
 
-	/**
-	 * 做饭。
-	 */
-	public cook() {
-		cookRice();
-		cookVegetable();
-		cookSoup();
-	}
+    /**
+     * 做饭。
+     */
+    public cook() {
+        cookRice();
+        cookVegetable();
+        cookSoup();
+    }
 
-	private cookRice() {
-		pan.cook(new Rice());
-	}
+    private cookRice() {
+        pan.cook(new Rice());
+    }
 
-	private cookVegetable() {
-		pan.cook(new Vegetable());
-	}
+    private cookVegetable() {
+        pan.cook(new Vegetable());
+    }
 
-	private cookSoup() {
-		pan.cook(new Soup());
-	}
+    private cookSoup() {
+        pan.cook(new Soup());
+    }
 }
 ```
 
@@ -242,7 +242,7 @@ public class Cook extends Human {
 
 2\. 相对独立的程序块之间加一空行。
 
-3\. 代码缩进使用制表符（四字符宽度）。
+3\. 代码缩进使用空格（四字符宽度）。
 
 4\. 较长的语句、表达式等要分成多行书写。划分出的新行要进行适当的缩进，使排版整齐，语句可读。长表达式要在低优先级操作符处划分新行，操作符放在新行之首。
 
@@ -252,36 +252,36 @@ public class Cook extends Human {
 
 ```java
 if (a == b) {
-	x = 2;
+    x = 2;
 } else {
-	x = 1;
+    x = 1;
 }
 
 for (int i = 0; i < 4; i++) {
-	x += i;
+    x += i;
 }
 
 do {
-	x++;
+    x++;
 } while (flag);
 
 while (flag) {
-	x++;
+    x++;
 }
 
 switch (a) {
 case 1:
-	b = 2;
-	break;
+    b = 2;
+    break;
 default:
 }
 
 try {
-	x = 1;
+    x = 1;
 } catch (Exception e) {
-	x = 2;
+    x = 2;
 } finally {
-	x = 3;
+    x = 3;
 }
 ```
 
@@ -290,16 +290,16 @@ try {
 ```java
 a = b;
 {
-	x = 2;
+    x = 2;
 }
 ```
 
-8\. 内部类多缩进一个制表符。
+8\. 内部类多缩进一层。
 
 ```java
 public class A {
-	public static class B {
-	}
+    public static class B {
+    }
 }
 ```
 
@@ -341,11 +341,11 @@ public static final String DB_CONFIG_FILE_PATH = "com.neu.etrain.dbconfig";
 
 ```java
 public List(int size) {
-	this.size = size;
+    this.size = size;
 }
 
 public void setSize(int size) {
-	this.size = size;
+    this.size = size;
 }
 ```
 
@@ -365,8 +365,8 @@ dogName, catName, ratName
 private int size;
 
 public void someMethod() {
-	// 本地变量掩盖了成员变量
-	int size = ...;
+    // 本地变量掩盖了成员变量
+    int size = ...;
 }
 ```
 
@@ -431,22 +431,22 @@ public void oldMethod() {
 
 ```java
 public class A {
-	public void a1() {
-	}
+    public void a1() {
+    }
 
-	public void b1() {
-	}
+    public void b1() {
+    }
 }
 
 public class B extends A {
-	// 没有编译错误
-	public void a2() {
-	}
+    // 没有编译错误
+    public void a2() {
+    }
 
-	// 编译错误
-	@Override
-	public void b2() {
-	}
+    // 编译错误
+    @Override
+    public void b2() {
+    }
 }
 ```
 
@@ -464,7 +464,7 @@ public class B extends A {
 
 ```java
 if (LOG.isTraceEnabled()) {
-	LOG.trace("一些生成过程复杂的信息：{}", generateComplexInfo());
+    LOG.trace("一些生成过程复杂的信息：{}", generateComplexInfo());
 }
 ```
 
@@ -531,7 +531,7 @@ String s = new StringBuilder(a).append(b).append(c).toString();
 ```java
 String s = a + b;
 if (x) {
-	s += c;
+    s += c;
 }
 ```
 
@@ -546,24 +546,24 @@ import java.awt.Dimension;
  * 示例类。高度和宽度的值不可以是负数。
  */
 public class Example {
-	private Dimension d = new Dimension(0, 0);
+    private Dimension d = new Dimension(0, 0);
 
-	/**
-	 * 设置高度和宽度。高度和宽度都必须为非负数，否则抛出异常。
-	 */
-	public void setValues(int height, int width)
-		throws IllegalArgumentException {
-		if (height < 0 || width < 0) {
-			throw new IllegalArgumentException();
-		}
-		d.height = height;
-		d.width = width;
-	}
+    /**
+     * 设置高度和宽度。高度和宽度都必须为非负数，否则抛出异常。
+     */
+    public void setValues(int height, int width)
+        throws IllegalArgumentException {
+        if (height < 0 || width < 0) {
+            throw new IllegalArgumentException();
+        }
+        d.height = height;
+        d.width = width;
+    }
 
-	public Dimension getValues() {
-		// 这里打破了封装
-		return d;
-	}
+    public Dimension getValues() {
+        // 这里打破了封装
+        return d;
+    }
 }
 ```
 
@@ -582,7 +582,7 @@ d.width = -10;
 
 ```java
 public Dimension getValues() {
-	return new Dimension(d.x, d.y);
+    return new Dimension(d.x, d.y);
 }
 ```
 
@@ -597,22 +597,22 @@ public Dimension getValues() {
  * 示例类。内部值不可以是负数。
  */
 public class Example {
-	private Integer i = 0;
+    private Integer i = 0;
 
-	/**
-	 * 设置 i。x 必须为非负数，否则抛出异常。
-	 */
-	public void setValues(int x) throws IllegalArgumentException {
-		if (x < 0) {
-			throw new IllegalArgumentException();
-		}
-		i = new Integer(x);
-	}
+    /**
+     * 设置 i。x 必须为非负数，否则抛出异常。
+     */
+    public void setValues(int x) throws IllegalArgumentException {
+        if (x < 0) {
+            throw new IllegalArgumentException();
+        }
+        i = new Integer(x);
+    }
 
-	public Integer getValue() {
-		// Integer 对象无法复制，所以我们通过这种方法复制。
-		return new Integer(i.intValue());
-	}
+    public Integer getValue() {
+        // Integer 对象无法复制，所以我们通过这种方法复制。
+        return new Integer(i.intValue());
+    }
 }
 ```
 
@@ -620,7 +620,7 @@ public class Example {
 
 ```java
 public Integer getValue() {
-	return i;
+    return i;
 }
 ```
 
@@ -646,7 +646,7 @@ Java 允许复制数组，但是开发者通常会多余地编写如下的代码
 int[] data = ...;
 int[] copy = new int[data.length];
 for (int i = 0; i < copy.length; ++i) {
-	copy[i] = data[i];
+    copy[i] = data[i];
 }
 ```
 
@@ -661,9 +661,9 @@ System.arraycopy(data, 0, copy, 0, data.length);
 
 ```java
 static int[] cloneArray(int[] data) {
-	int[] copy = new int[data.length];
-	System.arraycopy(data, 0, copy, 0, data.length);
-	return copy;
+    int[] copy = new int[data.length];
+    System.arraycopy(data, 0, copy, 0, data.length);
+    return copy;
 }
 ```
 
@@ -701,28 +701,28 @@ import java.util.Arrays;
  * 示例类。高度和宽度的值不可以是负数。
  */
 public class Example {
-	public static final int TOTAL_VALUES = 10;
+    public static final int TOTAL_VALUES = 10;
 
-	private Dimension[] d = new Dimension[TOTAL_VALUES];
+    private Dimension[] d = new Dimension[TOTAL_VALUES];
 
-	/**
-	 * 设置高度和宽度。高度和宽度都必须为非负数，否则抛出异常。
-	 */
-	public void setValues(int index, int height, int width)
-		throws IllegalArgumentException {
-		if (height < 0 || width < 0) {
-			throw new IllegalArgumentException();
-		}
-		if (d[index] == null) {
-			d[index] = new Dimension();
-			d[index].height = height;
-			d[index].width = width;
-		}
-	}
+    /**
+     * 设置高度和宽度。高度和宽度都必须为非负数，否则抛出异常。
+     */
+    public void setValues(int index, int height, int width)
+        throws IllegalArgumentException {
+        if (height < 0 || width < 0) {
+            throw new IllegalArgumentException();
+        }
+        if (d[index] == null) {
+            d[index] = new Dimension();
+            d[index].height = height;
+            d[index].width = width;
+        }
+    }
 
-	public Dimension[] getValues() {
-		return Arrays.copyOf(d, d.length);
-	}
+    public Dimension[] getValues() {
+        return Arrays.copyOf(d, d.length);
+    }
 }
 ```
 
@@ -730,13 +730,13 @@ public class Example {
 
 ```java
 public Dimension[] getValues() {
-	Dimension[] copy = new Dimension[d.length];
-	for (int i = 0; i < copy.length; ++i) {
-		if (d[i] != null) {
-			copy[i] = new Dimension(d[i].height, d[i].width);
-		}
-	}
-	return copy;
+    Dimension[] copy = new Dimension[d.length];
+    for (int i = 0; i < copy.length; ++i) {
+        if (d[i] != null) {
+            copy[i] = new Dimension(d[i].height, d[i].width);
+        }
+    }
+    return copy;
 }
 ```
 
@@ -744,8 +744,8 @@ public Dimension[] getValues() {
 
 ```java
 public void store(int[] input) {
-	this.data = Arrays.copyOf(input, input.length);
-	// OK
+    this.data = Arrays.copyOf(input, input.length);
+    // OK
 }
 ```
 
@@ -753,18 +753,18 @@ public void store(int[] input) {
 
 ```java
 public void wrongStore(int[][] input) {
-	// Not OK!
-	this.data = Arrays.copyOf(input, input.length);
+    // Not OK!
+    this.data = Arrays.copyOf(input, input.length);
 }
 
 public void rightStore(int[][] input) {
-	// OK!
-	this.data = new int[][input.length];
-	for (int i = 0; i < data.length; ++i) {
-		if (input[i] != null) {
-			this.data[i] = Arrays.copyOf(input[i], input[i].length);
-		}
-	}
+    // OK!
+    this.data = new int[][input.length];
+    for (int i = 0; i < data.length; ++i) {
+        if (input[i] != null) {
+            this.data[i] = Arrays.copyOf(input[i], input[i].length);
+        }
+    }
 }
 ```
 
@@ -775,7 +775,7 @@ Java 编程新手有时候会检查 new 操作的结果是否为 null。可能�
 ```java
 Integer i = new Integer(400);
 if (i == null) {
-	throw new NullPointerException();
+    throw new NullPointerException();
 }
 ```
 
@@ -791,11 +791,11 @@ C/C++ 程序员在开始写 Java 程序的时候常常会这么做，这是由�
 int x = 4;
 int y = 5;
 if (x == y) {
-	...
+    ...
 }
 // if 语句无法编译
 if (x.equals(y)) {
-	...
+    ...
 }
 ```
 
@@ -813,12 +813,12 @@ Java 保证读和写 32 位数或者更小的值是原子操作，也就是说�
 
 ```java
 public class Example {
-	private int value;
+    private int value;
 
-	public void set(int x) {
-		// 线程安全
-		this.value = x;
-	}
+    public void set(int x) {
+        // 线程安全
+        this.value = x;
+    }
 }
 ```
 
@@ -826,11 +826,11 @@ public class Example {
 
 ```java
 public void increment() {
-	// 这里相当于两到三个指令：
-	// 1) 读取 value 的当前值
-	// 2) 增加这个值
-	// 3) 写回新的值
-	++this.value;
+    // 这里相当于两到三个指令：
+    // 1) 读取 value 的当前值
+    // 2) 增加这个值
+    // 3) 写回新的值
+    ++this.value;
 }
 ```
 
@@ -838,7 +838,7 @@ public void increment() {
 
 ```java
 public synchronized void increment() {
-	++this.value;
+    ++this.value;
 }
 ```
 
@@ -849,14 +849,14 @@ public synchronized void increment() {
 ```java
 OutputStream os = null;
 try {
-	os = new OutputStream();
-	// 在这里做些 os 相关的操作
-	os.close();
+    os = new OutputStream();
+    // 在这里做些 os 相关的操作
+    os.close();
 } catch (Exception e) {
-	if (os != null) {
-		os.close();
-	}
-	throw e;
+    if (os != null) {
+        os.close();
+    }
+    throw e;
 }
 ```
 
@@ -873,12 +873,12 @@ try {
 ```java
 OutputStream os = null;
 try {
-	os = new OutputStream();
-	// 在这里做些 os 相关的操作
+    os = new OutputStream();
+    // 在这里做些 os 相关的操作
 } finally {
-	if (os != null) {
-		os.close();
-	}
+    if (os != null) {
+        os.close();
+    }
 }
 ```
 
@@ -888,7 +888,7 @@ Java 7 提供了 try-with-resources 语法，可以使代码更简洁：
 
 ```java
 try (OutputStream os = new OutputStream()) {
-	// 在这里做些 os 相关的操作
+    // 在这里做些 os 相关的操作
 }
 ```
 
@@ -902,11 +902,11 @@ C++ 程序员尤其会这样想，因为在 C++ 中不存在 finally 块的概�
 
 ```java
 try {
-	...
+    ...
 } catch(Exception e) {
-	throw e;
+    throw e;
 } finally {
-	...
+    ...
 }
 ```
 
@@ -914,9 +914,9 @@ try {
 
 ```java
 try {
-	...
+    ...
 } finally {
-	...
+    ...
 }
 ```
 
