@@ -45,7 +45,24 @@
 			<repositoryKey>checkstyle</repositoryKey>
 			<key>Empty_Line_Separator</key>
 			<priority>MAJOR</priority>
-			<parameters />
+			<parameters>
+				<parameter>
+					<key>tokens</key>
+					<value>PACKAGE_DEF,IMPORT,STATIC_IMPORT,CLASS_DEF,INTERFACE_DEF,ENUM_DEF,STATIC_INIT,INSTANCE_INIT,METHOD_DEF,CTOR_DEF,VARIABLE_DEF</value>
+				</parameter>
+				<parameter>
+					<key>allowNoEmptyLineBetweenFields</key>
+					<value>false</value>
+				</parameter>
+				<parameter>
+					<key>allowMultipleEmptyLines</key>
+					<value>false</value>
+				</parameter>
+				<parameter>
+					<key>allowMultipleEmptyLinesInsideClassMembers</key>
+					<value>false</value>
+				</parameter>
+			</parameters>
 		</rule>
 		<rule>
 			<repositoryKey>checkstyle</repositoryKey>
@@ -375,7 +392,7 @@
 		</rule>
 		<rule>
 			<repositoryKey>checkstyle</repositoryKey>
-			<key>Regexp_Singleline_Java___trailing_spaces</key>
+			<key>Regexp_Singleline_Java_trailing_spaces</key>
 			<priority>MAJOR</priority>
 			<parameters>
 				<parameter>
