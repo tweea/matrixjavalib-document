@@ -1,4 +1,0 @@
-1、设置代理仓库。
-	npm config set registry https://nexus.greatsoft.net/repository/npm-public/
-	npm login --registry=https://nexus.greatsoft.net/repository/npm-public/
-	如需访问代理服务器的其他仓库，可以打开用户目录的 .npmrc 配置文件，复制配置相同的 _authToken 即可。
