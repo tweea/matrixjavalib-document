@@ -7,13 +7,13 @@
 二、通用设置
 1、通用编辑器设置
 a）启用任务项扫描
-	设置 General->Editors->Structured Text Editors->Task Tags 的 Enable searching for Task Tags 为选中
+	设置 General->Editors->Structured Text Editors->Task Tags 的 Enable searching for Task Tags 为选中。
 b）禁用拼写检查
-	设置 General->Editors->Text Editors->Spelling 的 Enable spell checking 为未选中
+	设置 General->Editors->Text Editors->Spelling 的 Enable spell checking 为未选中。
 
 2、设置项目的默认文件编码（重要）
-	设置 General->Workspace 的 Text file encoding 为 UTF-8
-	设置 General->Workspace 的 New text file line delimiter 为 Unix
+	设置 General->Workspace 的 Text file encoding 为 UTF-8。
+	设置 General->Workspace 的 New text file line delimiter 为 Unix。
 	在左上角的文本框（有浅灰色的文字 type filter text）中输入 encoding。
 	点击下方出现的每一项设置，查看右侧配置中内容，确保所有编码设置为 UTF-8。
 	设置完毕后点击左上角的文本框后的 x 号，以显示所有设置。
@@ -62,41 +62,50 @@ b）禁用拼写检查
 	选择 Format source code，Formate all lines，与 Organize Imports
 
 四、其他编辑器设置
-1、设置 JavaScript 项目
-	在 JavaScript->Code Style->Clean Up 中导入 js.cleanup.xml
+1、设置 Web 编辑器项目
+	设置 Web->CSS Files->Editor->Formatting 的 Line width 为 160。
+	设置 Web->CSS Files->Editor->Formatting 的 Indent using spaces 为选中。
+	设置 Web->CSS Files->Editor->Formatting 的 Indentation size 为 2。
+	设置 Web->HTML Files->Editor->Formatting 的 Line width 为 160。
+	设置 Web->HTML Files->Editor->Formatting 的 Indent using spaces 为选中。
+	设置 Web->HTML Files->Editor->Formatting 的 Indentation size 为 2。
+
+2、设置 JavaScript 项目
+	在 Web->HTML Files->Client-side JavaScript->Code Style->Clean Up 中导入 js.cleanup.xml。
 	在 JavaScript->Code Style->Formatter 中导入 js.formatter.xml
 	设置 JavaScript->Editor->Save Actions
 	选中 Perform the selected action on save，Format source code
 
-2、设置 Web 编辑器项目
-	在 Web->CSS Files->Editor 的 Line width 设为 120
-	在 Web->HTML Files->Editor 的 Line width 设为 120
-
 3、设置 XML 编辑器项目
-	XML->XML Files->Editor 的 Line width 增加到 160 字符
-	XML->XML Files->Validation 的 Validating Files 的 No grammar specified 设置为 Ignore
+	设置 XML->XML Files->Editor->Formatting 的 Line width 为 160。
+	设置 XML->XML Files->Editor->Formatting 的 Indent using spaces 为选中。
+	设置 XML->XML Files->Editor->Formatting 的 Indentation size 为 4。
+	设置 XML->XML Files->Validation->Validating files 的 No grammar specified 为 Ignore。
 
 4、设置 JSON 编辑器项目
-	JSON->JSON Files->Editor 的 Line width 增加到 120 字符
+	设置 JSON->JSON Files->Editor->Formatting 的 Line width 为 160。
+	设置 JSON->JSON Files->Editor->Formatting 的 Indent using spaces 为选中。
+	设置 JSON->JSON Files->Editor->Formatting 的 Indentation size 为 2。
 
-5、设置 YEdit 编辑器项目
-	YEdit Preferences->Formatter preferences 的 The line width to use 增加到 120 字符
+5、设置 YAML 编辑器项目
+	设置 YEdit Preferences->Formatter preferences 的 The line width to use 为 160。
 
 五、Ant 设置
-	设置 Ant->Editor->Formatter->Line Wrapping 的 Maximum line width 为 120。
+	设置 Ant->Editor->Formatter->Indentation 的 Use tab character instead of spaces 为未选中。
+	设置 Ant->Editor->Formatter->Line Wrapping 的 Maximum line width 为 160。
 
 六、Maven 设置
 1、设置导入项目时加载依赖包源码和文档
-	设置 Maven->Download Artifact Sources 为选中
+	设置 Maven 的 Download Artifact Sources 为选中。
 2、设置 maven 安装路径
 	在 Maven->Installations 中点击 Add...，选择本地安装的 maven 路径并确认。
-	在 Maven->User Settings 中点击 Browse...，选择本地安装的 maven 中的 /conf/settings.xml 文件并确认。
+	在 Maven->User Settings->Global Settings 中点击 Browse...，选择本地安装的 maven 中的 /conf/settings.xml 文件并确认。
 3、设置编辑器
-	在 Maven->User Interface 中选中 Open XML page in the POM editor by default。
+	设置 Maven->User Interface 的 Open XML page in the POM editor by default 为选中。
 
 七、MoreUnit 设置
-	设置 MoreUnit->Java->Test source folder 为 maven 标准目录 src/test/java
-	设置 MoreUnit->Java->Test type 为 Junit 4
+	设置 MoreUnit->Java 的 Test source folder 为 maven 标准目录 src/test/java。
+	设置 MoreUnit->Java 的 Test Type 为 Junit 5。
 
 八、Spring 设置
-	设置 Spring->Global Preferences Curator->Set all preferences
+	设置 Spring->Global Preferences Curator 的 Set all preferences。
