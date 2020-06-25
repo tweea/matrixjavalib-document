@@ -7,105 +7,133 @@
 二、通用设置
 1、通用编辑器设置
 a）启用任务项扫描
-	设置 General->Editors->Structured Text Editors->Task Tags 的 Enable searching for Task Tags 为选中。
+	设置 General->Editors->Structured Text Editors->Task Tags 的：
+		Enable searching for Task Tags 为选中。
 b）禁用拼写检查
-	设置 General->Editors->Text Editors->Spelling 的 Enable spell checking 为未选中。
+	设置 General->Editors->Text Editors->Spelling 的：
+		Enable spell checking 为未选中。
 
 2、设置项目的默认文件编码（重要）
-	设置 General->Workspace 的 Text file encoding 为 UTF-8。
-	设置 General->Workspace 的 New text file line delimiter 为 Unix。
+	设置 General->Workspace 的：
+		Text file encoding 为 UTF-8。
+		New text file line delimiter 为 Unix。
 	在左上角的文本框（有浅灰色的文字 type filter text）中输入 encoding。
 	点击下方出现的每一项设置，查看右侧配置中内容，确保所有编码设置为 UTF-8。
 	设置完毕后点击左上角的文本框后的 x 号，以显示所有设置。
 
 三、Java 设置
 1、设置 Java 模板和导入顺序（已包含在 epf 文件中）
-	在 Java->Code Style->Clean Up 中导入 cleanup.xml
-	在 Java->Code Style->Code Templates 中导入 codetemplates.xml
-	设置 Java->Code Style->Code Templates 的 Automatically add comments for new methods and types 为选中
-	在 Java->Code Style->Formatter 中导入 formatter.xml
-	在 Java->Code Style->Organize Imports 中导入 gs.importorder
-	设置 Java->Code Style->Organize Imports 的 Number of imports needed for 为 999
-	设置 Java->Code Style->Organize Imports 的 Number of static imports needed for 为 999
+	在 Java->Code Style->Clean Up 中导入 cleanup.xml。
+	在 Java->Code Style->Code Templates 中导入 codetemplates.xml。
+	设置 Java->Code Style->Code Templates 的：
+		Automatically add comments for new methods, types, modules, packages and files 为选中。
+	在 Java->Code Style->Formatter 中导入 formatter.xml。
+	在 Java->Code Style->Organize Imports 中导入 gs.importorder。
+	设置 Java->Code Style->Organize Imports 的：
+		Number of imports needed for .* 为 999。
+		Number of static imports needed for .* 为 999。
 
 2、设置项目默认 Java 版本（已包含在 epf 文件中）
-	设置 Java->Compiler 中的 JDK Compliance 的 Compiler compliance level 为 1.7
+	设置 Java->Compiler->JDK Compliance 的：
+		Compiler compliance level 为 1.8。
 
 3、错误警告，检查一些常规的编码错误（已包含在 epf 文件中）
-	在 Java->Compiler->Errors/Warinings
-		增加 Warinings
-		* Code Style
-		  增加 Resource not managed via try-with-resource
-		* Potential programming problem
-		  增加全部，除 Boxing and unboxing，Potential resource leak
-		* Name shadowing and confict
-		  增加全部
-		* Unecessary Code
-		  增加全部，除 Unecessary else
+	设置 Java->Compiler->Errors/Warnings 的：
+		* Code style
+		  Access to a non-accessible member of an enclosing type 为 Warning。
+		  Undocumented empty block 为 Warning。
+		  Resource not managed via try-with-resource 为 Warning。
+		* Potential programming problems
+		  Boxing and unboxing conversions 为 Ignore。
+		  Unlikely argument type for method equals() 为 Info。
+		  Potential resource leak 为 Ignore。
+		  其他为 Warning。
+		* Name shadowing and conflicts
+		  全部为 Warning。
+		* Unnecessary code
+		  Unnecessary 'else' statement 为 Ignore。
+		  其他为 Warning。
 		* Generic types
-		  增加全部（去除前两项）
-		  选中 Ignore unavoidable generic type problems
-		* Annotation
-		  增加全部
-		  取消 Enable '@SuppressWarnings' annotations
+		  Unchecked generic type operation 为 Ignore。
+		  Usage of a raw type 为 Ignore。
+		  其他为 Warning。
+		  Ignore unavoidable generic type problems due to raw APIs 为选中。
+		* Annotations
+		  全部为 Warning。
+		  Enable '@SuppressWarnings' annotations 为未选中。
 		* Null analysis
-		  增加全部
-	设置 Java->Compiler->Javadoc
-		Malformed Javadoc Comments 为 Warning
-		Only consider members as visible as 为 Package
-		Validate tag arguments 为选中
-		Missing tag descriptions 为 Validate all standard tags
+		  全部为 Warning。
+	设置 Java->Compiler->Javadoc 的：
+		Malformed Javadoc comments 为 Warning。
+		Only consider members as visible as 为 Package。
+		Validate tag arguments 为选中。
+		Missing tag descriptions 为 Validate all standard tags。
 
 4、设置保存自动格式化、清理代码
-	设置 Java->Editor->Save Actions
-	选中 Perform the selected action on save
-	选择 Format source code，Formate all lines，与 Organize Imports
+	设置 Java->Editor->Save Actions 的：
+		Perform the selected actions on save 为选中。
+		Format source code 为选中。
+		Format all lines 为选中。
+		Organize imports 为选中。
 
 四、其他编辑器设置
 1、设置 Web 编辑器项目
-	设置 Web->CSS Files->Editor->Formatting 的 Line width 为 160。
-	设置 Web->CSS Files->Editor->Formatting 的 Indent using spaces 为选中。
-	设置 Web->CSS Files->Editor->Formatting 的 Indentation size 为 2。
-	设置 Web->HTML Files->Editor->Formatting 的 Line width 为 160。
-	设置 Web->HTML Files->Editor->Formatting 的 Indent using spaces 为选中。
-	设置 Web->HTML Files->Editor->Formatting 的 Indentation size 为 2。
+	设置 Web->CSS Files->Editor->Formatting 的：
+		Line width 为 160。
+		Indent using spaces 为选中。
+		Indentation size 为 2。
+	设置 Web->HTML Files->Editor->Formatting 的：
+		Line width 为 160。
+		Indent using spaces 为选中。
+		Indentation size 为 2。
 
 2、设置 JavaScript 项目
 	在 Web->HTML Files->Client-side JavaScript->Code Style->Clean Up 中导入 js.cleanup.xml。
-	在 JavaScript->Code Style->Formatter 中导入 js.formatter.xml
-	设置 JavaScript->Editor->Save Actions
-	选中 Perform the selected action on save，Format source code
+	在 Web->HTML Files->Client-side JavaScript->Code Style->Formatter 中导入 js.formatter.xml。
+	设置 Web->HTML Files->Client-side JavaScript->Editor->Save Actions 的：
+		Perform the selected action on save 为选中。
+		Format source code 为选中。
 
 3、设置 XML 编辑器项目
-	设置 XML->XML Files->Editor->Formatting 的 Line width 为 160。
-	设置 XML->XML Files->Editor->Formatting 的 Indent using spaces 为选中。
-	设置 XML->XML Files->Editor->Formatting 的 Indentation size 为 4。
-	设置 XML->XML Files->Validation->Validating files 的 No grammar specified 为 Ignore。
+	设置 XML->XML Files->Editor->Formatting 的：
+		Line width 为 160。
+		Indent using spaces 为选中。
+		Indentation size 为 4。
+	设置 XML->XML Files->Validation->Validating files 的：
+		No grammar specified 为 Ignore。
 
 4、设置 JSON 编辑器项目
-	设置 JSON->JSON Files->Editor->Formatting 的 Line width 为 160。
-	设置 JSON->JSON Files->Editor->Formatting 的 Indent using spaces 为选中。
-	设置 JSON->JSON Files->Editor->Formatting 的 Indentation size 为 2。
+	设置 JSON->JSON Files->Editor->Formatting 的：
+		Line width 为 160。
+		Indent using spaces 为选中。
+		Indentation size 为 2。
 
 5、设置 YAML 编辑器项目
-	设置 YEdit Preferences->Formatter preferences 的 The line width to use 为 160。
+	设置 YEdit Preferences->Formatter preferences 的：
+		The line width to use 为 160。
 
 五、Ant 设置
-	设置 Ant->Editor->Formatter->Indentation 的 Use tab character instead of spaces 为未选中。
-	设置 Ant->Editor->Formatter->Line Wrapping 的 Maximum line width 为 160。
+	设置 Ant->Editor->Formatter->Indentation 的：
+		Use tab character instead of spaces 为未选中。
+	设置 Ant->Editor->Formatter->Line Wrapping 的：
+		Maximum line width 为 160。
 
 六、Maven 设置
 1、设置导入项目时加载依赖包源码和文档
-	设置 Maven 的 Download Artifact Sources 为选中。
+	设置 Maven 的：
+		Download Artifact Sources 为选中。
 2、设置 maven 安装路径
 	在 Maven->Installations 中点击 Add...，选择本地安装的 maven 路径并确认。
 	在 Maven->User Settings->Global Settings 中点击 Browse...，选择本地安装的 maven 中的 /conf/settings.xml 文件并确认。
 3、设置编辑器
-	设置 Maven->User Interface 的 Open XML page in the POM editor by default 为选中。
+	设置 Maven->User Interface 的：
+		Open XML page in the POM editor by default 为选中。
 
 七、MoreUnit 设置
-	设置 MoreUnit->Java 的 Test source folder 为 maven 标准目录 src/test/java。
-	设置 MoreUnit->Java 的 Test Type 为 Junit 5。
+	设置 MoreUnit->Java 的：
+		Test source folder 为 maven 标准目录 src/test/java。
+		Test Type 为 Junit 5。
 
 八、Spring 设置
-	设置 Spring->Global Preferences Curator 的 Set all preferences。
+	设置 Spring->Global Preferences Curator 的：
+		Set all preferences。
