@@ -41,7 +41,6 @@ b）禁用拼写检查
 	设置 Java->Compiler->Errors/Warnings 的：
 		* Code style
 		  Access to a non-accessible member of an enclosing type 为 Warning。
-		  Undocumented empty block 为 Warning。
 		  Resource not managed via try-with-resource 为 Warning。
 		* Potential programming problems
 		  Boxing and unboxing conversions 为 Ignore。
