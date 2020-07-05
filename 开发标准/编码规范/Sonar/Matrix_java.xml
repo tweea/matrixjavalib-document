@@ -660,6 +660,12 @@
         </rule>
         <rule>
             <repositoryKey>checkstyle</repositoryKey>
+            <key>com.puppycrawl.tools.checkstyle.checks.NoCodeInFileCheck</key>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>checkstyle</repositoryKey>
             <key>com.puppycrawl.tools.checkstyle.checks.OuterTypeFilenameCheck</key>
             <priority>MAJOR</priority>
             <parameters />
@@ -764,12 +770,7 @@
             <repositoryKey>checkstyle</repositoryKey>
             <key>com.puppycrawl.tools.checkstyle.checks.annotation.MissingDeprecatedCheck</key>
             <priority>MAJOR</priority>
-            <parameters>
-                <parameter>
-                    <key>skipNoJavadoc</key>
-                    <value>false</value>
-                </parameter>
-            </parameters>
+            <parameters />
         </rule>
         <rule>
             <repositoryKey>checkstyle</repositoryKey>
@@ -817,6 +818,12 @@
                     <value>ignore</value>
                 </parameter>
             </parameters>
+        </rule>
+        <rule>
+            <repositoryKey>checkstyle</repositoryKey>
+            <key>com.puppycrawl.tools.checkstyle.checks.coding.AvoidDoubleBraceInitializationCheck</key>
+            <priority>MAJOR</priority>
+            <parameters />
         </rule>
         <rule>
             <repositoryKey>checkstyle</repositoryKey>
@@ -971,7 +978,19 @@
         </rule>
         <rule>
             <repositoryKey>checkstyle</repositoryKey>
+            <key>com.puppycrawl.tools.checkstyle.checks.coding.NoArrayTrailingCommaCheck</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>checkstyle</repositoryKey>
             <key>com.puppycrawl.tools.checkstyle.checks.coding.NoCloneCheck</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>checkstyle</repositoryKey>
+            <key>com.puppycrawl.tools.checkstyle.checks.coding.NoEnumTrailingCommaCheck</key>
             <priority>MAJOR</priority>
             <parameters />
         </rule>
@@ -985,7 +1004,12 @@
             <repositoryKey>checkstyle</repositoryKey>
             <key>com.puppycrawl.tools.checkstyle.checks.coding.OneStatementPerLineCheck</key>
             <priority>MAJOR</priority>
-            <parameters />
+            <parameters>
+                <parameter>
+                    <key>treatTryResourcesAsStatement</key>
+                    <value>false</value>
+                </parameter>
+            </parameters>
         </rule>
         <rule>
             <repositoryKey>checkstyle</repositoryKey>
@@ -1044,6 +1068,45 @@
                 <parameter>
                     <key>tokens</key>
                     <value>EXPR,IDENT,NUM_DOUBLE,NUM_FLOAT,NUM_INT,NUM_LONG,STRING_LITERAL,LITERAL_NULL,LITERAL_FALSE,LITERAL_TRUE,ASSIGN,BAND_ASSIGN,BOR_ASSIGN,BSR_ASSIGN,BXOR_ASSIGN,DIV_ASSIGN,MINUS_ASSIGN,MOD_ASSIGN,PLUS_ASSIGN,SL_ASSIGN,SR_ASSIGN,STAR_ASSIGN,LAMBDA</value>
+                </parameter>
+            </parameters>
+        </rule>
+        <rule>
+            <repositoryKey>checkstyle</repositoryKey>
+            <key>com.puppycrawl.tools.checkstyle.checks.coding.UnnecessarySemicolonAfterOuterTypeDeclarationCheck</key>
+            <priority>MAJOR</priority>
+            <parameters>
+                <parameter>
+                    <key>tokens</key>
+                    <value>CLASS_DEF,INTERFACE_DEF,ENUM_DEF,ANNOTATION_DEF</value>
+                </parameter>
+            </parameters>
+        </rule>
+        <rule>
+            <repositoryKey>checkstyle</repositoryKey>
+            <key>com.puppycrawl.tools.checkstyle.checks.coding.UnnecessarySemicolonAfterTypeMemberDeclarationCheck</key>
+            <priority>MAJOR</priority>
+            <parameters>
+                <parameter>
+                    <key>tokens</key>
+                    <value>CLASS_DEF,INTERFACE_DEF,ENUM_DEF,ANNOTATION_DEF,VARIABLE_DEF,ANNOTATION_FIELD_DEF,STATIC_INIT,INSTANCE_INIT,CTOR_DEF,METHOD_DEF,ENUM_CONSTANT_DEF</value>
+                </parameter>
+            </parameters>
+        </rule>
+        <rule>
+            <repositoryKey>checkstyle</repositoryKey>
+            <key>com.puppycrawl.tools.checkstyle.checks.coding.UnnecessarySemicolonInEnumerationCheck</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>checkstyle</repositoryKey>
+            <key>com.puppycrawl.tools.checkstyle.checks.coding.UnnecessarySemicolonInTryWithResourcesCheck</key>
+            <priority>MAJOR</priority>
+            <parameters>
+                <parameter>
+                    <key>allowWhenNoBraceAfterSemicolon</key>
+                    <value>true</value>
                 </parameter>
             </parameters>
         </rule>
@@ -1294,6 +1357,40 @@
         </rule>
         <rule>
             <repositoryKey>checkstyle</repositoryKey>
+            <key>com.puppycrawl.tools.checkstyle.checks.javadoc.InvalidJavadocPositionCheck</key>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>checkstyle</repositoryKey>
+            <key>com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocBlockTagLocationCheck</key>
+            <priority>MAJOR</priority>
+            <parameters>
+                <parameter>
+                    <key>tags</key>
+                    <value>author,deprecated,exception,hidden,param,provides,return,see,serial,serialData,serialField,since,throws,uses,version</value>
+                </parameter>
+            </parameters>
+        </rule>
+        <rule>
+            <repositoryKey>checkstyle</repositoryKey>
+            <key>com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocContentLocationCheck</key>
+            <priority>MAJOR</priority>
+            <parameters>
+                <parameter>
+                    <key>location</key>
+                    <value>second_line</value>
+                </parameter>
+            </parameters>
+        </rule>
+        <rule>
+            <repositoryKey>checkstyle</repositoryKey>
+            <key>com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocMissingWhitespaceAfterAsteriskCheck</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>checkstyle</repositoryKey>
             <key>com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocParagraphCheck</key>
             <priority>MAJOR</priority>
             <parameters>
@@ -1361,6 +1458,10 @@
                 </parameter>
                 <parameter>
                     <key>ignoreStatic</key>
+                    <value>true</value>
+                </parameter>
+                <parameter>
+                    <key>ignoreStaticFinal</key>
                     <value>true</value>
                 </parameter>
                 <parameter>
@@ -1975,6 +2076,12 @@
         </rule>
         <rule>
             <repositoryKey>fb-contrib</repositoryKey>
+            <key>IMC_IMMATURE_CLASS_BAD_SERIALVERSIONUID</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>fb-contrib</repositoryKey>
             <key>IMC_IMMATURE_CLASS_IDE_GENERATED_PARAMETER_NAMES</key>
             <priority>INFO</priority>
             <parameters />
@@ -2005,6 +2112,12 @@
         </rule>
         <rule>
             <repositoryKey>fb-contrib</repositoryKey>
+            <key>IMC_IMMATURE_CLASS_VAR_NAME</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>fb-contrib</repositoryKey>
             <key>IMC_IMMATURE_CLASS_WRONG_FIELD_ORDER</key>
             <priority>INFO</priority>
             <parameters />
@@ -2018,6 +2131,12 @@
         <rule>
             <repositoryKey>fb-contrib</repositoryKey>
             <key>IOI_DOUBLE_BUFFER_COPY</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>fb-contrib</repositoryKey>
+            <key>IOI_UNENDED_ZLIB_OBJECT</key>
             <priority>MAJOR</priority>
             <parameters />
         </rule>
@@ -2593,6 +2712,12 @@
         </rule>
         <rule>
             <repositoryKey>fb-contrib</repositoryKey>
+            <key>PMB_LOCAL_BASED_JAXB_CONTEXT</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>fb-contrib</repositoryKey>
             <key>PMB_POSSIBLE_MEMORY_BLOAT</key>
             <priority>MAJOR</priority>
             <parameters />
@@ -2666,6 +2791,12 @@
         <rule>
             <repositoryKey>fb-contrib</repositoryKey>
             <key>SACM_STATIC_ARRAY_CREATED_IN_METHOD</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>fb-contrib</repositoryKey>
+            <key>SAT_SUSPICIOUS_ARGUMENT_TYPES</key>
             <priority>MAJOR</priority>
             <parameters />
         </rule>
@@ -4478,12 +4609,6 @@
         <rule>
             <repositoryKey>findbugs</repositoryKey>
             <key>IP_PARAMETER_IS_DEAD_BUT_OVERWRITTEN</key>
-            <priority>MAJOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>findbugs</repositoryKey>
-            <key>IRA_INEFFICIENT_REPLACEALL</key>
             <priority>MAJOR</priority>
             <parameters />
         </rule>
@@ -6601,138 +6726,13 @@
         </rule>
         <rule>
             <repositoryKey>java</repositoryKey>
-            <key>AssignmentInSubExpressionCheck</key>
-            <priority>MAJOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>java</repositoryKey>
-            <key>CallToDeprecatedMethod</key>
-            <priority>MINOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>java</repositoryKey>
-            <key>CallToFileDeleteOnExitMethod</key>
-            <priority>MAJOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>java</repositoryKey>
-            <key>ClassVariableVisibilityCheck</key>
-            <priority>MINOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>java</repositoryKey>
-            <key>CommentedOutCodeLine</key>
-            <priority>MAJOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>java</repositoryKey>
-            <key>EmptyFile</key>
-            <priority>MINOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>java</repositoryKey>
-            <key>EmptyStatementUsageCheck</key>
-            <priority>MINOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>java</repositoryKey>
-            <key>ForLoopCounterChangedCheck</key>
-            <priority>MAJOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>java</repositoryKey>
-            <key>HiddenFieldCheck</key>
-            <priority>MAJOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>java</repositoryKey>
-            <key>IndentationCheck</key>
-            <priority>MINOR</priority>
-            <parameters>
-                <parameter>
-                    <key>indentationLevel</key>
-                    <value>4</value>
-                </parameter>
-            </parameters>
-        </rule>
-        <rule>
-            <repositoryKey>java</repositoryKey>
-            <key>LabelsShouldNotBeUsedCheck</key>
-            <priority>MAJOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>java</repositoryKey>
-            <key>LeftCurlyBraceEndLineCheck</key>
-            <priority>MINOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>java</repositoryKey>
-            <key>MissingDeprecatedCheck</key>
-            <priority>MAJOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>java</repositoryKey>
-            <key>ModifiersOrderCheck</key>
-            <priority>MINOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>java</repositoryKey>
             <key>NoSonar</key>
             <priority>MAJOR</priority>
             <parameters />
         </rule>
         <rule>
             <repositoryKey>java</repositoryKey>
-            <key>ObjectFinalizeCheck</key>
-            <priority>MAJOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>java</repositoryKey>
-            <key>ObjectFinalizeOverridenCallsSuperFinalizeCheck</key>
-            <priority>CRITICAL</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>java</repositoryKey>
-            <key>ObjectFinalizeOverridenCheck</key>
-            <priority>CRITICAL</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>java</repositoryKey>
-            <key>ParsingError</key>
-            <priority>MAJOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>java</repositoryKey>
-            <key>RedundantThrowsDeclarationCheck</key>
-            <priority>MINOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>java</repositoryKey>
-            <key>RightCurlyBraceStartLineCheck</key>
-            <priority>MINOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>java</repositoryKey>
-            <key>S00100</key>
+            <key>S100</key>
             <priority>MINOR</priority>
             <parameters>
                 <parameter>
@@ -6743,7 +6743,7 @@
         </rule>
         <rule>
             <repositoryKey>java</repositoryKey>
-            <key>S00101</key>
+            <key>S101</key>
             <priority>MINOR</priority>
             <parameters>
                 <parameter>
@@ -6754,104 +6754,8 @@
         </rule>
         <rule>
             <repositoryKey>java</repositoryKey>
-            <key>S00105</key>
+            <key>S105</key>
             <priority>MINOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>java</repositoryKey>
-            <key>S00108</key>
-            <priority>MAJOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>java</repositoryKey>
-            <key>S00112</key>
-            <priority>MAJOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>java</repositoryKey>
-            <key>S00113</key>
-            <priority>MINOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>java</repositoryKey>
-            <key>S00114</key>
-            <priority>MINOR</priority>
-            <parameters>
-                <parameter>
-                    <key>format</key>
-                    <value>^[A-Z][a-zA-Z0-9]*$</value>
-                </parameter>
-            </parameters>
-        </rule>
-        <rule>
-            <repositoryKey>java</repositoryKey>
-            <key>S00115</key>
-            <priority>CRITICAL</priority>
-            <parameters>
-                <parameter>
-                    <key>format</key>
-                    <value>^[A-Z\u4E00-\u9FA5][A-Z0-9\u4E00-\u9FA5]*(_[A-Z0-9\u4E00-\u9FA5]+)*$</value>
-                </parameter>
-            </parameters>
-        </rule>
-        <rule>
-            <repositoryKey>java</repositoryKey>
-            <key>S00116</key>
-            <priority>MINOR</priority>
-            <parameters>
-                <parameter>
-                    <key>format</key>
-                    <value>^[a-z\u4E00-\u9FA5][a-zA-Z0-9\u4E00-\u9FA5]*$</value>
-                </parameter>
-            </parameters>
-        </rule>
-        <rule>
-            <repositoryKey>java</repositoryKey>
-            <key>S00117</key>
-            <priority>MINOR</priority>
-            <parameters>
-                <parameter>
-                    <key>format</key>
-                    <value>^[a-z\u4E00-\u9FA5][a-zA-Z0-9\u4E00-\u9FA5]*$</value>
-                </parameter>
-            </parameters>
-        </rule>
-        <rule>
-            <repositoryKey>java</repositoryKey>
-            <key>S00119</key>
-            <priority>MINOR</priority>
-            <parameters>
-                <parameter>
-                    <key>format</key>
-                    <value>^[A-Z]+[0-9]?$</value>
-                </parameter>
-            </parameters>
-        </rule>
-        <rule>
-            <repositoryKey>java</repositoryKey>
-            <key>S00120</key>
-            <priority>MINOR</priority>
-            <parameters>
-                <parameter>
-                    <key>format</key>
-                    <value>^[a-z]+(\.[a-z][a-z0-9]*)*$</value>
-                </parameter>
-            </parameters>
-        </rule>
-        <rule>
-            <repositoryKey>java</repositoryKey>
-            <key>S00121</key>
-            <priority>CRITICAL</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>java</repositoryKey>
-            <key>S00122</key>
-            <priority>MAJOR</priority>
             <parameters />
         </rule>
         <rule>
@@ -6880,8 +6784,109 @@
         </rule>
         <rule>
             <repositoryKey>java</repositoryKey>
+            <key>S108</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>java</repositoryKey>
+            <key>S1104</key>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>java</repositoryKey>
+            <key>S1105</key>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>java</repositoryKey>
+            <key>S1109</key>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>java</repositoryKey>
+            <key>S1110</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>java</repositoryKey>
+            <key>S1111</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>java</repositoryKey>
+            <key>S1113</key>
+            <priority>CRITICAL</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>java</repositoryKey>
+            <key>S1114</key>
+            <priority>CRITICAL</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>java</repositoryKey>
+            <key>S1116</key>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>java</repositoryKey>
+            <key>S1117</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>java</repositoryKey>
             <key>S1118</key>
             <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>java</repositoryKey>
+            <key>S1119</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>java</repositoryKey>
+            <key>S112</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>java</repositoryKey>
+            <key>S1120</key>
+            <priority>MINOR</priority>
+            <parameters>
+                <parameter>
+                    <key>indentationLevel</key>
+                    <value>4</value>
+                </parameter>
+            </parameters>
+        </rule>
+        <rule>
+            <repositoryKey>java</repositoryKey>
+            <key>S1121</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>java</repositoryKey>
+            <key>S1123</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>java</repositoryKey>
+            <key>S1124</key>
+            <priority>MINOR</priority>
             <parameters />
         </rule>
         <rule>
@@ -6893,6 +6898,24 @@
         <rule>
             <repositoryKey>java</repositoryKey>
             <key>S1126</key>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>java</repositoryKey>
+            <key>S1128</key>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>java</repositoryKey>
+            <key>S113</key>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>java</repositoryKey>
+            <key>S1130</key>
             <priority>MINOR</priority>
             <parameters />
         </rule>
@@ -6922,8 +6945,25 @@
         </rule>
         <rule>
             <repositoryKey>java</repositoryKey>
+            <key>S114</key>
+            <priority>MINOR</priority>
+            <parameters>
+                <parameter>
+                    <key>format</key>
+                    <value>^[A-Z][a-zA-Z0-9]*$</value>
+                </parameter>
+            </parameters>
+        </rule>
+        <rule>
+            <repositoryKey>java</repositoryKey>
             <key>S1143</key>
             <priority>CRITICAL</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>java</repositoryKey>
+            <key>S1144</key>
+            <priority>MAJOR</priority>
             <parameters />
         </rule>
         <rule>
@@ -6943,6 +6983,17 @@
             <key>S1149</key>
             <priority>MAJOR</priority>
             <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>java</repositoryKey>
+            <key>S115</key>
+            <priority>CRITICAL</priority>
+            <parameters>
+                <parameter>
+                    <key>format</key>
+                    <value>^[A-Z\u4E00-\u9FA5][A-Z0-9\u4E00-\u9FA5]*(_[A-Z0-9\u4E00-\u9FA5]+)*$</value>
+                </parameter>
+            </parameters>
         </rule>
         <rule>
             <repositoryKey>java</repositoryKey>
@@ -6973,6 +7024,17 @@
             <key>S1158</key>
             <priority>MINOR</priority>
             <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>java</repositoryKey>
+            <key>S116</key>
+            <priority>MINOR</priority>
+            <parameters>
+                <parameter>
+                    <key>format</key>
+                    <value>^[a-z\u4E00-\u9FA5][a-zA-Z0-9\u4E00-\u9FA5]*$</value>
+                </parameter>
+            </parameters>
         </rule>
         <rule>
             <repositoryKey>java</repositoryKey>
@@ -7008,6 +7070,17 @@
             <key>S1168</key>
             <priority>MAJOR</priority>
             <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>java</repositoryKey>
+            <key>S117</key>
+            <priority>MINOR</priority>
+            <parameters>
+                <parameter>
+                    <key>format</key>
+                    <value>^[a-z\u4E00-\u9FA5][a-zA-Z0-9\u4E00-\u9FA5]*$</value>
+                </parameter>
+            </parameters>
         </rule>
         <rule>
             <repositoryKey>java</repositoryKey>
@@ -7065,6 +7138,17 @@
         </rule>
         <rule>
             <repositoryKey>java</repositoryKey>
+            <key>S119</key>
+            <priority>MINOR</priority>
+            <parameters>
+                <parameter>
+                    <key>format</key>
+                    <value>^[A-Z]+[0-9]?$</value>
+                </parameter>
+            </parameters>
+        </rule>
+        <rule>
+            <repositoryKey>java</repositoryKey>
             <key>S1190</key>
             <priority>BLOCKER</priority>
             <parameters />
@@ -7106,6 +7190,17 @@
         </rule>
         <rule>
             <repositoryKey>java</repositoryKey>
+            <key>S120</key>
+            <priority>MINOR</priority>
+            <parameters>
+                <parameter>
+                    <key>format</key>
+                    <value>^[a-z]+(\.[a-z][a-z0-9]*)*$</value>
+                </parameter>
+            </parameters>
+        </rule>
+        <rule>
+            <repositoryKey>java</repositoryKey>
             <key>S1201</key>
             <priority>MAJOR</priority>
             <parameters />
@@ -7114,6 +7209,12 @@
             <repositoryKey>java</repositoryKey>
             <key>S1206</key>
             <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>java</repositoryKey>
+            <key>S121</key>
+            <priority>CRITICAL</priority>
             <parameters />
         </rule>
         <rule>
@@ -7154,6 +7255,12 @@
         </rule>
         <rule>
             <repositoryKey>java</repositoryKey>
+            <key>S122</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>java</repositoryKey>
             <key>S1220</key>
             <priority>MINOR</priority>
             <parameters />
@@ -7184,8 +7291,20 @@
         </rule>
         <rule>
             <repositoryKey>java</repositoryKey>
+            <key>S125</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>java</repositoryKey>
             <key>S1264</key>
             <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>java</repositoryKey>
+            <key>S127</key>
+            <priority>MAJOR</priority>
             <parameters />
         </rule>
         <rule>
@@ -7198,6 +7317,12 @@
             <repositoryKey>java</repositoryKey>
             <key>S1309</key>
             <priority>INFO</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>java</repositoryKey>
+            <key>S131</key>
+            <priority>CRITICAL</priority>
             <parameters />
         </rule>
         <rule>
@@ -7246,6 +7371,17 @@
             <key>S1319</key>
             <priority>MINOR</priority>
             <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>java</repositoryKey>
+            <key>S139</key>
+            <priority>MINOR</priority>
+            <parameters>
+                <parameter>
+                    <key>legalTrailingCommentPattern</key>
+                    <value>^\s*+[^\s]++$</value>
+                </parameter>
+            </parameters>
         </rule>
         <rule>
             <repositoryKey>java</repositoryKey>
@@ -7486,6 +7622,12 @@
         </rule>
         <rule>
             <repositoryKey>java</repositoryKey>
+            <key>S1874</key>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>java</repositoryKey>
             <key>S1905</key>
             <priority>MINOR</priority>
             <parameters />
@@ -7721,6 +7863,12 @@
             <repositoryKey>java</repositoryKey>
             <key>S2119</key>
             <priority>CRITICAL</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>java</repositoryKey>
+            <key>S2121</key>
+            <priority>MAJOR</priority>
             <parameters />
         </rule>
         <rule>
@@ -8109,13 +8257,13 @@
         </rule>
         <rule>
             <repositoryKey>java</repositoryKey>
-            <key>S2258</key>
-            <priority>BLOCKER</priority>
+            <key>S2259</key>
+            <priority>MAJOR</priority>
             <parameters />
         </rule>
         <rule>
             <repositoryKey>java</repositoryKey>
-            <key>S2259</key>
+            <key>S2260</key>
             <priority>MAJOR</priority>
             <parameters />
         </rule>
@@ -8151,18 +8299,6 @@
         </rule>
         <rule>
             <repositoryKey>java</repositoryKey>
-            <key>S2277</key>
-            <priority>CRITICAL</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>java</repositoryKey>
-            <key>S2278</key>
-            <priority>BLOCKER</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>java</repositoryKey>
             <key>S2293</key>
             <priority>MINOR</priority>
             <parameters />
@@ -8171,6 +8307,18 @@
             <repositoryKey>java</repositoryKey>
             <key>S2301</key>
             <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>java</repositoryKey>
+            <key>S2308</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>java</repositoryKey>
+            <key>S2309</key>
+            <priority>MINOR</priority>
             <parameters />
         </rule>
         <rule>
@@ -8278,6 +8426,12 @@
         <rule>
             <repositoryKey>java</repositoryKey>
             <key>S2589</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>java</repositoryKey>
+            <key>S2612</key>
             <priority>MAJOR</priority>
             <parameters />
         </rule>
@@ -8540,6 +8694,12 @@
         </rule>
         <rule>
             <repositoryKey>java</repositoryKey>
+            <key>S3012</key>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>java</repositoryKey>
             <key>S3014</key>
             <priority>BLOCKER</priority>
             <parameters />
@@ -8576,6 +8736,12 @@
         </rule>
         <rule>
             <repositoryKey>java</repositoryKey>
+            <key>S3039</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>java</repositoryKey>
             <key>S3042</key>
             <priority>MAJOR</priority>
             <parameters />
@@ -8596,6 +8762,12 @@
             <repositoryKey>java</repositoryKey>
             <key>S3052</key>
             <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>java</repositoryKey>
+            <key>S3064</key>
+            <priority>MAJOR</priority>
             <parameters />
         </rule>
         <rule>
@@ -8661,19 +8833,13 @@
         <rule>
             <repositoryKey>java</repositoryKey>
             <key>S3330</key>
-            <priority>CRITICAL</priority>
+            <priority>MINOR</priority>
             <parameters />
         </rule>
         <rule>
             <repositoryKey>java</repositoryKey>
             <key>S3331</key>
-            <priority>CRITICAL</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>java</repositoryKey>
-            <key>S3340</key>
-            <priority>MINOR</priority>
+            <priority>INFO</priority>
             <parameters />
         </rule>
         <rule>
@@ -8796,12 +8962,6 @@
         </rule>
         <rule>
             <repositoryKey>java</repositoryKey>
-            <key>S3510</key>
-            <priority>BLOCKER</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>java</repositoryKey>
             <key>S3516</key>
             <priority>BLOCKER</priority>
             <parameters />
@@ -8903,7 +9063,7 @@
         <rule>
             <repositoryKey>java</repositoryKey>
             <key>S3752</key>
-            <priority>BLOCKER</priority>
+            <priority>CRITICAL</priority>
             <parameters />
         </rule>
         <rule>
@@ -9123,12 +9283,6 @@
         </rule>
         <rule>
             <repositoryKey>java</repositoryKey>
-            <key>S4424</key>
-            <priority>MAJOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>java</repositoryKey>
             <key>S4425</key>
             <priority>MAJOR</priority>
             <parameters />
@@ -9141,12 +9295,6 @@
         </rule>
         <rule>
             <repositoryKey>java</repositoryKey>
-            <key>S4432</key>
-            <priority>CRITICAL</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>java</repositoryKey>
             <key>S4433</key>
             <priority>CRITICAL</priority>
             <parameters />
@@ -9155,12 +9303,6 @@
             <repositoryKey>java</repositoryKey>
             <key>S4434</key>
             <priority>BLOCKER</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>java</repositoryKey>
-            <key>S4435</key>
-            <priority>CRITICAL</priority>
             <parameters />
         </rule>
         <rule>
@@ -9183,12 +9325,6 @@
         </rule>
         <rule>
             <repositoryKey>java</repositoryKey>
-            <key>S4499</key>
-            <priority>CRITICAL</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>java</repositoryKey>
             <key>S4502</key>
             <priority>CRITICAL</priority>
             <parameters />
@@ -9196,7 +9332,7 @@
         <rule>
             <repositoryKey>java</repositoryKey>
             <key>S4507</key>
-            <priority>CRITICAL</priority>
+            <priority>MINOR</priority>
             <parameters />
         </rule>
         <rule>
@@ -9339,6 +9475,12 @@
         </rule>
         <rule>
             <repositoryKey>java</repositoryKey>
+            <key>S4830</key>
+            <priority>CRITICAL</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>java</repositoryKey>
             <key>S4834</key>
             <priority>CRITICAL</priority>
             <parameters />
@@ -9381,14 +9523,32 @@
         </rule>
         <rule>
             <repositoryKey>java</repositoryKey>
+            <key>S5164</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>java</repositoryKey>
             <key>S5194</key>
             <priority>MINOR</priority>
             <parameters />
         </rule>
         <rule>
             <repositoryKey>java</repositoryKey>
+            <key>S5261</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>java</repositoryKey>
             <key>S5300</key>
             <priority>CRITICAL</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>java</repositoryKey>
+            <key>S5301</key>
+            <priority>MINOR</priority>
             <parameters />
         </rule>
         <rule>
@@ -9429,6 +9589,54 @@
         </rule>
         <rule>
             <repositoryKey>java</repositoryKey>
+            <key>S5361</key>
+            <priority>CRITICAL</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>java</repositoryKey>
+            <key>S5411</key>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>java</repositoryKey>
+            <key>S5413</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>java</repositoryKey>
+            <key>S5527</key>
+            <priority>CRITICAL</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>java</repositoryKey>
+            <key>S5542</key>
+            <priority>BLOCKER</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>java</repositoryKey>
+            <key>S5547</key>
+            <priority>CRITICAL</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>java</repositoryKey>
+            <key>S5679</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>java</repositoryKey>
+            <key>S5738</key>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>java</repositoryKey>
             <key>S818</key>
             <priority>MINOR</priority>
             <parameters>
@@ -9464,12 +9672,6 @@
         </rule>
         <rule>
             <repositoryKey>java</repositoryKey>
-            <key>SwitchLastCaseIsDefaultCheck</key>
-            <priority>CRITICAL</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>java</repositoryKey>
             <key>Track_uses_of_disallowed_dependencies_commons_logging</key>
             <priority>MAJOR</priority>
             <parameters>
@@ -9478,35 +9680,6 @@
                     <value>commons-logging:commons-logging</value>
                 </parameter>
             </parameters>
-        </rule>
-        <rule>
-            <repositoryKey>java</repositoryKey>
-            <key>TrailingCommentCheck</key>
-            <priority>MINOR</priority>
-            <parameters>
-                <parameter>
-                    <key>legalTrailingCommentPattern</key>
-                    <value>^\s*+[^\s]++$</value>
-                </parameter>
-            </parameters>
-        </rule>
-        <rule>
-            <repositoryKey>java</repositoryKey>
-            <key>UnusedPrivateMethod</key>
-            <priority>MAJOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>java</repositoryKey>
-            <key>UselessImportCheck</key>
-            <priority>MINOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>java</repositoryKey>
-            <key>UselessParenthesesCheck</key>
-            <priority>MAJOR</priority>
-            <parameters />
         </rule>
         <rule>
             <repositoryKey>pmd</repositoryKey>
