@@ -48,6 +48,9 @@ public class SonarProfileSorter {
             }
         }
         Collections.sort(rules, (r1, r2) -> new CompareToBuilder().append(r1.repositoryKey, r2.repositoryKey).append(r1.key, r2.key).toComparison());
+        for (Rule rule : rules) {
+            sortParameter(rule);
+        }
 
         try (OutputStream os = new FileOutputStream(outputFile)) {
             IOUtils.writeLines(startLines, "\n", os, StandardCharsets.UTF_8);
@@ -58,9 +61,52 @@ public class SonarProfileSorter {
         }
     }
 
+    private static void sortParameter(Rule rule) {
+        List<String> startLines = new ArrayList<>();
+        List<String> endLines = new ArrayList<>();
+        List<RuleParameter> ruleParameters = new ArrayList<>();
+        RuleParameter currentRuleParameter = null;
+        for (String line : rule.lines) {
+            String trimedLine = line.trim();
+            if (trimedLine.equals("<parameter>")) {
+                currentRuleParameter = new RuleParameter();
+                ruleParameters.add(currentRuleParameter);
+                currentRuleParameter.lines.add(line);
+            } else if (trimedLine.equals("</parameter>")) {
+                currentRuleParameter.lines.add(line);
+                currentRuleParameter = null;
+            } else if (currentRuleParameter == null) {
+                if (ruleParameters.isEmpty()) {
+                    startLines.add(line);
+                } else {
+                    endLines.add(line);
+                }
+            } else {
+                if (currentRuleParameter.key == null && trimedLine.startsWith("<key>")) {
+                    currentRuleParameter.key = StringUtils.substringBetween(trimedLine, "<key>", "</key>");
+                }
+                currentRuleParameter.lines.add(line);
+            }
+        }
+        Collections.sort(ruleParameters, (r1, r2) -> new CompareToBuilder().append(r1.key, r2.key).toComparison());
+
+        rule.lines.clear();
+        rule.lines.addAll(startLines);
+        for (RuleParameter ruleParameter : ruleParameters) {
+            rule.lines.addAll(ruleParameter.lines);
+        }
+        rule.lines.addAll(endLines);
+    }
+
     private static class Rule {
         String repositoryKey;
 
+        String key;
+
+        List<String> lines = new ArrayList<>();
+    }
+
+    private static class RuleParameter {
         String key;
 
         List<String> lines = new ArrayList<>();
