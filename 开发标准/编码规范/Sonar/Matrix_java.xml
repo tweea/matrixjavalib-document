@@ -24,11 +24,7 @@
                     <value>true</value>
                 </parameter>
                 <parameter>
-                    <key>format</key>
-                    <value>^[A-Z\u4E00-\u9FA5][A-Z0-9\u4E00-\u9FA5]*(_[A-Z0-9\u4E00-\u9FA5]+)*$</value>
-                </parameter>
-                <parameter>
-                    <key>applyToPublic</key>
+                    <key>applyToPrivate</key>
                     <value>true</value>
                 </parameter>
                 <parameter>
@@ -36,8 +32,12 @@
                     <value>true</value>
                 </parameter>
                 <parameter>
-                    <key>applyToPrivate</key>
+                    <key>applyToPublic</key>
                     <value>true</value>
+                </parameter>
+                <parameter>
+                    <key>format</key>
+                    <value>^[A-Z\u4E00-\u9FA5][A-Z0-9\u4E00-\u9FA5]*(_[A-Z0-9\u4E00-\u9FA5]+)*$</value>
                 </parameter>
             </parameters>
         </rule>
@@ -47,20 +47,20 @@
             <priority>MAJOR</priority>
             <parameters>
                 <parameter>
-                    <key>tokens</key>
-                    <value>PACKAGE_DEF,IMPORT,STATIC_IMPORT,CLASS_DEF,INTERFACE_DEF,ENUM_DEF,STATIC_INIT,INSTANCE_INIT,METHOD_DEF,CTOR_DEF,VARIABLE_DEF</value>
-                </parameter>
-                <parameter>
-                    <key>allowNoEmptyLineBetweenFields</key>
-                    <value>false</value>
-                </parameter>
-                <parameter>
                     <key>allowMultipleEmptyLines</key>
                     <value>false</value>
                 </parameter>
                 <parameter>
                     <key>allowMultipleEmptyLinesInsideClassMembers</key>
                     <value>false</value>
+                </parameter>
+                <parameter>
+                    <key>allowNoEmptyLineBetweenFields</key>
+                    <value>false</value>
+                </parameter>
+                <parameter>
+                    <key>tokens</key>
+                    <value>PACKAGE_DEF,IMPORT,STATIC_IMPORT,CLASS_DEF,INTERFACE_DEF,ENUM_DEF,STATIC_INIT,INSTANCE_INIT,METHOD_DEF,CTOR_DEF,VARIABLE_DEF</value>
                 </parameter>
             </parameters>
         </rule>
@@ -70,7 +70,15 @@
             <priority>MAJOR</priority>
             <parameters>
                 <parameter>
+                    <key>ignoreAbstractMethods</key>
+                    <value>false</value>
+                </parameter>
+                <parameter>
                     <key>ignoreConstructorParameter</key>
+                    <value>true</value>
+                </parameter>
+                <parameter>
+                    <key>ignoreSetter</key>
                     <value>true</value>
                 </parameter>
                 <parameter>
@@ -80,14 +88,6 @@
                 <parameter>
                     <key>tokens</key>
                     <value>VARIABLE_DEF,PARAMETER_DEF,LAMBDA</value>
-                </parameter>
-                <parameter>
-                    <key>ignoreAbstractMethods</key>
-                    <value>false</value>
-                </parameter>
-                <parameter>
-                    <key>ignoreSetter</key>
-                    <value>true</value>
                 </parameter>
             </parameters>
         </rule>
@@ -108,20 +108,20 @@
             <priority>MAJOR</priority>
             <parameters>
                 <parameter>
-                    <key>illegalClassNames</key>
-                    <value>"java.util.HashSet,java.util.HashMap,java.util.LinkedHashMap,java.util.LinkedHashSet,java.util.TreeSet,java.util.TreeMap"</value>
-                </parameter>
-                <parameter>
                     <key>format</key>
                     <value>^(.*[\\.])?Abstract.*$</value>
                 </parameter>
                 <parameter>
-                    <key>tokens</key>
-                    <value>ANNOTATION_FIELD_DEF,CLASS_DEF,INTERFACE_DEF,METHOD_CALL,METHOD_DEF,METHOD_REF,PARAMETER_DEF,VARIABLE_DEF</value>
-                </parameter>
-                <parameter>
                     <key>ignoredMethodNames</key>
                     <value>"getInitialContext,getEnvironment"</value>
+                </parameter>
+                <parameter>
+                    <key>illegalClassNames</key>
+                    <value>"java.util.HashSet,java.util.HashMap,java.util.LinkedHashMap,java.util.LinkedHashSet,java.util.TreeSet,java.util.TreeMap"</value>
+                </parameter>
+                <parameter>
+                    <key>tokens</key>
+                    <value>ANNOTATION_FIELD_DEF,CLASS_DEF,INTERFACE_DEF,METHOD_CALL,METHOD_DEF,METHOD_REF,PARAMETER_DEF,VARIABLE_DEF</value>
                 </parameter>
                 <parameter>
                     <key>validateAbstractClassNames</key>
@@ -141,19 +141,11 @@
             <priority>MAJOR</priority>
             <parameters>
                 <parameter>
-                    <key>checkFirstSentence</key>
+                    <key>checkEmptyJavadoc</key>
                     <value>true</value>
                 </parameter>
                 <parameter>
-                    <key>scope</key>
-                    <value>private</value>
-                </parameter>
-                <parameter>
-                    <key>tokens</key>
-                    <value>ANNOTATION_DEF,ANNOTATION_FIELD_DEF,CLASS_DEF,CTOR_DEF,ENUM_CONSTANT_DEF,ENUM_DEF,INTERFACE_DEF,METHOD_DEF,PACKAGE_DEF,VARIABLE_DEF</value>
-                </parameter>
-                <parameter>
-                    <key>checkEmptyJavadoc</key>
+                    <key>checkFirstSentence</key>
                     <value>true</value>
                 </parameter>
                 <parameter>
@@ -163,6 +155,14 @@
                 <parameter>
                     <key>endOfSentenceFormat</key>
                     <value>([.?!。？！][ \t\n\r\f&lt;])|([.?!。？！]$)</value>
+                </parameter>
+                <parameter>
+                    <key>scope</key>
+                    <value>private</value>
+                </parameter>
+                <parameter>
+                    <key>tokens</key>
+                    <value>ANNOTATION_DEF,ANNOTATION_FIELD_DEF,CLASS_DEF,CTOR_DEF,ENUM_CONSTANT_DEF,ENUM_DEF,INTERFACE_DEF,METHOD_DEF,PACKAGE_DEF,VARIABLE_DEF</value>
                 </parameter>
             </parameters>
         </rule>
@@ -176,12 +176,12 @@
                     <value>true</value>
                 </parameter>
                 <parameter>
-                    <key>tokens</key>
-                    <value>ANNOTATION_DEF,CLASS_DEF,CTOR_DEF,ENUM_CONSTANT_DEF,ENUM_DEF,INTERFACE_DEF,LAMBDA,LITERAL_CASE,LITERAL_CATCH,LITERAL_DEFAULT,LITERAL_DO,LITERAL_ELSE,LITERAL_FINALLY,LITERAL_FOR,LITERAL_IF,LITERAL_SWITCH,LITERAL_SYNCHRONIZED,LITERAL_TRY,LITERAL_WHILE,METHOD_DEF,OBJBLOCK,STATIC_INIT</value>
-                </parameter>
-                <parameter>
                     <key>option</key>
                     <value>eol</value>
+                </parameter>
+                <parameter>
+                    <key>tokens</key>
+                    <value>ANNOTATION_DEF,CLASS_DEF,CTOR_DEF,ENUM_CONSTANT_DEF,ENUM_DEF,INTERFACE_DEF,LAMBDA,LITERAL_CASE,LITERAL_CATCH,LITERAL_DEFAULT,LITERAL_DO,LITERAL_ELSE,LITERAL_FINALLY,LITERAL_FOR,LITERAL_IF,LITERAL_SWITCH,LITERAL_SYNCHRONIZED,LITERAL_TRY,LITERAL_WHILE,METHOD_DEF,OBJBLOCK,STATIC_INIT</value>
                 </parameter>
             </parameters>
         </rule>
@@ -191,12 +191,12 @@
             <priority>MAJOR</priority>
             <parameters>
                 <parameter>
-                    <key>format</key>
-                    <value>^[a-z\u4E00-\u9FA5][a-zA-Z0-9\u4E00-\u9FA5]*$</value>
-                </parameter>
-                <parameter>
                     <key>allowOneCharVarInForLoop</key>
                     <value>false</value>
+                </parameter>
+                <parameter>
+                    <key>format</key>
+                    <value>^[a-z\u4E00-\u9FA5][a-zA-Z0-9\u4E00-\u9FA5]*$</value>
                 </parameter>
             </parameters>
         </rule>
@@ -210,11 +210,7 @@
                     <value>true</value>
                 </parameter>
                 <parameter>
-                    <key>format</key>
-                    <value>^[a-z\u4E00-\u9FA5][a-zA-Z0-9\u4E00-\u9FA5]*$</value>
-                </parameter>
-                <parameter>
-                    <key>applyToPublic</key>
+                    <key>applyToPrivate</key>
                     <value>true</value>
                 </parameter>
                 <parameter>
@@ -222,8 +218,12 @@
                     <value>true</value>
                 </parameter>
                 <parameter>
-                    <key>applyToPrivate</key>
+                    <key>applyToPublic</key>
                     <value>true</value>
+                </parameter>
+                <parameter>
+                    <key>format</key>
+                    <value>^[a-z\u4E00-\u9FA5][a-zA-Z0-9\u4E00-\u9FA5]*$</value>
                 </parameter>
             </parameters>
         </rule>
@@ -233,16 +233,16 @@
             <priority>MAJOR</priority>
             <parameters>
                 <parameter>
-                    <key>tokens</key>
-                    <value>CTOR_DEF,LITERAL_NEW,METHOD_CALL,METHOD_DEF,SUPER_CTOR_CALL,ENUM_CONSTANT_DEF</value>
-                </parameter>
-                <parameter>
                     <key>allowLineBreaks</key>
                     <value>false</value>
                 </parameter>
                 <parameter>
                     <key>option</key>
                     <value>nospace</value>
+                </parameter>
+                <parameter>
+                    <key>tokens</key>
+                    <value>CTOR_DEF,LITERAL_NEW,METHOD_CALL,METHOD_DEF,SUPER_CTOR_CALL,ENUM_CONSTANT_DEF</value>
                 </parameter>
             </parameters>
         </rule>
@@ -252,11 +252,11 @@
             <priority>MINOR</priority>
             <parameters>
                 <parameter>
-                    <key>allowSingleLineStatement</key>
+                    <key>allowEmptyLoopBody</key>
                     <value>false</value>
                 </parameter>
                 <parameter>
-                    <key>allowEmptyLoopBody</key>
+                    <key>allowSingleLineStatement</key>
                     <value>false</value>
                 </parameter>
                 <parameter>
@@ -282,12 +282,12 @@
             <priority>MINOR</priority>
             <parameters>
                 <parameter>
-                    <key>tokens</key>
-                    <value>AT,INC,DEC,UNARY_MINUS,UNARY_PLUS,BNOT,LNOT,DOT,ARRAY_DECLARATOR,INDEX_OP,METHOD_REF</value>
-                </parameter>
-                <parameter>
                     <key>allowLineBreaks</key>
                     <value>false</value>
+                </parameter>
+                <parameter>
+                    <key>tokens</key>
+                    <value>AT,INC,DEC,UNARY_MINUS,UNARY_PLUS,BNOT,LNOT,DOT,ARRAY_DECLARATOR,INDEX_OP,METHOD_REF</value>
                 </parameter>
             </parameters>
         </rule>
@@ -297,12 +297,12 @@
             <priority>MINOR</priority>
             <parameters>
                 <parameter>
-                    <key>tokens</key>
-                    <value>ARRAY_INIT</value>
-                </parameter>
-                <parameter>
                     <key>allowLineBreaks</key>
                     <value>true</value>
+                </parameter>
+                <parameter>
+                    <key>tokens</key>
+                    <value>ARRAY_INIT</value>
                 </parameter>
             </parameters>
         </rule>
@@ -312,12 +312,12 @@
             <priority>MINOR</priority>
             <parameters>
                 <parameter>
-                    <key>tokens</key>
-                    <value>COMMA,SEMI,POST_INC,POST_DEC,GENERIC_START,GENERIC_END,ELLIPSIS,LABELED_STAT,METHOD_REF</value>
-                </parameter>
-                <parameter>
                     <key>allowLineBreaks</key>
                     <value>false</value>
+                </parameter>
+                <parameter>
+                    <key>tokens</key>
+                    <value>COMMA,SEMI,POST_INC,POST_DEC,GENERIC_START,GENERIC_END,ELLIPSIS,LABELED_STAT,METHOD_REF</value>
                 </parameter>
             </parameters>
         </rule>
@@ -327,12 +327,12 @@
             <priority>MINOR</priority>
             <parameters>
                 <parameter>
-                    <key>tokens</key>
-                    <value>DOT</value>
-                </parameter>
-                <parameter>
                     <key>allowLineBreaks</key>
                     <value>true</value>
+                </parameter>
+                <parameter>
+                    <key>tokens</key>
+                    <value>DOT</value>
                 </parameter>
             </parameters>
         </rule>
@@ -342,12 +342,12 @@
             <priority>MINOR</priority>
             <parameters>
                 <parameter>
-                    <key>tokens</key>
-                    <value>QUESTION,COLON,EQUAL,NOT_EQUAL,DIV,PLUS,MINUS,STAR,MOD,SR,BSR,GE,GT,SL,LE,LT,BXOR,BOR,LOR,BAND,LAND,TYPE_EXTENSION_AND,LITERAL_INSTANCEOF</value>
-                </parameter>
-                <parameter>
                     <key>option</key>
                     <value>nl</value>
+                </parameter>
+                <parameter>
+                    <key>tokens</key>
+                    <value>QUESTION,COLON,EQUAL,NOT_EQUAL,DIV,PLUS,MINUS,STAR,MOD,SR,BSR,GE,GT,SL,LE,LT,BXOR,BOR,LOR,BAND,LAND,TYPE_EXTENSION_AND,LITERAL_INSTANCEOF</value>
                 </parameter>
             </parameters>
         </rule>
@@ -368,12 +368,12 @@
             <priority>MINOR</priority>
             <parameters>
                 <parameter>
-                    <key>tokens</key>
-                    <value>ANNOTATION,ANNOTATION_FIELD_DEF,CTOR_CALL,CTOR_DEF,DOT,ENUM_CONSTANT_DEF,EXPR,LITERAL_CATCH,LITERAL_DO,LITERAL_FOR,LITERAL_IF,LITERAL_NEW,LITERAL_SWITCH,LITERAL_SYNCHRONIZED,LITERAL_WHILE,METHOD_CALL,METHOD_DEF,QUESTION,RESOURCE_SPECIFICATION,SUPER_CTOR_CALL,LAMBDA</value>
-                </parameter>
-                <parameter>
                     <key>option</key>
                     <value>nospace</value>
+                </parameter>
+                <parameter>
+                    <key>tokens</key>
+                    <value>ANNOTATION,ANNOTATION_FIELD_DEF,CTOR_CALL,CTOR_DEF,DOT,ENUM_CONSTANT_DEF,EXPR,LITERAL_CATCH,LITERAL_DO,LITERAL_FOR,LITERAL_IF,LITERAL_NEW,LITERAL_SWITCH,LITERAL_SYNCHRONIZED,LITERAL_WHILE,METHOD_CALL,METHOD_DEF,QUESTION,RESOURCE_SPECIFICATION,SUPER_CTOR_CALL,LAMBDA</value>
                 </parameter>
             </parameters>
         </rule>
@@ -394,16 +394,16 @@
             <priority>MAJOR</priority>
             <parameters>
                 <parameter>
-                    <key>ignoreComments</key>
-                    <value>false</value>
+                    <key>format</key>
+                    <value>([^\s\*]+\**\s+$)|(^\s+$)</value>
                 </parameter>
                 <parameter>
                     <key>ignoreCase</key>
                     <value>false</value>
                 </parameter>
                 <parameter>
-                    <key>format</key>
-                    <value>([^\s\*]+\**\s+$)|(^\s+$)</value>
+                    <key>ignoreComments</key>
+                    <value>false</value>
                 </parameter>
                 <parameter>
                     <key>maximum</key>
@@ -425,12 +425,12 @@
             <priority>MINOR</priority>
             <parameters>
                 <parameter>
-                    <key>tokens</key>
-                    <value>CLASS_DEF,METHOD_DEF,CTOR_DEF,LITERAL_FOR,LITERAL_WHILE,STATIC_INIT,INSTANCE_INIT</value>
-                </parameter>
-                <parameter>
                     <key>option</key>
                     <value>alone</value>
+                </parameter>
+                <parameter>
+                    <key>tokens</key>
+                    <value>CLASS_DEF,METHOD_DEF,CTOR_DEF,LITERAL_FOR,LITERAL_WHILE,STATIC_INIT,INSTANCE_INIT</value>
                 </parameter>
             </parameters>
         </rule>
@@ -440,12 +440,12 @@
             <priority>MINOR</priority>
             <parameters>
                 <parameter>
-                    <key>tokens</key>
-                    <value>LITERAL_TRY,LITERAL_CATCH,LITERAL_FINALLY,LITERAL_IF,LITERAL_ELSE,LITERAL_DO</value>
-                </parameter>
-                <parameter>
                     <key>option</key>
                     <value>same</value>
+                </parameter>
+                <parameter>
+                    <key>tokens</key>
+                    <value>LITERAL_TRY,LITERAL_CATCH,LITERAL_FINALLY,LITERAL_IF,LITERAL_ELSE,LITERAL_DO</value>
                 </parameter>
             </parameters>
         </rule>
@@ -455,12 +455,12 @@
             <priority>MINOR</priority>
             <parameters>
                 <parameter>
-                    <key>tokens</key>
-                    <value>COMMA,SEMI,ELLIPSIS</value>
-                </parameter>
-                <parameter>
                     <key>option</key>
                     <value>eol</value>
+                </parameter>
+                <parameter>
+                    <key>tokens</key>
+                    <value>COMMA,SEMI,ELLIPSIS</value>
                 </parameter>
             </parameters>
         </rule>
@@ -470,12 +470,12 @@
             <priority>MINOR</priority>
             <parameters>
                 <parameter>
-                    <key>tokens</key>
-                    <value>DOT,AT,METHOD_REF</value>
-                </parameter>
-                <parameter>
                     <key>option</key>
                     <value>nl</value>
+                </parameter>
+                <parameter>
+                    <key>tokens</key>
+                    <value>DOT,AT,METHOD_REF</value>
                 </parameter>
             </parameters>
         </rule>
@@ -489,11 +489,7 @@
                     <value>true</value>
                 </parameter>
                 <parameter>
-                    <key>format</key>
-                    <value>^[a-z\u4E00-\u9FA5][a-zA-Z0-9\u4E00-\u9FA5]*$</value>
-                </parameter>
-                <parameter>
-                    <key>applyToPublic</key>
+                    <key>applyToPrivate</key>
                     <value>true</value>
                 </parameter>
                 <parameter>
@@ -501,8 +497,12 @@
                     <value>true</value>
                 </parameter>
                 <parameter>
-                    <key>applyToPrivate</key>
+                    <key>applyToPublic</key>
                     <value>true</value>
+                </parameter>
+                <parameter>
+                    <key>format</key>
+                    <value>^[a-z\u4E00-\u9FA5][a-zA-Z0-9\u4E00-\u9FA5]*$</value>
                 </parameter>
             </parameters>
         </rule>
@@ -531,15 +531,7 @@
                     <value>true</value>
                 </parameter>
                 <parameter>
-                    <key>format</key>
-                    <value>^[A-Z][a-zA-Z0-9]*$</value>
-                </parameter>
-                <parameter>
-                    <key>tokens</key>
-                    <value>CLASS_DEF,INTERFACE_DEF,ENUM_DEF,ANNOTATION_DEF</value>
-                </parameter>
-                <parameter>
-                    <key>applyToPublic</key>
+                    <key>applyToPrivate</key>
                     <value>true</value>
                 </parameter>
                 <parameter>
@@ -547,8 +539,16 @@
                     <value>true</value>
                 </parameter>
                 <parameter>
-                    <key>applyToPrivate</key>
+                    <key>applyToPublic</key>
                     <value>true</value>
+                </parameter>
+                <parameter>
+                    <key>format</key>
+                    <value>^[A-Z][a-zA-Z0-9]*$</value>
+                </parameter>
+                <parameter>
+                    <key>tokens</key>
+                    <value>CLASS_DEF,INTERFACE_DEF,ENUM_DEF,ANNOTATION_DEF</value>
                 </parameter>
             </parameters>
         </rule>
@@ -580,11 +580,11 @@
             <priority>MINOR</priority>
             <parameters>
                 <parameter>
-                    <key>allowEmptyConstructors</key>
+                    <key>allowEmptyCatches</key>
                     <value>false</value>
                 </parameter>
                 <parameter>
-                    <key>ignoreEnhancedForColon</key>
+                    <key>allowEmptyConstructors</key>
                     <value>false</value>
                 </parameter>
                 <parameter>
@@ -592,7 +592,7 @@
                     <value>false</value>
                 </parameter>
                 <parameter>
-                    <key>allowEmptyCatches</key>
+                    <key>allowEmptyLoops</key>
                     <value>false</value>
                 </parameter>
                 <parameter>
@@ -600,11 +600,11 @@
                     <value>false</value>
                 </parameter>
                 <parameter>
-                    <key>allowEmptyLoops</key>
+                    <key>allowEmptyTypes</key>
                     <value>false</value>
                 </parameter>
                 <parameter>
-                    <key>allowEmptyTypes</key>
+                    <key>ignoreEnhancedForColon</key>
                     <value>false</value>
                 </parameter>
                 <parameter>
@@ -630,20 +630,20 @@
             <priority>MAJOR</priority>
             <parameters>
                 <parameter>
-                    <key>allowEscapesForControlCharacters</key>
-                    <value>true</value>
-                </parameter>
-                <parameter>
                     <key>allowByTailComment</key>
                     <value>false</value>
                 </parameter>
                 <parameter>
-                    <key>allowNonPrintableEscapes</key>
+                    <key>allowEscapesForControlCharacters</key>
                     <value>true</value>
                 </parameter>
                 <parameter>
                     <key>allowIfAllCharactersEscaped</key>
                     <value>false</value>
+                </parameter>
+                <parameter>
+                    <key>allowNonPrintableEscapes</key>
+                    <value>true</value>
                 </parameter>
             </parameters>
         </rule>
@@ -681,12 +681,12 @@
             <priority>MINOR</priority>
             <parameters>
                 <parameter>
-                    <key>fileExtensions</key>
-                    <value>properties</value>
-                </parameter>
-                <parameter>
                     <key>baseName</key>
                     <value>^messages.*$</value>
+                </parameter>
+                <parameter>
+                    <key>fileExtensions</key>
+                    <value>properties</value>
                 </parameter>
             </parameters>
         </rule>
@@ -724,15 +724,15 @@
             <priority>MAJOR</priority>
             <parameters>
                 <parameter>
-                    <key>allowSamelineSingleParameterlessAnnotation</key>
-                    <value>false</value>
-                </parameter>
-                <parameter>
                     <key>allowSamelineMultipleAnnotations</key>
                     <value>false</value>
                 </parameter>
                 <parameter>
                     <key>allowSamelineParameterizedAnnotation</key>
+                    <value>false</value>
+                </parameter>
+                <parameter>
+                    <key>allowSamelineSingleParameterlessAnnotation</key>
                     <value>false</value>
                 </parameter>
                 <parameter>
@@ -747,16 +747,16 @@
             <priority>MAJOR</priority>
             <parameters>
                 <parameter>
-                    <key>trailingArrayComma</key>
-                    <value>never</value>
-                </parameter>
-                <parameter>
                     <key>closingParens</key>
                     <value>never</value>
                 </parameter>
                 <parameter>
                     <key>elementStyle</key>
                     <value>compact_no_array</value>
+                </parameter>
+                <parameter>
+                    <key>trailingArrayComma</key>
+                    <value>never</value>
                 </parameter>
             </parameters>
         </rule>
@@ -809,12 +809,12 @@
             <priority>MAJOR</priority>
             <parameters>
                 <parameter>
-                    <key>exceptionVariableName</key>
-                    <value>ignore</value>
-                </parameter>
-                <parameter>
                     <key>commentFormat</key>
                     <value>.*</value>
+                </parameter>
+                <parameter>
+                    <key>exceptionVariableName</key>
+                    <value>ignore</value>
                 </parameter>
             </parameters>
         </rule>
@@ -836,12 +836,12 @@
             <priority>INFO</priority>
             <parameters>
                 <parameter>
-                    <key>ignoreModifiers</key>
-                    <value>true</value>
-                </parameter>
-                <parameter>
                     <key>ignoreConstructors</key>
                     <value>false</value>
+                </parameter>
+                <parameter>
+                    <key>ignoreModifiers</key>
+                    <value>true</value>
                 </parameter>
             </parameters>
         </rule>
@@ -922,12 +922,12 @@
             <priority>MAJOR</priority>
             <parameters>
                 <parameter>
-                    <key>tokens</key>
-                    <value>CLASS_DEF</value>
-                </parameter>
-                <parameter>
                     <key>classes</key>
                     <value>java.lang.Boolean</value>
+                </parameter>
+                <parameter>
+                    <key>tokens</key>
+                    <value>CLASS_DEF</value>
                 </parameter>
             </parameters>
         </rule>
@@ -1097,19 +1097,7 @@
             <priority>MAJOR</priority>
             <parameters>
                 <parameter>
-                    <key>protectedAllowed</key>
-                    <value>true</value>
-                </parameter>
-                <parameter>
-                    <key>immutableClassCanonicalNames</key>
-                    <value>java.lang.String,java.lang.Integer,java.lang.Byte,java.lang.Character,java.lang.Short,java.lang.Boolean,java.lang.Long,java.lang.Double,java.lang.Float,java.lang.StackTraceElement,java.math.BigInteger,java.math.BigDecimal,java.io.File,java.util.Locale,java.util.UUID,java.net.URL,java.net.URI,java.net.Inet4Address,java.net.Inet6Address,java.net.InetSocketAddress</value>
-                </parameter>
-                <parameter>
-                    <key>publicMemberPattern</key>
-                    <value>^serialVersionUID$</value>
-                </parameter>
-                <parameter>
-                    <key>packageAllowed</key>
+                    <key>allowPublicFinalFields</key>
                     <value>true</value>
                 </parameter>
                 <parameter>
@@ -1117,12 +1105,24 @@
                     <value>true</value>
                 </parameter>
                 <parameter>
-                    <key>allowPublicFinalFields</key>
+                    <key>ignoreAnnotationCanonicalNames</key>
+                    <value>org.junit.Rule,org.junit.ClassRule,com.google.common.annotations.VisibleForTesting</value>
+                </parameter>
+                <parameter>
+                    <key>immutableClassCanonicalNames</key>
+                    <value>java.lang.String,java.lang.Integer,java.lang.Byte,java.lang.Character,java.lang.Short,java.lang.Boolean,java.lang.Long,java.lang.Double,java.lang.Float,java.lang.StackTraceElement,java.math.BigInteger,java.math.BigDecimal,java.io.File,java.util.Locale,java.util.UUID,java.net.URL,java.net.URI,java.net.Inet4Address,java.net.Inet6Address,java.net.InetSocketAddress</value>
+                </parameter>
+                <parameter>
+                    <key>packageAllowed</key>
                     <value>true</value>
                 </parameter>
                 <parameter>
-                    <key>ignoreAnnotationCanonicalNames</key>
-                    <value>org.junit.Rule,org.junit.ClassRule,com.google.common.annotations.VisibleForTesting</value>
+                    <key>protectedAllowed</key>
+                    <value>true</value>
+                </parameter>
+                <parameter>
+                    <key>publicMemberPattern</key>
+                    <value>^serialVersionUID$</value>
                 </parameter>
             </parameters>
         </rule>
@@ -1158,12 +1158,12 @@
             <priority>MAJOR</priority>
             <parameters>
                 <parameter>
-                    <key>regexp</key>
-                    <value>false</value>
-                </parameter>
-                <parameter>
                     <key>illegalPkgs</key>
                     <value>sun.*</value>
+                </parameter>
+                <parameter>
+                    <key>regexp</key>
+                    <value>false</value>
                 </parameter>
             </parameters>
         </rule>
@@ -1173,7 +1173,7 @@
             <priority>MINOR</priority>
             <parameters>
                 <parameter>
-                    <key>separated</key>
+                    <key>caseSensitive</key>
                     <value>true</value>
                 </parameter>
                 <parameter>
@@ -1181,23 +1181,15 @@
                     <value>java,javax,jakarta,org,*,net.matrix</value>
                 </parameter>
                 <parameter>
-                    <key>sortStaticImportsAlphabetically</key>
-                    <value>true</value>
-                </parameter>
-                <parameter>
-                    <key>useContainerOrderingForStatic</key>
-                    <value>true</value>
-                </parameter>
-                <parameter>
-                    <key>tokens</key>
-                    <value>STATIC_IMPORT</value>
+                    <key>option</key>
+                    <value>bottom</value>
                 </parameter>
                 <parameter>
                     <key>ordered</key>
                     <value>true</value>
                 </parameter>
                 <parameter>
-                    <key>caseSensitive</key>
+                    <key>separated</key>
                     <value>true</value>
                 </parameter>
                 <parameter>
@@ -1205,12 +1197,20 @@
                     <value>true</value>
                 </parameter>
                 <parameter>
+                    <key>sortStaticImportsAlphabetically</key>
+                    <value>true</value>
+                </parameter>
+                <parameter>
                     <key>staticGroups</key>
                     <value>java,javax,jakarta,org,*,net.matrix</value>
                 </parameter>
                 <parameter>
-                    <key>option</key>
-                    <value>bottom</value>
+                    <key>tokens</key>
+                    <value>STATIC_IMPORT</value>
+                </parameter>
+                <parameter>
+                    <key>useContainerOrderingForStatic</key>
+                    <value>true</value>
                 </parameter>
             </parameters>
         </rule>
@@ -1248,27 +1248,11 @@
             <priority>MINOR</priority>
             <parameters>
                 <parameter>
-                    <key>throwsIndent</key>
-                    <value>4</value>
-                </parameter>
-                <parameter>
                     <key>arrayInitIndent</key>
                     <value>4</value>
                 </parameter>
                 <parameter>
-                    <key>forceStrictCondition</key>
-                    <value>true</value>
-                </parameter>
-                <parameter>
-                    <key>tabWidth</key>
-                    <value>4</value>
-                </parameter>
-                <parameter>
-                    <key>caseIndent</key>
-                    <value>0</value>
-                </parameter>
-                <parameter>
-                    <key>lineWrappingIndentation</key>
+                    <key>basicOffset</key>
                     <value>4</value>
                 </parameter>
                 <parameter>
@@ -1276,7 +1260,23 @@
                     <value>0</value>
                 </parameter>
                 <parameter>
-                    <key>basicOffset</key>
+                    <key>caseIndent</key>
+                    <value>0</value>
+                </parameter>
+                <parameter>
+                    <key>forceStrictCondition</key>
+                    <value>true</value>
+                </parameter>
+                <parameter>
+                    <key>lineWrappingIndentation</key>
+                    <value>4</value>
+                </parameter>
+                <parameter>
+                    <key>tabWidth</key>
+                    <value>4</value>
+                </parameter>
+                <parameter>
+                    <key>throwsIndent</key>
                     <value>4</value>
                 </parameter>
             </parameters>
@@ -1348,10 +1348,6 @@
             <priority>MAJOR</priority>
             <parameters>
                 <parameter>
-                    <key>ignoreStatic</key>
-                    <value>true</value>
-                </parameter>
-                <parameter>
                     <key>allowedAbbreviationLength</key>
                     <value>3</value>
                 </parameter>
@@ -1361,6 +1357,10 @@
                 </parameter>
                 <parameter>
                     <key>ignoreOverriddenMethods</key>
+                    <value>true</value>
+                </parameter>
+                <parameter>
+                    <key>ignoreStatic</key>
                     <value>true</value>
                 </parameter>
                 <parameter>
@@ -1442,20 +1442,20 @@
                     <value>true</value>
                 </parameter>
                 <parameter>
-                    <key>format</key>
-                    <value>^[a-z\u4E00-\u9FA5][a-zA-Z0-9\u4E00-\u9FA5]*$</value>
-                </parameter>
-                <parameter>
-                    <key>applyToPublic</key>
-                    <value>true</value>
-                </parameter>
-                <parameter>
                     <key>applyToPrivate</key>
                     <value>true</value>
                 </parameter>
                 <parameter>
                     <key>applyToProtected</key>
                     <value>true</value>
+                </parameter>
+                <parameter>
+                    <key>applyToPublic</key>
+                    <value>true</value>
+                </parameter>
+                <parameter>
+                    <key>format</key>
+                    <value>^[a-z\u4E00-\u9FA5][a-zA-Z0-9\u4E00-\u9FA5]*$</value>
                 </parameter>
             </parameters>
         </rule>
@@ -1487,16 +1487,16 @@
             <priority>MAJOR</priority>
             <parameters>
                 <parameter>
+                    <key>accessModifiers</key>
+                    <value>public,protected,package,private</value>
+                </parameter>
+                <parameter>
                     <key>format</key>
                     <value>^[a-z\u4E00-\u9FA5][a-zA-Z0-9\u4E00-\u9FA5]*$</value>
                 </parameter>
                 <parameter>
                     <key>ignoreOverridden</key>
                     <value>false</value>
-                </parameter>
-                <parameter>
-                    <key>accessModifiers</key>
-                    <value>public,protected,package,private</value>
                 </parameter>
             </parameters>
         </rule>
@@ -1551,12 +1551,12 @@
             <priority>MINOR</priority>
             <parameters>
                 <parameter>
-                    <key>tokens</key>
-                    <value>COMMA</value>
-                </parameter>
-                <parameter>
                     <key>option</key>
                     <value>eol</value>
+                </parameter>
+                <parameter>
+                    <key>tokens</key>
+                    <value>COMMA</value>
                 </parameter>
             </parameters>
         </rule>
