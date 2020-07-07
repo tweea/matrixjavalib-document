@@ -2,23 +2,14 @@ Java
 	Bean Members Should Serialize(pmd:BeanMembersShouldSerialize)
 		禁用，判断条件不足
 	Comment the default access modifier(pmd:CommentDefaultAccessModifier)
-		禁用，需调整 eclipse 格式化配置
+		禁用，与格式化配置不匹配
 	Custom Import Order(checkstyle:com.puppycrawl.tools.checkstyle.checks.imports.CustomImportOrderCheck)
-		禁用，需调整 eclipse imports 配置
-	Empty Line Separator(checkstyle:Empty_Line_Separator)
-		去除 PACKAGE_DEF，需调整 eclipse 格式化配置、代码模板配置
-	Javadoc Paragraph(checkstyle:com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocParagraphCheck)
-		禁用，需调整 eclipse <p> 格式化配置
+		禁用，与格式化配置不匹配
+	Empty Line Separator(checkstyle:Empty_Line_Separator)(checkstyle:com.puppycrawl.tools.checkstyle.checks.whitespace.EmptyLineSeparatorCheck)
+		去除 PACKAGE_DEF，与格式化配置不匹配
 	JUnit tests should include an assert(pmd-unit-tests:JUnitTestsShouldIncludeAssert)
 		禁用，不支持 AssertJ
 	Performance - Method appears to call the same method on the same object redundantly(fb-contrib:PRMC_POSSIBLY_REDUNDANT_METHOD_CALLS)
 		禁用，判断条件不足
-	Separator Wrap(checkstyle:com.puppycrawl.tools.checkstyle.checks.whitespace.SeparatorWrapCheck)
-		参数 tokens 去除 DOT，不支持自定义
-	Tests should include assertions(squid:S2699)
-		禁用，不支持公共 assert 方法
 	Use ConcurrentHashMap(pmd:UseConcurrentHashMap)
 		禁用，判断条件不足
-JavaScript
-	Track lack of copyright and license headers
-		禁用，分析 vue 文件报错

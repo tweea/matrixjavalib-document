@@ -108,12 +108,12 @@
             <priority>MAJOR</priority>
             <parameters>
                 <parameter>
-                    <key>format</key>
-                    <value>^(.*[\\.])?Abstract.*$</value>
-                </parameter>
-                <parameter>
                     <key>ignoredMethodNames</key>
                     <value>"getInitialContext,getEnvironment"</value>
+                </parameter>
+                <parameter>
+                    <key>illegalAbstractClassNameFormat</key>
+                    <value>^(.*[\\.])?Abstract.*$</value>
                 </parameter>
                 <parameter>
                     <key>illegalClassNames</key>
@@ -7646,12 +7646,6 @@
         </rule>
         <rule>
             <repositoryKey>java</repositoryKey>
-            <key>S1941</key>
-            <priority>MINOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>java</repositoryKey>
             <key>S1942</key>
             <priority>MINOR</priority>
             <parameters />
@@ -8318,12 +8312,6 @@
         <rule>
             <repositoryKey>java</repositoryKey>
             <key>S2309</key>
-            <priority>MINOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>java</repositoryKey>
-            <key>S2325</key>
             <priority>MINOR</priority>
             <parameters />
         </rule>
@@ -10114,12 +10102,6 @@
         <rule>
             <repositoryKey>pmd-unit-tests</repositoryKey>
             <key>JUnitStaticSuite</key>
-            <priority>MAJOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>pmd-unit-tests</repositoryKey>
-            <key>JUnitTestsShouldIncludeAssert</key>
             <priority>MAJOR</priority>
             <parameters />
         </rule>

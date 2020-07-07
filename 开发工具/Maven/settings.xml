@@ -261,6 +261,7 @@ under the License.
         <!-- Sonar -->
         <sonar.login>username/token</sonar.login>
         <sonar.password>password/(empty)</sonar.password>
+        <sonar.host.url>url</sonar.host.url>
       </properties>
       <!-- Enable snapshots for the built in central repo to direct -->
       <!-- all requests to nexus via the mirror -->
