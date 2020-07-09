@@ -60,7 +60,7 @@
                 </parameter>
                 <parameter>
                     <key>tokens</key>
-                    <value>PACKAGE_DEF,IMPORT,STATIC_IMPORT,CLASS_DEF,INTERFACE_DEF,ENUM_DEF,STATIC_INIT,INSTANCE_INIT,METHOD_DEF,CTOR_DEF,VARIABLE_DEF</value>
+                    <value>IMPORT,STATIC_IMPORT,CLASS_DEF,INTERFACE_DEF,ENUM_DEF,STATIC_INIT,INSTANCE_INIT,METHOD_DEF,CTOR_DEF,VARIABLE_DEF</value>
                 </parameter>
             </parameters>
         </rule>
