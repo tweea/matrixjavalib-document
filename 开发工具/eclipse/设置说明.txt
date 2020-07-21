@@ -68,7 +68,11 @@ b）禁用拼写检查
 		Validate tag arguments 为选中。
 		Missing tag descriptions 为 Validate all standard tags。
 
-4、设置保存自动格式化、清理代码
+4、设置内容助手
+	设置 Java->Editor->Content Assist->Auto Activation 的：
+		Auto activation triggers for Java 为 _.abcdefghijklmnopqrstuvwxyz。
+
+5、设置保存自动格式化、清理代码
 	设置 Java->Editor->Save Actions 的：
 		Perform the selected actions on save 为选中。
 		Format source code 为选中。
