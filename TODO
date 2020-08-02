@@ -1,14 +1,12 @@
 >>TODO<<
-springside Commit:4f846aea6cddfaafd00e838a04ceb0b3ecc45827 2015/11/29 23:45:13
+springside Commit:22f59fdcf9714e92da746c2c4979fbb7c7cf0db3 2017/01/03 14:49:07
 https://github.com/springside/springside4/wiki
 https://oss.sonatype.org
 ------ next ------
 文档、异常、测试、规则、兼容性、提升
 ------ next ------
 common
-	isDelimiterParsingDisabled
 	PropertiesConfigurationContainer
-	Reflections 增加使用 Class 作为参数的方法
 应用支持（app-support）
 	Guice or CDI
 数据库（db）
