@@ -317,7 +317,7 @@
                 </parameter>
                 <parameter>
                     <key>tokens</key>
-                    <value>COMMA,SEMI,POST_INC,POST_DEC,GENERIC_START,GENERIC_END,ELLIPSIS,LABELED_STAT,METHOD_REF</value>
+                    <value>COMMA,SEMI,POST_INC,POST_DEC,GENERIC_END,ELLIPSIS,LABELED_STAT,METHOD_REF</value>
                 </parameter>
             </parameters>
         </rule>
@@ -8990,7 +8990,7 @@
             <parameters>
                 <parameter>
                     <key>format</key>
-                    <value>^test[A-Z\u4E00-\u9FA5][a-zA-Z0-9\u4E00-\u9FA5]*$</value>
+                    <value>^test[A-Z\u4E00-\u9FA5][_a-zA-Z0-9\u4E00-\u9FA5]*$</value>
                 </parameter>
             </parameters>
         </rule>
