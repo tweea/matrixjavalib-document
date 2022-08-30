@@ -80,6 +80,6 @@
 		mvn versions:display-dependency-updates
 	显示插件更新
 		mvn versions:display-plugin-updates
-8、Sonar
-	运行 sonar 检查
+8、SonarQube
+	运行 SonarQube 检查
 		mvn sonar:sonar

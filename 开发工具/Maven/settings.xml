@@ -265,7 +265,7 @@ under the License.
     <profile>
       <id>nexus</id>
       <properties>
-        <!-- Sonar -->
+        <!-- SonarQube -->
         <sonar.login>username/token</sonar.login>
         <sonar.password>password/(empty)</sonar.password>
         <sonar.host.url>url</sonar.host.url>
