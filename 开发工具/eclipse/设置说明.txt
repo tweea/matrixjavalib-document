@@ -91,11 +91,7 @@ b）禁用拼写检查
 		Indentation size 为 2。
 
 2、设置 JavaScript 项目
-	在 Web->HTML Files->Client-side JavaScript->Code Style->Clean Up 中导入 js.cleanup.xml。
-	在 Web->HTML Files->Client-side JavaScript->Code Style->Formatter 中导入 js.formatter.xml。
-	设置 Web->HTML Files->Client-side JavaScript->Editor->Save Actions 的：
-		Perform the selected action on save 为选中。
-		Format source code 为选中。
+	在 Web->Client-side JavaScript->Formatter 中导入 js.formatter.xml。
 
 3、设置 XML 编辑器项目
 	设置 XML->XML Files->Editor->Formatting 的：
