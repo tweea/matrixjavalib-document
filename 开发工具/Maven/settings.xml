@@ -172,7 +172,7 @@ under the License.
       <id>nexus</id>
       <mirrorOf>*</mirrorOf>
       <name>Mirror</name>
-      <url>https://nexus.greatsoft.net/repository/public/</url>
+      <url>url</url>
     </mirror>
   </mirrors>
 
