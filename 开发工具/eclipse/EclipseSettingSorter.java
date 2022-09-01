@@ -21,7 +21,7 @@ public class EclipseSettingSorter {
         List<String> endLines = new ArrayList<>();
         List<String> settingLines = new ArrayList<>();
         for (String line : inputLines) {
-            if (line.startsWith("<setting")) {
+            if (line.trim().startsWith("<setting")) {
                 settingLines.add(line);
             } else if (settingLines.isEmpty()) {
                 startLines.add(line);
