@@ -1,0 +1,68 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<profile>
+    <name>Matrix</name>
+    <language>docker</language>
+    <rules>
+        <rule>
+            <repositoryKey>docker</repositoryKey>
+            <key>S2260</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>docker</repositoryKey>
+            <key>S5332</key>
+            <type>SECURITY_HOTSPOT</type>
+            <priority>CRITICAL</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>docker</repositoryKey>
+            <key>S6469</key>
+            <type>VULNERABILITY</type>
+            <priority>CRITICAL</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>docker</repositoryKey>
+            <key>S6470</key>
+            <type>SECURITY_HOTSPOT</type>
+            <priority>CRITICAL</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>docker</repositoryKey>
+            <key>S6471</key>
+            <type>SECURITY_HOTSPOT</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>docker</repositoryKey>
+            <key>S6472</key>
+            <type>SECURITY_HOTSPOT</type>
+            <priority>BLOCKER</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>docker</repositoryKey>
+            <key>S6473</key>
+            <type>SECURITY_HOTSPOT</type>
+            <priority>CRITICAL</priority>
+            <parameters>
+                <parameter>
+                    <key>ports</key>
+                    <value>22, 23, 3389, 5800, 5900</value>
+                </parameter>
+            </parameters>
+        </rule>
+        <rule>
+            <repositoryKey>docker</repositoryKey>
+            <key>S6476</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+    </rules>
+</profile>

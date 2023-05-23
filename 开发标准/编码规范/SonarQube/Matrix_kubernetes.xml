@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<profile>
+    <name>Matrix</name>
+    <language>kubernetes</language>
+    <rules>
+        <rule>
+            <repositoryKey>kubernetes</repositoryKey>
+            <key>S2260</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>kubernetes</repositoryKey>
+            <key>S5849</key>
+            <type>SECURITY_HOTSPOT</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>kubernetes</repositoryKey>
+            <key>S6428</key>
+            <type>SECURITY_HOTSPOT</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>kubernetes</repositoryKey>
+            <key>S6429</key>
+            <type>SECURITY_HOTSPOT</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>kubernetes</repositoryKey>
+            <key>S6430</key>
+            <type>SECURITY_HOTSPOT</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>kubernetes</repositoryKey>
+            <key>S6431</key>
+            <type>SECURITY_HOTSPOT</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>kubernetes</repositoryKey>
+            <key>S6433</key>
+            <type>SECURITY_HOTSPOT</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+    </rules>
+</profile>

@@ -1,0 +1,2580 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<profile>
+    <name>Matrix</name>
+    <language>grvy</language>
+    <rules>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.basic.AssertWithinFinallyBlockRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.basic.AssignmentInConditionalRule</key>
+            <type>BUG</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.basic.BigDecimalInstantiationRule</key>
+            <type>BUG</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.basic.BitwiseOperatorInConditionalRule</key>
+            <type>BUG</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.basic.BooleanGetBooleanRule</key>
+            <type>BUG</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.basic.BrokenNullCheckRule</key>
+            <type>BUG</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.basic.BrokenOddnessCheckRule</key>
+            <type>BUG</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.basic.ComparisonOfTwoConstantsRule</key>
+            <type>BUG</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.basic.ComparisonWithSelfRule</key>
+            <type>BUG</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.basic.ConstantAssertExpressionRule</key>
+            <type>BUG</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.basic.ConstantIfExpressionRule</key>
+            <type>BUG</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.basic.ConstantTernaryExpressionRule</key>
+            <type>BUG</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.basic.DeadCodeRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.basic.DoubleNegativeRule</key>
+            <type>BUG</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.basic.DuplicateCaseStatementRule</key>
+            <type>BUG</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.basic.DuplicateMapKeyRule</key>
+            <type>BUG</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.basic.DuplicateSetValueRule</key>
+            <type>BUG</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.basic.EmptyCatchBlockRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters>
+                <parameter>
+                    <key>ignoreRegex</key>
+                    <value>'ignore|ignored'</value>
+                </parameter>
+            </parameters>
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.basic.EmptyClassRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.basic.EmptyElseBlockRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.basic.EmptyFinallyBlockRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.basic.EmptyForStatementRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.basic.EmptyIfStatementRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.basic.EmptyInstanceInitializerRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.basic.EmptyMethodRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.basic.EmptyStaticInitializerRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.basic.EmptySwitchStatementRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.basic.EmptySynchronizedStatementRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.basic.EmptyTryBlockRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.basic.EmptyWhileStatementRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.basic.EqualsAndHashCodeRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.basic.EqualsOverloadedRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.basic.ExplicitGarbageCollectionRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.basic.ForLoopShouldBeWhileLoopRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.basic.HardCodedWindowsFileSeparatorRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.basic.HardCodedWindowsRootDirectoryRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.basic.IntegerGetIntegerRule</key>
+            <type>BUG</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.basic.MultipleUnaryOperatorsRule</key>
+            <type>BUG</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.basic.RandomDoubleCoercedToZeroRule</key>
+            <type>BUG</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.basic.RemoveAllOnSelfRule</key>
+            <type>BUG</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.basic.ReturnFromFinallyBlockRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.basic.ThrowExceptionFromFinallyBlockRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.braces.ElseBlockBracesRule</key>
+            <type>BUG</type>
+            <priority>MINOR</priority>
+            <parameters>
+                <parameter>
+                    <key>bracesRequiredForElseIf</key>
+                    <value>true</value>
+                </parameter>
+            </parameters>
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.braces.ForStatementBracesRule</key>
+            <type>BUG</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.braces.IfStatementBracesRule</key>
+            <type>BUG</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.braces.WhileStatementBracesRule</key>
+            <type>BUG</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.comments.JavadocConsecutiveEmptyLinesRule</key>
+            <type>BUG</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.comments.JavadocEmptyAuthorTagRule</key>
+            <type>BUG</type>
+            <priority>MAJOR</priority>
+            <parameters>
+                <parameter>
+                    <key>allowMultiline</key>
+                    <value>true</value>
+                </parameter>
+            </parameters>
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.comments.JavadocEmptyExceptionTagRule</key>
+            <type>BUG</type>
+            <priority>MAJOR</priority>
+            <parameters>
+                <parameter>
+                    <key>allowMultiline</key>
+                    <value>true</value>
+                </parameter>
+            </parameters>
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.comments.JavadocEmptyFirstLineRule</key>
+            <type>BUG</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.comments.JavadocEmptyLastLineRule</key>
+            <type>BUG</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.comments.JavadocEmptyParamTagRule</key>
+            <type>BUG</type>
+            <priority>MAJOR</priority>
+            <parameters>
+                <parameter>
+                    <key>allowMultiline</key>
+                    <value>true</value>
+                </parameter>
+            </parameters>
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.comments.JavadocEmptyReturnTagRule</key>
+            <type>BUG</type>
+            <priority>MAJOR</priority>
+            <parameters>
+                <parameter>
+                    <key>allowMultiline</key>
+                    <value>true</value>
+                </parameter>
+            </parameters>
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.comments.JavadocEmptySeeTagRule</key>
+            <type>BUG</type>
+            <priority>MAJOR</priority>
+            <parameters>
+                <parameter>
+                    <key>allowMultiline</key>
+                    <value>true</value>
+                </parameter>
+            </parameters>
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.comments.JavadocEmptySinceTagRule</key>
+            <type>BUG</type>
+            <priority>MAJOR</priority>
+            <parameters>
+                <parameter>
+                    <key>allowMultiline</key>
+                    <value>true</value>
+                </parameter>
+            </parameters>
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.comments.JavadocEmptyThrowsTagRule</key>
+            <type>BUG</type>
+            <priority>MAJOR</priority>
+            <parameters>
+                <parameter>
+                    <key>allowMultiline</key>
+                    <value>true</value>
+                </parameter>
+            </parameters>
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.comments.JavadocEmptyVersionTagRule</key>
+            <type>BUG</type>
+            <priority>MAJOR</priority>
+            <parameters>
+                <parameter>
+                    <key>allowMultiline</key>
+                    <value>true</value>
+                </parameter>
+            </parameters>
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.comments.JavadocMissingExceptionDescriptionRule</key>
+            <type>BUG</type>
+            <priority>MAJOR</priority>
+            <parameters>
+                <parameter>
+                    <key>allowMultiline</key>
+                    <value>true</value>
+                </parameter>
+            </parameters>
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.comments.JavadocMissingParamDescriptionRule</key>
+            <type>BUG</type>
+            <priority>MAJOR</priority>
+            <parameters>
+                <parameter>
+                    <key>allowMultiline</key>
+                    <value>true</value>
+                </parameter>
+            </parameters>
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.comments.JavadocMissingThrowsDescriptionRule</key>
+            <type>BUG</type>
+            <priority>MAJOR</priority>
+            <parameters>
+                <parameter>
+                    <key>allowMultiline</key>
+                    <value>true</value>
+                </parameter>
+            </parameters>
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.concurrency.BusyWaitRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.concurrency.DoubleCheckedLockingRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.concurrency.InconsistentPropertyLockingRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.concurrency.InconsistentPropertySynchronizationRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.concurrency.NestedSynchronizationRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.concurrency.StaticCalendarFieldRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.concurrency.StaticConnectionRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.concurrency.StaticDateFormatFieldRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.concurrency.StaticMatcherFieldRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.concurrency.StaticSimpleDateFormatFieldRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.concurrency.SynchronizedMethodRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.concurrency.SynchronizedOnBoxedPrimitiveRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.concurrency.SynchronizedOnGetClassRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.concurrency.SynchronizedOnReentrantLockRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.concurrency.SynchronizedOnStringRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.concurrency.SynchronizedOnThisRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.concurrency.SynchronizedReadObjectMethodRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.concurrency.SystemRunFinalizersOnExitRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.concurrency.ThisReferenceEscapesConstructorRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.concurrency.ThreadGroupRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.concurrency.ThreadLocalNotStaticFinalRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.concurrency.ThreadYieldRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.concurrency.UseOfNotifyMethodRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.concurrency.VolatileArrayFieldRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.concurrency.VolatileLongOrDoubleFieldRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.concurrency.WaitOutsideOfWhileLoopRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.convention.ConfusingTernaryRule</key>
+            <type>BUG</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.convention.CouldBeElvisRule</key>
+            <type>BUG</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.convention.CouldBeSwitchStatementRule</key>
+            <type>BUG</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.convention.HashtableIsObsoleteRule</key>
+            <type>BUG</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.convention.ImplicitClosureParameterRule</key>
+            <type>BUG</type>
+            <priority>MAJOR</priority>
+            <parameters>
+                <parameter>
+                    <key>allowUsingItAsParameterName</key>
+                    <value>false</value>
+                </parameter>
+            </parameters>
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.convention.InvertedConditionRule</key>
+            <type>BUG</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.convention.InvertedIfElseRule</key>
+            <type>BUG</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.convention.LongLiteralWithLowerCaseLRule</key>
+            <type>BUG</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.convention.NoJavaUtilDateRule</key>
+            <type>BUG</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.convention.NoTabCharacterRule</key>
+            <type>BUG</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.convention.TernaryCouldBeElvisRule</key>
+            <type>BUG</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.convention.VectorIsObsoleteRule</key>
+            <type>BUG</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.design.AbstractClassWithPublicConstructorRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.design.AssignmentToStaticFieldFromInstanceMethodRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.design.CloneWithoutCloneableRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.design.CloneableWithoutCloneRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.design.ConstantsOnlyInterfaceRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.design.FinalClassWithProtectedMemberRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.design.ImplementationAsTypeRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.design.LocaleSetDefaultRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.design.PublicInstanceFieldRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.design.ReturnsNullInsteadOfEmptyArrayRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.design.ReturnsNullInsteadOfEmptyCollectionRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.design.SimpleDateFormatMissingLocaleRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.design.StatelessSingletonRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.design.ToStringReturnsNullRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.enhanced.MissingOverrideAnnotationRule</key>
+            <type>BUG</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.exceptions.CatchArrayIndexOutOfBoundsExceptionRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.exceptions.CatchErrorRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.exceptions.CatchExceptionRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.exceptions.CatchIllegalMonitorStateExceptionRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.exceptions.CatchIndexOutOfBoundsExceptionRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.exceptions.CatchNullPointerExceptionRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.exceptions.CatchThrowableRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.exceptions.ConfusingClassNamedExceptionRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.exceptions.ExceptionExtendsErrorRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.exceptions.ExceptionExtendsThrowableRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.exceptions.ExceptionNotThrownRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.exceptions.MissingNewInThrowStatementRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.exceptions.ReturnNullFromCatchBlockRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.exceptions.SwallowThreadDeathRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.exceptions.ThrowErrorRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.exceptions.ThrowExceptionRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.exceptions.ThrowNullPointerExceptionRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.exceptions.ThrowRuntimeExceptionRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.exceptions.ThrowThrowableRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.formatting.BlankLineBeforePackageRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.formatting.BlockEndsWithBlankLineRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.formatting.BlockStartsWithBlankLineRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.formatting.BracesForClassRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters>
+                <parameter>
+                    <key>sameLine</key>
+                    <value>true</value>
+                </parameter>
+            </parameters>
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.formatting.BracesForForLoopRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters>
+                <parameter>
+                    <key>sameLine</key>
+                    <value>true</value>
+                </parameter>
+            </parameters>
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.formatting.BracesForIfElseRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters>
+                <parameter>
+                    <key>elseOnSameLineAsClosingBrace</key>
+                    <value>true</value>
+                </parameter>
+                <parameter>
+                    <key>elseOnSameLineAsOpeningBrace</key>
+                    <value>true</value>
+                </parameter>
+                <parameter>
+                    <key>sameLine</key>
+                    <value>true</value>
+                </parameter>
+                <parameter>
+                    <key>validateElse</key>
+                    <value>true</value>
+                </parameter>
+            </parameters>
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.formatting.BracesForMethodRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters>
+                <parameter>
+                    <key>sameLine</key>
+                    <value>true</value>
+                </parameter>
+            </parameters>
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.formatting.BracesForTryCatchFinallyRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters>
+                <parameter>
+                    <key>sameLine</key>
+                    <value>true</value>
+                </parameter>
+            </parameters>
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.formatting.ClassEndsWithBlankLineRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters>
+                <parameter>
+                    <key>blankLineRequired</key>
+                    <value>false</value>
+                </parameter>
+                <parameter>
+                    <key>ignoreInnerClasses</key>
+                    <value>false</value>
+                </parameter>
+                <parameter>
+                    <key>ignoreSingleLineClasses</key>
+                    <value>false</value>
+                </parameter>
+            </parameters>
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.formatting.ClassStartsWithBlankLineRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters>
+                <parameter>
+                    <key>blankLineRequired</key>
+                    <value>false</value>
+                </parameter>
+                <parameter>
+                    <key>ignoreInnerClasses</key>
+                    <value>false</value>
+                </parameter>
+                <parameter>
+                    <key>ignoreSingleLineClasses</key>
+                    <value>false</value>
+                </parameter>
+            </parameters>
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.formatting.ClosureStatementOnOpeningLineOfMultipleLineClosureRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.formatting.ConsecutiveBlankLinesRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.formatting.FileEndsWithoutNewlineRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.formatting.IndentationRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters>
+                <parameter>
+                    <key>spacesPerIndentLevel</key>
+                    <value>4</value>
+                </parameter>
+            </parameters>
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.formatting.MissingBlankLineAfterImportsRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.formatting.MissingBlankLineAfterPackageRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.formatting.SpaceAfterCatchRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.formatting.SpaceAfterClosingBraceRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters>
+                <parameter>
+                    <key>checkClosureMapEntryValue</key>
+                    <value>true</value>
+                </parameter>
+            </parameters>
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.formatting.SpaceAfterCommaRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.formatting.SpaceAfterForRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.formatting.SpaceAfterIfRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.formatting.SpaceAfterOpeningBraceRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters>
+                <parameter>
+                    <key>checkClosureMapEntryValue</key>
+                    <value>true</value>
+                </parameter>
+                <parameter>
+                    <key>ignoreEmptyBlock</key>
+                    <value>false</value>
+                </parameter>
+            </parameters>
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.formatting.SpaceAfterSemicolonRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.formatting.SpaceAfterSwitchRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.formatting.SpaceAfterWhileRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.formatting.SpaceAroundClosureArrowRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.formatting.SpaceAroundMapEntryColonRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters>
+                <parameter>
+                    <key>characterAfterColonRegex</key>
+                    <value>/\S/ (i.e., no space allowed after the colon)</value>
+                </parameter>
+                <parameter>
+                    <key>characterBeforeColonRegex</key>
+                    <value>/\S/ (i.e., no space allowed before the colon)</value>
+                </parameter>
+            </parameters>
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.formatting.SpaceAroundOperatorRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters>
+                <parameter>
+                    <key>ignoreParameterDefaultValueAssignments</key>
+                    <value>false</value>
+                </parameter>
+            </parameters>
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.formatting.SpaceBeforeClosingBraceRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters>
+                <parameter>
+                    <key>checkClosureMapEntryValue</key>
+                    <value>true</value>
+                </parameter>
+                <parameter>
+                    <key>ignoreEmptyBlock</key>
+                    <value>false</value>
+                </parameter>
+            </parameters>
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.formatting.SpaceBeforeOpeningBraceRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters>
+                <parameter>
+                    <key>checkClosureMapEntryValue</key>
+                    <value>true</value>
+                </parameter>
+            </parameters>
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.formatting.TrailingWhitespaceRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.generic.RequiredRegexRule.fixed</key>
+            <type>BUG</type>
+            <priority>MAJOR</priority>
+            <parameters>
+                <parameter>
+                    <key>regex</key>
+                    <value>/\*\r?\n \* 版权所有 \d{4}(-\d{4})? Matrix。\r?\n \* 保留所有权利。\r?\n \*/</value>
+                </parameter>
+            </parameters>
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.grails.GrailsDomainGormMethodsRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.grails.GrailsDomainHasEqualsRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.grails.GrailsDomainHasToStringRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.grails.GrailsDomainReservedSqlKeywordNameRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters>
+                <parameter>
+                    <key>additionalHibernateBasicTypes</key>
+                    <value>''</value>
+                </parameter>
+                <parameter>
+                    <key>additionalReservedSqlKeywords</key>
+                    <value>''</value>
+                </parameter>
+            </parameters>
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.grails.GrailsDomainStringPropertyMaxSizeRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.grails.GrailsDomainWithServiceReferenceRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.grails.GrailsDuplicateConstraintRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.grails.GrailsDuplicateMappingRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.grails.GrailsMassAssignmentRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.grails.GrailsPublicControllerMethodRule.fixed</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.grails.GrailsServletContextReferenceRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.grails.GrailsStatelessServiceRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters>
+                <parameter>
+                    <key>ignoreFieldNames</key>
+                    <value>'dataSource,scope,sessionFactory,transactional,*Service'</value>
+                </parameter>
+            </parameters>
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.groovyism.AssignCollectionSortRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.groovyism.AssignCollectionUniqueRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.groovyism.ClosureAsLastMethodParameterRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.groovyism.CollectAllIsDeprecatedRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.groovyism.ConfusingMultipleReturnsRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.groovyism.ExplicitArrayListInstantiationRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.groovyism.ExplicitCallToAndMethodRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.groovyism.ExplicitCallToCompareToMethodRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.groovyism.ExplicitCallToDivMethodRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.groovyism.ExplicitCallToEqualsMethodRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.groovyism.ExplicitCallToGetAtMethodRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.groovyism.ExplicitCallToLeftShiftMethodRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.groovyism.ExplicitCallToMinusMethodRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.groovyism.ExplicitCallToModMethodRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.groovyism.ExplicitCallToMultiplyMethodRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.groovyism.ExplicitCallToOrMethodRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.groovyism.ExplicitCallToPlusMethodRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.groovyism.ExplicitCallToPowerMethodRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.groovyism.ExplicitCallToPutAtMethodRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.groovyism.ExplicitCallToRightShiftMethodRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.groovyism.ExplicitCallToXorMethodRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.groovyism.ExplicitHashMapInstantiationRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.groovyism.ExplicitHashSetInstantiationRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.groovyism.ExplicitLinkedHashMapInstantiationRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.groovyism.ExplicitLinkedListInstantiationRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.groovyism.ExplicitStackInstantiationRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.groovyism.ExplicitTreeSetInstantiationRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.groovyism.GStringAsMapKeyRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.groovyism.GStringExpressionWithinStringRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.groovyism.GetterMethodCouldBePropertyRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters>
+                <parameter>
+                    <key>ignoreMethodsWithOverrideAnnotation</key>
+                    <value>true</value>
+                </parameter>
+            </parameters>
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.groovyism.GroovyLangImmutableRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.groovyism.UseCollectManyRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.groovyism.UseCollectNestedRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.imports.DuplicateImportRule</key>
+            <type>BUG</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.imports.ImportFromSamePackageRule</key>
+            <type>BUG</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.imports.ImportFromSunPackagesRule</key>
+            <type>BUG</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.imports.MisorderedStaticImportsRule</key>
+            <type>BUG</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.imports.NoWildcardImportsRule</key>
+            <type>BUG</type>
+            <priority>MAJOR</priority>
+            <parameters>
+                <parameter>
+                    <key>ignoreImports</key>
+                    <value>false</value>
+                </parameter>
+                <parameter>
+                    <key>ignoreStaticImports</key>
+                    <value>false</value>
+                </parameter>
+            </parameters>
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.imports.UnnecessaryGroovyImportRule</key>
+            <type>BUG</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.imports.UnusedImportRule</key>
+            <type>BUG</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.jdbc.DirectConnectionManagementRule</key>
+            <type>BUG</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.junit.ChainedTestRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.junit.CoupledTestCaseRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.junit.JUnitAssertAlwaysFailsRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.junit.JUnitAssertAlwaysSucceedsRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.junit.JUnitAssertEqualsConstantActualValueRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.junit.JUnitLostTestRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.junit.JUnitPublicFieldRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.junit.JUnitPublicNonTestMethodRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters>
+                <parameter>
+                    <key>ignoreMethodsWithAnnotations</key>
+                    <value>After,AfterAll,AfterClass, AfterEach,Before,BeforeAll, BeforeClass,BeforeEach, Disabled,Ignore, Override,Test</value>
+                </parameter>
+            </parameters>
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.junit.JUnitPublicPropertyRule.fixed</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.junit.JUnitSetUpCallsSuperRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.junit.JUnitTearDownCallsSuperRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.junit.JUnitUnnecessarySetUpRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.junit.JUnitUnnecessaryTearDownRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.junit.JUnitUnnecessaryThrowsExceptionRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.junit.UnnecessaryFailRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.junit.UseAssertEqualsInsteadOfAssertTrueRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.junit.UseAssertFalseInsteadOfNegationRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.junit.UseAssertNullInsteadOfAssertEqualsRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.junit.UseAssertSameInsteadOfAssertTrueRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.junit.UseAssertTrueInsteadOfAssertEqualsRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters>
+                <parameter>
+                    <key>checkAssertStatements</key>
+                    <value>false</value>
+                </parameter>
+            </parameters>
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.junit.UseAssertTrueInsteadOfNegationRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.logging.LoggerForDifferentClassRule</key>
+            <type>BUG</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.logging.LoggerWithWrongModifiersRule</key>
+            <type>BUG</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.logging.LoggingSwallowsStacktraceRule</key>
+            <type>BUG</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.logging.MultipleLoggersRule</key>
+            <type>BUG</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.logging.PrintStackTraceRule</key>
+            <type>BUG</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.logging.PrintlnRule</key>
+            <type>BUG</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.logging.SystemErrPrintRule</key>
+            <type>BUG</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.logging.SystemOutPrintRule</key>
+            <type>BUG</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.naming.ClassNameRule</key>
+            <type>BUG</type>
+            <priority>MINOR</priority>
+            <parameters>
+                <parameter>
+                    <key>regex</key>
+                    <value>([A-Z]\w*\$?)*</value>
+                </parameter>
+            </parameters>
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.naming.ClassNameSameAsFilenameRule</key>
+            <type>BUG</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.naming.ClassNameSameAsSuperclassRule</key>
+            <type>BUG</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.naming.ConfusingMethodNameRule</key>
+            <type>BUG</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.naming.FieldNameRule.fixed</key>
+            <type>BUG</type>
+            <priority>MINOR</priority>
+            <parameters>
+                <parameter>
+                    <key>ignoreFieldNames</key>
+                    <value>serialVersionUID</value>
+                </parameter>
+                <parameter>
+                    <key>regex</key>
+                    <value>[a-z\u4E00-\u9FA5][a-zA-Z0-9\u4E00-\u9FA5]*</value>
+                </parameter>
+                <parameter>
+                    <key>staticFinalRegex</key>
+                    <value>[A-Z\u4E00-\u9FA5][A-Z0-9_\u4E00-\u9FA5]*</value>
+                </parameter>
+            </parameters>
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.naming.InterfaceNameSameAsSuperInterfaceRule</key>
+            <type>BUG</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.naming.MethodNameRule.fixed</key>
+            <type>BUG</type>
+            <priority>MINOR</priority>
+            <parameters>
+                <parameter>
+                    <key>regex</key>
+                    <value>[a-z\u4E00-\u9FA5][a-zA-Z0-9\u4E00-\u9FA5]*</value>
+                </parameter>
+            </parameters>
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.naming.ObjectOverrideMisspelledMethodNameRule</key>
+            <type>BUG</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.naming.PackageNameMatchesFilePathRule.fixed</key>
+            <type>BUG</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.naming.PackageNameRule</key>
+            <type>BUG</type>
+            <priority>MINOR</priority>
+            <parameters>
+                <parameter>
+                    <key>packageNameRequired</key>
+                    <value>false</value>
+                </parameter>
+                <parameter>
+                    <key>regex</key>
+                    <value>[a-z]+[a-z0-9]*(\.[a-z0-9]+)*</value>
+                </parameter>
+            </parameters>
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.naming.ParameterNameRule.fixed</key>
+            <type>BUG</type>
+            <priority>MINOR</priority>
+            <parameters>
+                <parameter>
+                    <key>regex</key>
+                    <value>[a-z\u4E00-\u9FA5][a-zA-Z0-9\u4E00-\u9FA5]*</value>
+                </parameter>
+            </parameters>
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.naming.PropertyNameRule.fixed</key>
+            <type>BUG</type>
+            <priority>MINOR</priority>
+            <parameters>
+                <parameter>
+                    <key>regex</key>
+                    <value>[a-z\u4E00-\u9FA5][a-zA-Z0-9\u4E00-\u9FA5]*</value>
+                </parameter>
+                <parameter>
+                    <key>staticFinalRegex</key>
+                    <value>[A-Z\u4E00-\u9FA5][A-Z0-9_\u4E00-\u9FA5]*</value>
+                </parameter>
+            </parameters>
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.naming.VariableNameRule.fixed</key>
+            <type>BUG</type>
+            <priority>MINOR</priority>
+            <parameters>
+                <parameter>
+                    <key>finalRegex</key>
+                    <value>[A-Z\u4E00-\u9FA5][A-Z0-9_\u4E00-\u9FA5]*</value>
+                </parameter>
+                <parameter>
+                    <key>regex</key>
+                    <value>[a-z\u4E00-\u9FA5][a-zA-Z0-9\u4E00-\u9FA5]*</value>
+                </parameter>
+            </parameters>
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.security.InsecureRandomRule</key>
+            <type>BUG</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.security.NonFinalPublicFieldRule</key>
+            <type>BUG</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.security.NonFinalSubclassOfSensitiveInterfaceRule</key>
+            <type>BUG</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.security.ObjectFinalizeRule</key>
+            <type>BUG</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.security.PublicFinalizeMethodRule</key>
+            <type>BUG</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.security.SystemExitRule</key>
+            <type>BUG</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.security.UnsafeImplementationAsMapRule</key>
+            <type>BUG</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.serialization.EnumCustomSerializationIgnoredRule</key>
+            <type>BUG</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.serialization.SerialPersistentFieldsRule</key>
+            <type>BUG</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.serialization.SerialVersionUIDRule</key>
+            <type>BUG</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.serialization.SerializableClassMustDefineSerialVersionUIDRule</key>
+            <type>BUG</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.unnecessary.AddEmptyStringRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.unnecessary.ConsecutiveLiteralAppendsRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.unnecessary.ConsecutiveStringConcatenationRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.unnecessary.UnnecessaryBigDecimalInstantiationRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.unnecessary.UnnecessaryBigIntegerInstantiationRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.unnecessary.UnnecessaryBooleanExpressionRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.unnecessary.UnnecessaryBooleanInstantiationRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.unnecessary.UnnecessaryCallForLastElementRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.unnecessary.UnnecessaryCallToSubstringRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.unnecessary.UnnecessaryCastRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.unnecessary.UnnecessaryCatchBlockRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.unnecessary.UnnecessaryCollectCallRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.unnecessary.UnnecessaryCollectionCallRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.unnecessary.UnnecessaryConstructorRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters>
+                <parameter>
+                    <key>ignoreAnnotations</key>
+                    <value>false</value>
+                </parameter>
+            </parameters>
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.unnecessary.UnnecessaryDefInFieldDeclarationRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.unnecessary.UnnecessaryDefInMethodDeclarationRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.unnecessary.UnnecessaryDefInVariableDeclarationRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.unnecessary.UnnecessaryDotClassRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.unnecessary.UnnecessaryDoubleInstantiationRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.unnecessary.UnnecessaryElseStatementRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.unnecessary.UnnecessaryFinalOnPrivateMethodRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.unnecessary.UnnecessaryFloatInstantiationRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.unnecessary.UnnecessaryGStringRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.unnecessary.UnnecessaryGetterRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters>
+                <parameter>
+                    <key>checkIsMethods</key>
+                    <value>true</value>
+                </parameter>
+            </parameters>
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.unnecessary.UnnecessaryIfStatementRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.unnecessary.UnnecessaryInstanceOfCheckRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.unnecessary.UnnecessaryInstantiationToGetClassRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.unnecessary.UnnecessaryIntegerInstantiationRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.unnecessary.UnnecessaryLongInstantiationRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.unnecessary.UnnecessaryModOneRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.unnecessary.UnnecessaryNullCheckBeforeInstanceOfRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.unnecessary.UnnecessaryNullCheckRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.unnecessary.UnnecessaryOverridingMethodRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.unnecessary.UnnecessaryPackageReferenceRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.unnecessary.UnnecessaryParenthesesForMethodCallWithClosureRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.unnecessary.UnnecessaryPublicModifierRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.unnecessary.UnnecessaryReturnKeywordRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.unnecessary.UnnecessarySafeNavigationOperatorRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.unnecessary.UnnecessarySelfAssignmentRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.unnecessary.UnnecessarySemicolonRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.unnecessary.UnnecessarySetterRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.unnecessary.UnnecessaryStringInstantiationRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.unnecessary.UnnecessarySubstringRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.unnecessary.UnnecessaryTernaryExpressionRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.unnecessary.UnnecessaryToStringRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters>
+                <parameter>
+                    <key>checkAssignments</key>
+                    <value>true</value>
+                </parameter>
+            </parameters>
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.unnecessary.UnnecessaryTransientModifierRule</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.unused.UnusedArrayRule</key>
+            <type>BUG</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.unused.UnusedMethodParameterRule</key>
+            <type>BUG</type>
+            <priority>MINOR</priority>
+            <parameters>
+                <parameter>
+                    <key>ignoreClassRegex</key>
+                    <value>'.*Category'</value>
+                </parameter>
+                <parameter>
+                    <key>ignoreRegex</key>
+                    <value>'ignore|ignored'</value>
+                </parameter>
+            </parameters>
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.unused.UnusedObjectRule</key>
+            <type>BUG</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.unused.UnusedPrivateFieldRule</key>
+            <type>BUG</type>
+            <priority>MINOR</priority>
+            <parameters>
+                <parameter>
+                    <key>ignoreFieldNames</key>
+                    <value>serialVersionUID</value>
+                </parameter>
+            </parameters>
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.unused.UnusedPrivateMethodParameterRule</key>
+            <type>BUG</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.unused.UnusedPrivateMethodRule</key>
+            <type>BUG</type>
+            <priority>MINOR</priority>
+            <parameters>
+                <parameter>
+                    <key>ignoreMethodsWithAnnotationNames</key>
+                    <value>''</value>
+                </parameter>
+            </parameters>
+        </rule>
+        <rule>
+            <repositoryKey>grvy</repositoryKey>
+            <key>org.codenarc.rule.unused.UnusedVariableRule.fixed</key>
+            <type>BUG</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+    </rules>
+</profile>

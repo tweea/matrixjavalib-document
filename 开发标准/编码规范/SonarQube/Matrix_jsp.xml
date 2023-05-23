@@ -1,0 +1,49 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<profile>
+    <name>Matrix</name>
+    <language>jsp</language>
+    <rules>
+        <rule>
+            <repositoryKey>findsecbugs-jsp</repositoryKey>
+            <key>JSP_INCLUDE</key>
+            <type>VULNERABILITY</type>
+            <priority>CRITICAL</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>findsecbugs-jsp</repositoryKey>
+            <key>JSP_JSTL_OUT</key>
+            <type>VULNERABILITY</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>findsecbugs-jsp</repositoryKey>
+            <key>JSP_SPRING_EVAL</key>
+            <type>VULNERABILITY</type>
+            <priority>CRITICAL</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>findsecbugs-jsp</repositoryKey>
+            <key>JSP_XSLT</key>
+            <type>VULNERABILITY</type>
+            <priority>CRITICAL</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>findsecbugs-jsp</repositoryKey>
+            <key>XSS_JSP_PRINT</key>
+            <type>VULNERABILITY</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>findsecbugs-jsp</repositoryKey>
+            <key>XSS_REQUEST_PARAMETER_TO_JSP_WRITER</key>
+            <type>VULNERABILITY</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+    </rules>
+</profile>

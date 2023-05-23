@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<profile>
+    <name>Matrix</name>
+    <language>rust</language>
+    <rules>
+        <rule>
+            <repositoryKey>community-rust</repositoryKey>
+            <key>EmptyEnum</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+    </rules>
+</profile>
