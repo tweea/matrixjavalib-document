@@ -1,14 +1,16 @@
 >>TODO<<
-springside Commit:8950746bb53ce209b4cb5d2d1706712e9c6a0efc 2018/08/07 17:51:46
-https://github.com/springside/springside4/wiki
-https://oss.sonatype.org
+Maven 中心仓库
+	https://oss.sonatype.org
+springside
+	https://github.com/springside/springside4/wiki
+	Commit: 8950746bb53ce209b4cb5d2d1706712e9c6a0efc 2018/08/07 17:51:46
 ------ next ------
 文档、异常、测试、规则、兼容性、提升
 ------ next ------
 common
 	PropertiesConfigurationContainer
 应用支持（app-support）
-	Guice or CDI
+	CDI
 数据库（db）
 	unitils、flyway
 	测试事务性
@@ -23,8 +25,6 @@ common
 	Mock
 规则
 	整理开发规范
-依赖
-	OSGi
 发展计划
 	如何扩展
 	发现新需求
