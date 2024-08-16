@@ -1,15 +1,12 @@
 >>TODO<<
 Maven 中心仓库
 	https://oss.sonatype.org
-springside
-	https://github.com/springside/springside4/wiki
-	Commit: 8950746bb53ce209b4cb5d2d1706712e9c6a0efc 2018/08/07 17:51:46
 ------ next ------
 文档、异常、测试、规则、兼容性、提升
 ------ next ------
 common
 	数据类型转换
-		Object Map
+		Object Map.get System.getProperty
 	数据访问表达式
 应用支持（app-support）
 	CDI
