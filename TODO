@@ -4,14 +4,14 @@ Maven 中心仓库
 ------ next ------
 文档、异常、测试、规则、兼容性、提升
 ------ next ------
+同步 vjtools 功能
 common
 	数据类型转换
 		Object Map.get System.getProperty
 	数据访问表达式
 应用支持（app-support）
 	CDI
-数据库（db）
-	unitils、flyway
+数据库（database）
 	测试事务性
 测试
 	单元测试
