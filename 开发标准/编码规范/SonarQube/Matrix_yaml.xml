@@ -5,6 +5,26 @@
     <rules>
         <rule>
             <repositoryKey>yaml</repositoryKey>
+            <key>AnchorsCheck</key>
+            <type>BUG</type>
+            <priority>MAJOR</priority>
+            <parameters>
+                <parameter>
+                    <key>forbid-unused-anchors</key>
+                    <value>false</value>
+                </parameter>
+                <parameter>
+                    <key>forbid-undeclared-aliases</key>
+                    <value>true</value>
+                </parameter>
+                <parameter>
+                    <key>forbid-duplicated-anchors</key>
+                    <value>false</value>
+                </parameter>
+            </parameters>
+        </rule>
+        <rule>
+            <repositoryKey>yaml</repositoryKey>
             <key>BracesCheck</key>
             <type>CODE_SMELL</type>
             <priority>INFO</priority>
@@ -177,6 +197,10 @@
                     <value>true</value>
                 </parameter>
                 <parameter>
+                    <key>forbid-in-block-sequences</key>
+                    <value>true</value>
+                </parameter>
+                <parameter>
                     <key>forbid-in-flow-mappings</key>
                     <value>true</value>
                 </parameter>
@@ -189,8 +213,16 @@
             <priority>MINOR</priority>
             <parameters>
                 <parameter>
+                    <key>check-scalars</key>
+                    <value>false</value>
+                </parameter>
+                <parameter>
                     <key>max-spaces-after</key>
                     <value>1</value>
+                </parameter>
+                <parameter>
+                    <key>min-spaces-after</key>
+                    <value>-1</value>
                 </parameter>
             </parameters>
         </rule>

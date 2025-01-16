@@ -4,6 +4,27 @@
     <language>js</language>
     <rules>
         <rule>
+            <repositoryKey>ecocode-javascript</repositoryKey>
+            <key>EC11</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>ecocode-javascript</repositoryKey>
+            <key>EC25</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>ecocode-javascript</repositoryKey>
+            <key>EC26</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
             <repositoryKey>javascript</repositoryKey>
             <key>S100</key>
             <type>CODE_SMELL</type>
@@ -298,6 +319,13 @@
             <key>S1529</key>
             <type>BUG</type>
             <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>javascript</repositoryKey>
+            <key>S1530</key>
+            <type>BUG</type>
+            <priority>MINOR</priority>
             <parameters />
         </rule>
         <rule>

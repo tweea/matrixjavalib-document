@@ -4,22 +4,22 @@
     <language>py</language>
     <rules>
         <rule>
-            <repositoryKey>ecocode-python</repositoryKey>
-            <key>EC69</key>
+            <repositoryKey>creedengo-python</repositoryKey>
+            <key>GCI404</key>
             <type>CODE_SMELL</type>
             <priority>MINOR</priority>
             <parameters />
         </rule>
         <rule>
-            <repositoryKey>ecocode-python</repositoryKey>
-            <key>EC7</key>
+            <repositoryKey>creedengo-python</repositoryKey>
+            <key>GCI7</key>
             <type>CODE_SMELL</type>
             <priority>MINOR</priority>
             <parameters />
         </rule>
         <rule>
-            <repositoryKey>ecocode-python</repositoryKey>
-            <key>EC74</key>
+            <repositoryKey>creedengo-python</repositoryKey>
+            <key>GCI74</key>
             <type>CODE_SMELL</type>
             <priority>MINOR</priority>
             <parameters />

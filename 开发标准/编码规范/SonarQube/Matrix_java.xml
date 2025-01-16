@@ -295,6 +295,16 @@
         </rule>
         <rule>
             <repositoryKey>checkstyle</repositoryKey>
+            <key>Hide_Utility_Class_Constructor</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <name>Hide Utility Class Constructor</name>
+            <templateKey>com.puppycrawl.tools.checkstyle.checks.design.HideUtilityClassConstructorChecktemplate</templateKey>
+            <description>详细信息见模板</description>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>checkstyle</repositoryKey>
             <key>Illegal_Catch</key>
             <type>CODE_SMELL</type>
             <priority>MINOR</priority>
@@ -459,6 +469,16 @@
             <priority>MINOR</priority>
             <name>Javadoc Content Location</name>
             <templateKey>com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocContentLocationChecktemplate</templateKey>
+            <description>详细信息见模板</description>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>checkstyle</repositoryKey>
+            <key>Javadoc_Leading_Asterisk_Align</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <name>Javadoc Leading Asterisk Align</name>
+            <templateKey>com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocLeadingAsteriskAlignChecktemplate</templateKey>
             <description>详细信息见模板</description>
             <parameters />
         </rule>
@@ -1223,6 +1243,16 @@
         </rule>
         <rule>
             <repositoryKey>checkstyle</repositoryKey>
+            <key>Unused_Local_Variable</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <name>Unused Local Variable</name>
+            <templateKey>com.puppycrawl.tools.checkstyle.checks.coding.UnusedLocalVariableChecktemplate</templateKey>
+            <description>详细信息见模板</description>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>checkstyle</repositoryKey>
             <key>Visibility_Modifier</key>
             <type>CODE_SMELL</type>
             <priority>MINOR</priority>
@@ -1324,6 +1354,13 @@
         </rule>
         <rule>
             <repositoryKey>checkstyle</repositoryKey>
+            <key>com.puppycrawl.tools.checkstyle.checks.coding.ConstructorsDeclarationGroupingCheck</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>checkstyle</repositoryKey>
             <key>com.puppycrawl.tools.checkstyle.checks.coding.CovariantEqualsCheck</key>
             <type>CODE_SMELL</type>
             <priority>MINOR</priority>
@@ -1346,6 +1383,13 @@
         <rule>
             <repositoryKey>checkstyle</repositoryKey>
             <key>com.puppycrawl.tools.checkstyle.checks.coding.InnerAssignmentCheck</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>checkstyle</repositoryKey>
+            <key>com.puppycrawl.tools.checkstyle.checks.coding.MissingNullCaseInSwitchCheck</key>
             <type>CODE_SMELL</type>
             <priority>MINOR</priority>
             <parameters />
@@ -1436,7 +1480,21 @@
         </rule>
         <rule>
             <repositoryKey>checkstyle</repositoryKey>
-            <key>com.puppycrawl.tools.checkstyle.checks.coding.UnusedLocalVariableCheck</key>
+            <key>com.puppycrawl.tools.checkstyle.checks.coding.UnusedCatchParameterShouldBeUnnamedCheck</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>checkstyle</repositoryKey>
+            <key>com.puppycrawl.tools.checkstyle.checks.coding.UnusedLambdaParameterShouldBeUnnamedCheck</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>checkstyle</repositoryKey>
+            <key>com.puppycrawl.tools.checkstyle.checks.coding.WhenShouldBeUsedCheck</key>
             <type>CODE_SMELL</type>
             <priority>MINOR</priority>
             <parameters />
@@ -1450,14 +1508,14 @@
         </rule>
         <rule>
             <repositoryKey>checkstyle</repositoryKey>
-            <key>com.puppycrawl.tools.checkstyle.checks.design.HideUtilityClassConstructorCheck</key>
+            <key>com.puppycrawl.tools.checkstyle.checks.design.OneTopLevelClassCheck</key>
             <type>CODE_SMELL</type>
             <priority>MINOR</priority>
             <parameters />
         </rule>
         <rule>
             <repositoryKey>checkstyle</repositoryKey>
-            <key>com.puppycrawl.tools.checkstyle.checks.design.OneTopLevelClassCheck</key>
+            <key>com.puppycrawl.tools.checkstyle.checks.design.SealedShouldHavePermitsListCheck</key>
             <type>CODE_SMELL</type>
             <priority>MINOR</priority>
             <parameters />
@@ -1498,71 +1556,64 @@
             <parameters />
         </rule>
         <rule>
-            <repositoryKey>ecocode-java</repositoryKey>
-            <key>EC27</key>
+            <repositoryKey>creedengo-java</repositoryKey>
+            <key>GCI27</key>
             <type>CODE_SMELL</type>
             <priority>MINOR</priority>
             <parameters />
         </rule>
         <rule>
-            <repositoryKey>ecocode-java</repositoryKey>
-            <key>EC3</key>
+            <repositoryKey>creedengo-java</repositoryKey>
+            <key>GCI3</key>
             <type>CODE_SMELL</type>
             <priority>MINOR</priority>
             <parameters />
         </rule>
         <rule>
-            <repositoryKey>ecocode-java</repositoryKey>
-            <key>EC32</key>
+            <repositoryKey>creedengo-java</repositoryKey>
+            <key>GCI32</key>
             <type>CODE_SMELL</type>
             <priority>MINOR</priority>
             <parameters />
         </rule>
         <rule>
-            <repositoryKey>ecocode-java</repositoryKey>
-            <key>EC63</key>
+            <repositoryKey>creedengo-java</repositoryKey>
+            <key>GCI67</key>
             <type>CODE_SMELL</type>
             <priority>MINOR</priority>
             <parameters />
         </rule>
         <rule>
-            <repositoryKey>ecocode-java</repositoryKey>
-            <key>EC67</key>
+            <repositoryKey>creedengo-java</repositoryKey>
+            <key>GCI69</key>
             <type>CODE_SMELL</type>
             <priority>MINOR</priority>
             <parameters />
         </rule>
         <rule>
-            <repositoryKey>ecocode-java</repositoryKey>
-            <key>EC69</key>
+            <repositoryKey>creedengo-java</repositoryKey>
+            <key>GCI74</key>
             <type>CODE_SMELL</type>
             <priority>MINOR</priority>
             <parameters />
         </rule>
         <rule>
-            <repositoryKey>ecocode-java</repositoryKey>
-            <key>EC74</key>
+            <repositoryKey>creedengo-java</repositoryKey>
+            <key>GCI77</key>
             <type>CODE_SMELL</type>
             <priority>MINOR</priority>
             <parameters />
         </rule>
         <rule>
-            <repositoryKey>ecocode-java</repositoryKey>
-            <key>EC75</key>
+            <repositoryKey>creedengo-java</repositoryKey>
+            <key>GCI79</key>
             <type>CODE_SMELL</type>
             <priority>MINOR</priority>
             <parameters />
         </rule>
         <rule>
-            <repositoryKey>ecocode-java</repositoryKey>
-            <key>EC77</key>
-            <type>CODE_SMELL</type>
-            <priority>MINOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>ecocode-java</repositoryKey>
-            <key>EC79</key>
+            <repositoryKey>creedengo-java</repositoryKey>
+            <key>GCI94</key>
             <type>CODE_SMELL</type>
             <priority>MINOR</priority>
             <parameters />
@@ -1584,6 +1635,13 @@
         <rule>
             <repositoryKey>fb-contrib</repositoryKey>
             <key>AI_ANNOTATION_ISSUES_NEEDS_NULLABLE</key>
+            <type>BUG</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>fb-contrib</repositoryKey>
+            <key>AKI_SUPERFLUOUS_ROUTE_SPECIFICATION</key>
             <type>BUG</type>
             <priority>MAJOR</priority>
             <parameters />
@@ -1863,6 +1921,13 @@
         </rule>
         <rule>
             <repositoryKey>fb-contrib</repositoryKey>
+            <key>ENMI_EQUALS_ON_ENUM</key>
+            <type>BUG</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>fb-contrib</repositoryKey>
             <key>EXS_EXCEPTION_SOFTENING_HAS_CHECKED</key>
             <type>CODE_SMELL</type>
             <priority>INFO</priority>
@@ -1892,7 +1957,7 @@
         <rule>
             <repositoryKey>fb-contrib</repositoryKey>
             <key>FII_AVOID_CONTAINS_ON_COLLECTED_STREAM</key>
-            <type>BUG</type>
+            <type>CODE_SMELL</type>
             <priority>MAJOR</priority>
             <parameters />
         </rule>
@@ -2675,6 +2740,13 @@
         </rule>
         <rule>
             <repositoryKey>fb-contrib</repositoryKey>
+            <key>OI_OPTIONAL_ISSUES_ISPRESENT_PREFERRED</key>
+            <type>BUG</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>fb-contrib</repositoryKey>
             <key>OI_OPTIONAL_ISSUES_PRIMITIVE_VARIANT_PREFERRED</key>
             <type>BUG</type>
             <priority>MAJOR</priority>
@@ -2718,6 +2790,13 @@
         <rule>
             <repositoryKey>fb-contrib</repositoryKey>
             <key>PIS_POSSIBLE_INCOMPLETE_SERIALIZATION</key>
+            <type>BUG</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>fb-contrib</repositoryKey>
+            <key>PKI_SUPERFLUOUS_ROUTE_SPECIFICATION</key>
             <type>BUG</type>
             <priority>MAJOR</priority>
             <parameters />
@@ -2976,13 +3055,6 @@
         </rule>
         <rule>
             <repositoryKey>fb-contrib</repositoryKey>
-            <key>SPP_EQUALS_ON_ENUM</key>
-            <type>BUG</type>
-            <priority>MAJOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>fb-contrib</repositoryKey>
             <key>SPP_EQUALS_ON_STRING_BUILDER</key>
             <type>BUG</type>
             <priority>MAJOR</priority>
@@ -3040,6 +3112,13 @@
         <rule>
             <repositoryKey>fb-contrib</repositoryKey>
             <key>SPP_NULL_BEFORE_INSTANCEOF</key>
+            <type>BUG</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>fb-contrib</repositoryKey>
+            <key>SPP_PASSING_THIS_AS_PARM</key>
             <type>BUG</type>
             <priority>MAJOR</priority>
             <parameters />
@@ -3508,6 +3587,13 @@
         </rule>
         <rule>
             <repositoryKey>fb-contrib</repositoryKey>
+            <key>WI_WIRING_OF_STATIC_FIELD</key>
+            <type>BUG</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>fb-contrib</repositoryKey>
             <key>WOC_WRITE_ONLY_COLLECTION_FIELD</key>
             <type>BUG</type>
             <priority>MAJOR</priority>
@@ -3522,6 +3608,13 @@
         </rule>
         <rule>
             <repositoryKey>findbugs</repositoryKey>
+            <key>AA_ASSERTION_OF_ARGUMENTS</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>findbugs</repositoryKey>
             <key>AM_CREATES_EMPTY_JAR_FILE_ENTRY</key>
             <type>CODE_SMELL</type>
             <priority>MAJOR</priority>
@@ -3531,6 +3624,20 @@
             <repositoryKey>findbugs</repositoryKey>
             <key>AM_CREATES_EMPTY_ZIP_FILE_ENTRY</key>
             <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>findbugs</repositoryKey>
+            <key>ASE_ASSERTION_WITH_SIDE_EFFECT</key>
+            <type>VULNERABILITY</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>findbugs</repositoryKey>
+            <key>ASE_ASSERTION_WITH_SIDE_EFFECT_METHOD</key>
+            <type>VULNERABILITY</type>
             <priority>MAJOR</priority>
             <parameters />
         </rule>
@@ -3922,6 +4029,13 @@
         <rule>
             <repositoryKey>findbugs</repositoryKey>
             <key>DL_SYNCHRONIZATION_ON_BOXED_PRIMITIVE</key>
+            <type>BUG</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>findbugs</repositoryKey>
+            <key>DL_SYNCHRONIZATION_ON_INTERNED_STRING</key>
             <type>BUG</type>
             <priority>MAJOR</priority>
             <parameters />
@@ -5552,9 +5666,23 @@
         </rule>
         <rule>
             <repositoryKey>findbugs</repositoryKey>
+            <key>PA_PUBLIC_PRIMITIVE_ATTRIBUTE</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>findbugs</repositoryKey>
             <key>PERM_SUPER_NOT_CALLED_IN_GETPERMISSIONS</key>
             <type>CODE_SMELL</type>
             <priority>INFO</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>findbugs</repositoryKey>
+            <key>PI_DO_NOT_REUSE_PUBLIC_IDENTIFIERS_CLASS_NAMES</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
             <parameters />
         </rule>
         <rule>
@@ -6015,6 +6143,13 @@
         <rule>
             <repositoryKey>findbugs</repositoryKey>
             <key>SE_NO_SUITABLE_CONSTRUCTOR_FOR_EXTERNALIZATION</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>findbugs</repositoryKey>
+            <key>SE_PREVENT_EXT_OBJ_OVERWRITE</key>
             <type>CODE_SMELL</type>
             <priority>MAJOR</priority>
             <parameters />
@@ -6567,6 +6702,13 @@
         </rule>
         <rule>
             <repositoryKey>findbugs</repositoryKey>
+            <key>VSC_VULNERABLE_SECURITY_CHECK_METHODS</key>
+            <type>CODE_SMELL</type>
+            <priority>INFO</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>findbugs</repositoryKey>
             <key>WA_AWAIT_NOT_IN_LOOP</key>
             <type>BUG</type>
             <priority>MAJOR</priority>
@@ -6626,6 +6768,13 @@
             <key>ANDROID_BROADCAST</key>
             <type>VULNERABILITY</type>
             <priority>INFO</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>findsecbugs</repositoryKey>
+            <key>ANDROID_EXTERNAL_FILE_ACCESS</key>
+            <type>VULNERABILITY</type>
+            <priority>MAJOR</priority>
             <parameters />
         </rule>
         <rule>
@@ -6990,6 +7139,13 @@
             <key>PLAY_UNVALIDATED_REDIRECT</key>
             <type>VULNERABILITY</type>
             <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>findsecbugs</repositoryKey>
+            <key>POTENTIAL_XML_INJECTION</key>
+            <type>VULNERABILITY</type>
+            <priority>CRITICAL</priority>
             <parameters />
         </rule>
         <rule>
@@ -7436,6 +7592,20 @@
         <rule>
             <repositoryKey>findsecbugs</repositoryKey>
             <key>XXE_SAXPARSER</key>
+            <type>VULNERABILITY</type>
+            <priority>CRITICAL</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>findsecbugs</repositoryKey>
+            <key>XXE_SCHEMA_FACTORY</key>
+            <type>VULNERABILITY</type>
+            <priority>CRITICAL</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>findsecbugs</repositoryKey>
+            <key>XXE_VALIDATOR</key>
             <type>VULNERABILITY</type>
             <priority>CRITICAL</priority>
             <parameters />
@@ -10542,6 +10712,13 @@
         </rule>
         <rule>
             <repositoryKey>java</repositoryKey>
+            <key>S5324</key>
+            <type>SECURITY_HOTSPOT</type>
+            <priority>CRITICAL</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>java</repositoryKey>
             <key>S5329</key>
             <type>CODE_SMELL</type>
             <priority>MAJOR</priority>
@@ -11257,7 +11434,21 @@
         </rule>
         <rule>
             <repositoryKey>java</repositoryKey>
+            <key>S6291</key>
+            <type>SECURITY_HOTSPOT</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>java</repositoryKey>
             <key>S6293</key>
+            <type>SECURITY_HOTSPOT</type>
+            <priority>MAJOR</priority>
+            <parameters />
+        </rule>
+        <rule>
+            <repositoryKey>java</repositoryKey>
+            <key>S6300</key>
             <type>SECURITY_HOTSPOT</type>
             <priority>MAJOR</priority>
             <parameters />
