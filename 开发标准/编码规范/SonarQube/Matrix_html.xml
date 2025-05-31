@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <profile>
     <name>Matrix</name>
     <language>web</language>
@@ -8,59 +8,94 @@
             <key>AvoidCommentedOutCodeCheck</key>
             <type>CODE_SMELL</type>
             <priority>MAJOR</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>Web</repositoryKey>
             <key>DoctypePresenceCheck</key>
             <type>BUG</type>
             <priority>MAJOR</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>RELIABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>Web</repositoryKey>
             <key>DoubleQuotesCheck</key>
             <type>CODE_SMELL</type>
             <priority>MINOR</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>LOW</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>Web</repositoryKey>
             <key>DynamicJspIncludeCheck</key>
             <type>CODE_SMELL</type>
             <priority>MAJOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>Web</repositoryKey>
-            <key>FieldsetWithoutLegendCheck</key>
-            <type>BUG</type>
-            <priority>MINOR</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>Web</repositoryKey>
             <key>FlashUsesBothObjectAndEmbedCheck</key>
             <type>BUG</type>
             <priority>MINOR</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>RELIABILITY</softwareQuality>
+                    <severity>LOW</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>Web</repositoryKey>
             <key>FrameWithoutTitleCheck</key>
             <type>BUG</type>
             <priority>MINOR</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>RELIABILITY</softwareQuality>
+                    <severity>LOW</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>Web</repositoryKey>
             <key>HeaderCheck</key>
             <type>CODE_SMELL</type>
             <priority>BLOCKER</priority>
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>BLOCKER</severity>
+                </impact>
+            </impacts>
             <parameters>
                 <parameter>
                     <key>headerFormat</key>
-                    <value>&lt;!--\r?\n 版权所有 \d{4}(-\d{4})? Matrix。\r?\n 保留所有权利。\r?\n--></value>
+                    <value>&lt;!--\r?\n 版权所有 \d{4}(-\d{4})? Matrix。\r?\n 保留所有权利。\r?\n--&gt;</value>
                 </parameter>
                 <parameter>
                     <key>isRegularExpression</key>
@@ -73,13 +108,25 @@
             <key>IllegalTabCheck</key>
             <type>CODE_SMELL</type>
             <priority>MINOR</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>LOW</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>Web</repositoryKey>
             <key>IllegalTagLibsCheck</key>
             <type>CODE_SMELL</type>
             <priority>BLOCKER</priority>
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>BLOCKER</severity>
+                </impact>
+            </impacts>
             <parameters>
                 <parameter>
                     <key>tagLibs</key>
@@ -90,218 +137,688 @@
         <rule>
             <repositoryKey>Web</repositoryKey>
             <key>ImgWithoutAltCheck</key>
-            <type>BUG</type>
-            <priority>MINOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>Web</repositoryKey>
-            <key>ImgWithoutWidthOrHeightCheck</key>
-            <type>BUG</type>
-            <priority>MAJOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>Web</repositoryKey>
-            <key>InlineStyleCheck</key>
             <type>CODE_SMELL</type>
-            <priority>MAJOR</priority>
-            <parameters />
+            <priority>MINOR</priority>
+            <impacts>
+                <impact>
+                    <softwareQuality>RELIABILITY</softwareQuality>
+                    <severity>LOW</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>Web</repositoryKey>
             <key>InputWithoutLabelCheck</key>
             <type>BUG</type>
             <priority>MAJOR</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>RELIABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>Web</repositoryKey>
             <key>ItemTagNotWithinContainerTagCheck</key>
             <type>BUG</type>
             <priority>MINOR</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>RELIABILITY</softwareQuality>
+                    <severity>LOW</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>Web</repositoryKey>
             <key>JspScriptletCheck</key>
             <type>CODE_SMELL</type>
             <priority>MAJOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>Web</repositoryKey>
-            <key>LinkToImageCheck</key>
-            <type>CODE_SMELL</type>
-            <priority>MAJOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>Web</repositoryKey>
-            <key>LinkToNothingCheck</key>
-            <type>CODE_SMELL</type>
-            <priority>MAJOR</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>Web</repositoryKey>
             <key>LinksIdenticalTextsDifferentTargetsCheck</key>
             <type>CODE_SMELL</type>
             <priority>MAJOR</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>Web</repositoryKey>
             <key>MetaRefreshCheck</key>
             <type>CODE_SMELL</type>
             <priority>MAJOR</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>Web</repositoryKey>
             <key>MultiplePageDirectivesCheck</key>
             <type>CODE_SMELL</type>
             <priority>MINOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>Web</repositoryKey>
-            <key>NonConsecutiveHeadingCheck</key>
-            <type>CODE_SMELL</type>
-            <priority>MINOR</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>LOW</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>Web</repositoryKey>
             <key>PageWithoutTitleCheck</key>
             <type>BUG</type>
             <priority>MAJOR</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>RELIABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>Web</repositoryKey>
             <key>S1134</key>
             <type>CODE_SMELL</type>
             <priority>MAJOR</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>Web</repositoryKey>
             <key>S1135</key>
             <type>CODE_SMELL</type>
             <priority>INFO</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>INFO</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>Web</repositoryKey>
             <key>S1827</key>
             <type>CODE_SMELL</type>
             <priority>MAJOR</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>Web</repositoryKey>
             <key>S4084</key>
             <type>CODE_SMELL</type>
             <priority>MAJOR</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>Web</repositoryKey>
             <key>S4645</key>
             <type>BUG</type>
             <priority>MAJOR</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>RELIABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>Web</repositoryKey>
             <key>S5148</key>
             <type>SECURITY_HOTSPOT</type>
             <priority>MINOR</priority>
-            <parameters />
+            <parameters></parameters>
+        </rule>
+        <rule>
+            <repositoryKey>Web</repositoryKey>
+            <key>S5247</key>
+            <type>SECURITY_HOTSPOT</type>
+            <priority>MAJOR</priority>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>Web</repositoryKey>
             <key>S5254</key>
             <type>BUG</type>
             <priority>MAJOR</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>RELIABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>Web</repositoryKey>
             <key>S5255</key>
             <type>CODE_SMELL</type>
             <priority>MAJOR</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>Web</repositoryKey>
             <key>S5256</key>
             <type>BUG</type>
             <priority>MAJOR</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>RELIABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>Web</repositoryKey>
             <key>S5257</key>
             <type>CODE_SMELL</type>
             <priority>MAJOR</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>Web</repositoryKey>
             <key>S5258</key>
             <type>BUG</type>
             <priority>CRITICAL</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>RELIABILITY</softwareQuality>
+                    <severity>HIGH</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>Web</repositoryKey>
             <key>S5260</key>
             <type>BUG</type>
             <priority>CRITICAL</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>RELIABILITY</softwareQuality>
+                    <severity>HIGH</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>Web</repositoryKey>
             <key>S5264</key>
             <type>CODE_SMELL</type>
             <priority>MINOR</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>LOW</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>Web</repositoryKey>
             <key>S5725</key>
             <type>SECURITY_HOTSPOT</type>
             <priority>MINOR</priority>
-            <parameters />
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>Web</repositoryKey>
-            <key>ServerSideImageMapsCheck</key>
-            <type>BUG</type>
+            <key>S6793</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+                <impact>
+                    <softwareQuality>RELIABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
+        </rule>
+        <rule>
+            <repositoryKey>Web</repositoryKey>
+            <key>S6807</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+                <impact>
+                    <softwareQuality>RELIABILITY</softwareQuality>
+                    <severity>LOW</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
+        </rule>
+        <rule>
+            <repositoryKey>Web</repositoryKey>
+            <key>S6811</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+                <impact>
+                    <softwareQuality>RELIABILITY</softwareQuality>
+                    <severity>LOW</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
+        </rule>
+        <rule>
+            <repositoryKey>Web</repositoryKey>
+            <key>S6819</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
+        </rule>
+        <rule>
+            <repositoryKey>Web</repositoryKey>
+            <key>S6821</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+                <impact>
+                    <softwareQuality>RELIABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
+        </rule>
+        <rule>
+            <repositoryKey>Web</repositoryKey>
+            <key>S6822</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+                <impact>
+                    <softwareQuality>RELIABILITY</softwareQuality>
+                    <severity>LOW</severity>
+                </impact>
+            </impacts>
+            <parameters>
+                <parameter>
+                    <key>allowedRedundantRoles</key>
+                    <value>nav=navigation</value>
+                </parameter>
+            </parameters>
+        </rule>
+        <rule>
+            <repositoryKey>Web</repositoryKey>
+            <key>S6823</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <impacts>
+                <impact>
+                    <softwareQuality>RELIABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
+        </rule>
+        <rule>
+            <repositoryKey>Web</repositoryKey>
+            <key>S6824</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+                <impact>
+                    <softwareQuality>RELIABILITY</softwareQuality>
+                    <severity>LOW</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
+        </rule>
+        <rule>
+            <repositoryKey>Web</repositoryKey>
+            <key>S6825</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <impacts>
+                <impact>
+                    <softwareQuality>RELIABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
+        </rule>
+        <rule>
+            <repositoryKey>Web</repositoryKey>
+            <key>S6827</key>
+            <type>CODE_SMELL</type>
             <priority>MINOR</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>LOW</severity>
+                </impact>
+                <impact>
+                    <softwareQuality>RELIABILITY</softwareQuality>
+                    <severity>LOW</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
+        </rule>
+        <rule>
+            <repositoryKey>Web</repositoryKey>
+            <key>S6840</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+                <impact>
+                    <softwareQuality>RELIABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
+        </rule>
+        <rule>
+            <repositoryKey>Web</repositoryKey>
+            <key>S6841</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+                <impact>
+                    <softwareQuality>RELIABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
+        </rule>
+        <rule>
+            <repositoryKey>Web</repositoryKey>
+            <key>S6842</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+                <impact>
+                    <softwareQuality>RELIABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
+        </rule>
+        <rule>
+            <repositoryKey>Web</repositoryKey>
+            <key>S6843</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+                <impact>
+                    <softwareQuality>RELIABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
+        </rule>
+        <rule>
+            <repositoryKey>Web</repositoryKey>
+            <key>S6844</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+                <impact>
+                    <softwareQuality>RELIABILITY</softwareQuality>
+                    <severity>LOW</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
+        </rule>
+        <rule>
+            <repositoryKey>Web</repositoryKey>
+            <key>S6845</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+                <impact>
+                    <softwareQuality>RELIABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
+        </rule>
+        <rule>
+            <repositoryKey>Web</repositoryKey>
+            <key>S6846</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+                <impact>
+                    <softwareQuality>RELIABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
+        </rule>
+        <rule>
+            <repositoryKey>Web</repositoryKey>
+            <key>S6847</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+                <impact>
+                    <softwareQuality>RELIABILITY</softwareQuality>
+                    <severity>LOW</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
+        </rule>
+        <rule>
+            <repositoryKey>Web</repositoryKey>
+            <key>S6848</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+                <impact>
+                    <softwareQuality>RELIABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
+        </rule>
+        <rule>
+            <repositoryKey>Web</repositoryKey>
+            <key>S6850</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+                <impact>
+                    <softwareQuality>RELIABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
+        </rule>
+        <rule>
+            <repositoryKey>Web</repositoryKey>
+            <key>S6851</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+                <impact>
+                    <softwareQuality>RELIABILITY</softwareQuality>
+                    <severity>LOW</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
+        </rule>
+        <rule>
+            <repositoryKey>Web</repositoryKey>
+            <key>S6852</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+                <impact>
+                    <softwareQuality>RELIABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
+        </rule>
+        <rule>
+            <repositoryKey>Web</repositoryKey>
+            <key>S6853</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <impacts>
+                <impact>
+                    <softwareQuality>RELIABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>Web</repositoryKey>
             <key>TableHeaderHasIdOrScopeCheck</key>
             <type>BUG</type>
             <priority>MAJOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>Web</repositoryKey>
-            <key>TableWithoutCaptionCheck</key>
-            <type>BUG</type>
-            <priority>MINOR</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>RELIABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>Web</repositoryKey>
             <key>UnclosedTagCheck</key>
             <type>BUG</type>
             <priority>MINOR</priority>
+            <impacts>
+                <impact>
+                    <softwareQuality>RELIABILITY</softwareQuality>
+                    <severity>LOW</severity>
+                </impact>
+            </impacts>
             <parameters>
                 <parameter>
                     <key>ignoreTags</key>
@@ -314,28 +831,52 @@
             <key>UnifiedExpressionCheck</key>
             <type>BUG</type>
             <priority>MAJOR</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>RELIABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>Web</repositoryKey>
             <key>UnsupportedTagsInHtml5Check</key>
             <type>BUG</type>
             <priority>MAJOR</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>RELIABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>Web</repositoryKey>
             <key>WhiteSpaceAroundCheck</key>
             <type>CODE_SMELL</type>
             <priority>MINOR</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>LOW</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>Web</repositoryKey>
             <key>WmodeIsWindowCheck</key>
             <type>BUG</type>
             <priority>MINOR</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>RELIABILITY</softwareQuality>
+                    <severity>LOW</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
     </rules>
 </profile>

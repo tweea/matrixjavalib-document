@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <profile>
     <name>Matrix</name>
     <language>kotlin</language>
@@ -8,13 +8,25 @@
             <key>ParsingError</key>
             <type>CODE_SMELL</type>
             <priority>MAJOR</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>kotlin</repositoryKey>
             <key>S100</key>
             <type>CODE_SMELL</type>
             <priority>MINOR</priority>
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>LOW</severity>
+                </impact>
+            </impacts>
             <parameters>
                 <parameter>
                     <key>format</key>
@@ -27,6 +39,12 @@
             <key>S101</key>
             <type>CODE_SMELL</type>
             <priority>MINOR</priority>
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>LOW</severity>
+                </impact>
+            </impacts>
             <parameters>
                 <parameter>
                     <key>format</key>
@@ -39,87 +57,159 @@
             <key>S105</key>
             <type>CODE_SMELL</type>
             <priority>MINOR</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>LOW</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>kotlin</repositoryKey>
             <key>S108</key>
             <type>CODE_SMELL</type>
             <priority>MAJOR</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>kotlin</repositoryKey>
             <key>S1110</key>
             <type>CODE_SMELL</type>
             <priority>MAJOR</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>kotlin</repositoryKey>
             <key>S1125</key>
             <type>CODE_SMELL</type>
             <priority>MINOR</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>LOW</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>kotlin</repositoryKey>
             <key>S1128</key>
             <type>CODE_SMELL</type>
             <priority>MINOR</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>LOW</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>kotlin</repositoryKey>
             <key>S1133</key>
             <type>CODE_SMELL</type>
             <priority>INFO</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>INFO</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>kotlin</repositoryKey>
             <key>S1134</key>
             <type>CODE_SMELL</type>
             <priority>MAJOR</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>kotlin</repositoryKey>
             <key>S1135</key>
             <type>CODE_SMELL</type>
             <priority>INFO</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>INFO</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>kotlin</repositoryKey>
             <key>S1143</key>
             <type>BUG</type>
             <priority>CRITICAL</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>RELIABILITY</softwareQuality>
+                    <severity>HIGH</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>kotlin</repositoryKey>
             <key>S1144</key>
             <type>CODE_SMELL</type>
             <priority>MAJOR</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>kotlin</repositoryKey>
             <key>S1145</key>
             <type>BUG</type>
             <priority>MAJOR</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>RELIABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>kotlin</repositoryKey>
             <key>S117</key>
             <type>CODE_SMELL</type>
             <priority>MINOR</priority>
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>LOW</severity>
+                </impact>
+            </impacts>
             <parameters>
                 <parameter>
                     <key>format</key>
-                    <value>^[_a-z\u4E00-\u9FA5][a-zA-Z0-9\u4E00-\u9FA5]*$</value>
+                    <value>^`?[_a-z\u4E00-\u9FA5][a-zA-Z0-9\u4E00-\u9FA5]*`?$</value>
                 </parameter>
             </parameters>
         </rule>
@@ -128,48 +218,84 @@
             <key>S1172</key>
             <type>CODE_SMELL</type>
             <priority>MAJOR</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>kotlin</repositoryKey>
             <key>S1186</key>
             <type>CODE_SMELL</type>
             <priority>CRITICAL</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>HIGH</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>kotlin</repositoryKey>
             <key>S1206</key>
             <type>BUG</type>
             <priority>MINOR</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>RELIABILITY</softwareQuality>
+                    <severity>LOW</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>kotlin</repositoryKey>
             <key>S122</key>
             <type>CODE_SMELL</type>
             <priority>MAJOR</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>kotlin</repositoryKey>
             <key>S125</key>
             <type>CODE_SMELL</type>
             <priority>MAJOR</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>kotlin</repositoryKey>
             <key>S1313</key>
             <type>SECURITY_HOTSPOT</type>
             <priority>MINOR</priority>
-            <parameters />
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>kotlin</repositoryKey>
             <key>S1451</key>
             <type>CODE_SMELL</type>
             <priority>BLOCKER</priority>
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>BLOCKER</severity>
+                </impact>
+            </impacts>
             <parameters>
                 <parameter>
                     <key>headerFormat</key>
@@ -186,63 +312,117 @@
             <key>S1481</key>
             <type>CODE_SMELL</type>
             <priority>MINOR</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>LOW</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>kotlin</repositoryKey>
             <key>S1656</key>
             <type>BUG</type>
             <priority>MAJOR</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>RELIABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>kotlin</repositoryKey>
             <key>S1763</key>
             <type>BUG</type>
             <priority>MAJOR</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>RELIABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>kotlin</repositoryKey>
             <key>S1764</key>
             <type>BUG</type>
             <priority>MAJOR</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>RELIABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>kotlin</repositoryKey>
             <key>S1862</key>
             <type>BUG</type>
             <priority>MAJOR</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>RELIABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>kotlin</repositoryKey>
             <key>S1871</key>
             <type>CODE_SMELL</type>
             <priority>MAJOR</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>kotlin</repositoryKey>
             <key>S1874</key>
             <type>CODE_SMELL</type>
             <priority>MINOR</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>LOW</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>kotlin</repositoryKey>
             <key>S1940</key>
             <type>CODE_SMELL</type>
             <priority>MINOR</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>LOW</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>kotlin</repositoryKey>
             <key>S2053</key>
             <type>VULNERABILITY</type>
             <priority>CRITICAL</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>SECURITY</softwareQuality>
+                    <severity>HIGH</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>kotlin</repositoryKey>
@@ -252,7 +432,7 @@
             <parameters>
                 <parameter>
                     <key>credentialWords</key>
-                    <value>password,passwd,pwd</value>
+                    <value>password,passwd,pwd,passphrase</value>
                 </parameter>
             </parameters>
         </rule>
@@ -261,1694 +441,1032 @@
             <key>S2097</key>
             <type>BUG</type>
             <priority>MINOR</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>RELIABILITY</softwareQuality>
+                    <severity>LOW</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>kotlin</repositoryKey>
             <key>S2114</key>
             <type>BUG</type>
             <priority>MAJOR</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>RELIABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>kotlin</repositoryKey>
             <key>S2116</key>
             <type>BUG</type>
             <priority>MAJOR</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>RELIABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>kotlin</repositoryKey>
             <key>S2122</key>
             <type>BUG</type>
             <priority>CRITICAL</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>RELIABILITY</softwareQuality>
+                    <severity>HIGH</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>kotlin</repositoryKey>
             <key>S2123</key>
             <type>BUG</type>
             <priority>MAJOR</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>RELIABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>kotlin</repositoryKey>
             <key>S2151</key>
             <type>BUG</type>
             <priority>CRITICAL</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>RELIABILITY</softwareQuality>
+                    <severity>HIGH</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>kotlin</repositoryKey>
             <key>S2175</key>
             <type>BUG</type>
             <priority>MAJOR</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>RELIABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>kotlin</repositoryKey>
             <key>S2245</key>
             <type>SECURITY_HOTSPOT</type>
             <priority>CRITICAL</priority>
-            <parameters />
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>kotlin</repositoryKey>
             <key>S2695</key>
             <type>BUG</type>
             <priority>BLOCKER</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>RELIABILITY</softwareQuality>
+                    <severity>BLOCKER</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>kotlin</repositoryKey>
             <key>S2757</key>
             <type>BUG</type>
             <priority>MAJOR</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>RELIABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>kotlin</repositoryKey>
             <key>S3329</key>
             <type>VULNERABILITY</type>
             <priority>CRITICAL</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>SECURITY</softwareQuality>
+                    <severity>HIGH</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>kotlin</repositoryKey>
             <key>S3923</key>
             <type>BUG</type>
             <priority>MAJOR</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>RELIABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>kotlin</repositoryKey>
             <key>S3958</key>
             <type>BUG</type>
             <priority>MAJOR</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>RELIABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>kotlin</repositoryKey>
             <key>S3981</key>
             <type>BUG</type>
             <priority>MAJOR</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>RELIABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>kotlin</repositoryKey>
             <key>S4144</key>
             <type>CODE_SMELL</type>
             <priority>MAJOR</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>kotlin</repositoryKey>
             <key>S4347</key>
             <type>VULNERABILITY</type>
             <priority>CRITICAL</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>SECURITY</softwareQuality>
+                    <severity>HIGH</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>kotlin</repositoryKey>
             <key>S4423</key>
             <type>VULNERABILITY</type>
             <priority>CRITICAL</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>SECURITY</softwareQuality>
+                    <severity>HIGH</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>kotlin</repositoryKey>
             <key>S4426</key>
             <type>VULNERABILITY</type>
             <priority>CRITICAL</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>SECURITY</softwareQuality>
+                    <severity>HIGH</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>kotlin</repositoryKey>
             <key>S4507</key>
             <type>SECURITY_HOTSPOT</type>
             <priority>MINOR</priority>
-            <parameters />
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>kotlin</repositoryKey>
             <key>S4663</key>
             <type>CODE_SMELL</type>
             <priority>MINOR</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>LOW</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>kotlin</repositoryKey>
             <key>S4738</key>
             <type>CODE_SMELL</type>
             <priority>MAJOR</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>kotlin</repositoryKey>
             <key>S4790</key>
             <type>SECURITY_HOTSPOT</type>
             <priority>CRITICAL</priority>
-            <parameters />
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>kotlin</repositoryKey>
             <key>S4830</key>
             <type>VULNERABILITY</type>
             <priority>CRITICAL</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>SECURITY</softwareQuality>
+                    <severity>HIGH</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>kotlin</repositoryKey>
             <key>S5320</key>
             <type>SECURITY_HOTSPOT</type>
             <priority>CRITICAL</priority>
-            <parameters />
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>kotlin</repositoryKey>
             <key>S5322</key>
             <type>SECURITY_HOTSPOT</type>
             <priority>CRITICAL</priority>
-            <parameters />
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>kotlin</repositoryKey>
             <key>S5332</key>
             <type>SECURITY_HOTSPOT</type>
             <priority>CRITICAL</priority>
-            <parameters />
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>kotlin</repositoryKey>
             <key>S5527</key>
             <type>VULNERABILITY</type>
             <priority>CRITICAL</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>SECURITY</softwareQuality>
+                    <severity>HIGH</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>kotlin</repositoryKey>
             <key>S5542</key>
             <type>VULNERABILITY</type>
             <priority>CRITICAL</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>SECURITY</softwareQuality>
+                    <severity>HIGH</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>kotlin</repositoryKey>
             <key>S5547</key>
             <type>VULNERABILITY</type>
             <priority>CRITICAL</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>SECURITY</softwareQuality>
+                    <severity>HIGH</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>kotlin</repositoryKey>
             <key>S5842</key>
             <type>BUG</type>
             <priority>MINOR</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>RELIABILITY</softwareQuality>
+                    <severity>LOW</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>kotlin</repositoryKey>
             <key>S5846</key>
             <type>CODE_SMELL</type>
             <priority>CRITICAL</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>HIGH</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>kotlin</repositoryKey>
             <key>S5850</key>
             <type>BUG</type>
             <priority>MAJOR</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>RELIABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>kotlin</repositoryKey>
             <key>S5856</key>
             <type>BUG</type>
             <priority>CRITICAL</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>RELIABILITY</softwareQuality>
+                    <severity>HIGH</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>kotlin</repositoryKey>
             <key>S5857</key>
             <type>CODE_SMELL</type>
             <priority>MINOR</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>LOW</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>kotlin</repositoryKey>
             <key>S5868</key>
             <type>BUG</type>
             <priority>MAJOR</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>RELIABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>kotlin</repositoryKey>
             <key>S5869</key>
             <type>CODE_SMELL</type>
             <priority>MAJOR</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>kotlin</repositoryKey>
             <key>S6202</key>
             <type>CODE_SMELL</type>
             <priority>MAJOR</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
+        </rule>
+        <rule>
+            <repositoryKey>kotlin</repositoryKey>
+            <key>S6207</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>kotlin</repositoryKey>
             <key>S6218</key>
             <type>BUG</type>
             <priority>MAJOR</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>RELIABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>kotlin</repositoryKey>
             <key>S6288</key>
             <type>SECURITY_HOTSPOT</type>
             <priority>MAJOR</priority>
-            <parameters />
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>kotlin</repositoryKey>
             <key>S6293</key>
             <type>SECURITY_HOTSPOT</type>
             <priority>MAJOR</priority>
-            <parameters />
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>kotlin</repositoryKey>
             <key>S6301</key>
             <type>VULNERABILITY</type>
             <priority>MAJOR</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>SECURITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>kotlin</repositoryKey>
             <key>S6305</key>
             <type>CODE_SMELL</type>
             <priority>MAJOR</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>kotlin</repositoryKey>
             <key>S6306</key>
             <type>CODE_SMELL</type>
             <priority>MAJOR</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>kotlin</repositoryKey>
             <key>S6307</key>
             <type>CODE_SMELL</type>
             <priority>MAJOR</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>kotlin</repositoryKey>
             <key>S6309</key>
             <type>CODE_SMELL</type>
             <priority>MAJOR</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>kotlin</repositoryKey>
             <key>S6310</key>
             <type>CODE_SMELL</type>
             <priority>MAJOR</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>kotlin</repositoryKey>
             <key>S6311</key>
             <type>CODE_SMELL</type>
             <priority>MAJOR</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>kotlin</repositoryKey>
             <key>S6312</key>
             <type>CODE_SMELL</type>
             <priority>MAJOR</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>kotlin</repositoryKey>
             <key>S6313</key>
             <type>CODE_SMELL</type>
             <priority>MAJOR</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>kotlin</repositoryKey>
             <key>S6314</key>
             <type>BUG</type>
             <priority>MAJOR</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>RELIABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>kotlin</repositoryKey>
             <key>S6315</key>
             <type>CODE_SMELL</type>
             <priority>MAJOR</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>kotlin</repositoryKey>
             <key>S6316</key>
             <type>CODE_SMELL</type>
             <priority>MAJOR</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>kotlin</repositoryKey>
             <key>S6318</key>
             <type>CODE_SMELL</type>
             <priority>MINOR</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>LOW</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>kotlin</repositoryKey>
             <key>S6362</key>
             <type>SECURITY_HOTSPOT</type>
             <priority>MAJOR</priority>
-            <parameters />
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>kotlin</repositoryKey>
             <key>S6363</key>
             <type>SECURITY_HOTSPOT</type>
             <priority>MAJOR</priority>
-            <parameters />
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>kotlin</repositoryKey>
             <key>S6432</key>
             <type>VULNERABILITY</type>
             <priority>CRITICAL</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>SECURITY</softwareQuality>
+                    <severity>HIGH</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
+        </rule>
+        <rule>
+            <repositoryKey>kotlin</repositoryKey>
+            <key>S6508</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
+        </rule>
+        <rule>
+            <repositoryKey>kotlin</repositoryKey>
+            <key>S6510</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
+        </rule>
+        <rule>
+            <repositoryKey>kotlin</repositoryKey>
+            <key>S6512</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>LOW</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
+        </rule>
+        <rule>
+            <repositoryKey>kotlin</repositoryKey>
+            <key>S6514</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
+        </rule>
+        <rule>
+            <repositoryKey>kotlin</repositoryKey>
+            <key>S6515</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
+        </rule>
+        <rule>
+            <repositoryKey>kotlin</repositoryKey>
+            <key>S6516</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
+        </rule>
+        <rule>
+            <repositoryKey>kotlin</repositoryKey>
+            <key>S6518</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
+        </rule>
+        <rule>
+            <repositoryKey>kotlin</repositoryKey>
+            <key>S6519</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
+        </rule>
+        <rule>
+            <repositoryKey>kotlin</repositoryKey>
+            <key>S6527</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>LOW</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
+        </rule>
+        <rule>
+            <repositoryKey>kotlin</repositoryKey>
+            <key>S6528</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>LOW</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
+        </rule>
+        <rule>
+            <repositoryKey>kotlin</repositoryKey>
+            <key>S6529</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
+        </rule>
+        <rule>
+            <repositoryKey>kotlin</repositoryKey>
+            <key>S6530</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
+        </rule>
+        <rule>
+            <repositoryKey>kotlin</repositoryKey>
+            <key>S6531</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
+        </rule>
+        <rule>
+            <repositoryKey>kotlin</repositoryKey>
+            <key>S6532</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
+        </rule>
+        <rule>
+            <repositoryKey>kotlin</repositoryKey>
+            <key>S6558</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
+        </rule>
+        <rule>
+            <repositoryKey>kotlin</repositoryKey>
+            <key>S6611</key>
+            <type>BUG</type>
+            <priority>MAJOR</priority>
+            <impacts>
+                <impact>
+                    <softwareQuality>RELIABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
+        </rule>
+        <rule>
+            <repositoryKey>kotlin</repositoryKey>
+            <key>S6615</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
+        </rule>
+        <rule>
+            <repositoryKey>kotlin</repositoryKey>
+            <key>S6619</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
+        </rule>
+        <rule>
+            <repositoryKey>kotlin</repositoryKey>
+            <key>S6623</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
+        </rule>
+        <rule>
+            <repositoryKey>kotlin</repositoryKey>
+            <key>S6624</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
+        </rule>
+        <rule>
+            <repositoryKey>kotlin</repositoryKey>
+            <key>S6625</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
+        </rule>
+        <rule>
+            <repositoryKey>kotlin</repositoryKey>
+            <key>S6626</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
+        </rule>
+        <rule>
+            <repositoryKey>kotlin</repositoryKey>
+            <key>S6629</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
+        </rule>
+        <rule>
+            <repositoryKey>kotlin</repositoryKey>
+            <key>S6631</key>
+            <type>CODE_SMELL</type>
+            <priority>MAJOR</priority>
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
+        </rule>
+        <rule>
+            <repositoryKey>kotlin</repositoryKey>
+            <key>S6634</key>
+            <type>CODE_SMELL</type>
+            <priority>MINOR</priority>
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>LOW</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>kotlin</repositoryKey>
             <key>S899</key>
             <type>BUG</type>
             <priority>MINOR</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>RELIABILITY</softwareQuality>
+                    <severity>LOW</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>AbsentOrWrongFileLicense</key>
+            <repositoryKey>pmd-kotlin</repositoryKey>
+            <key>FunctionNameTooShort</key>
             <type>CODE_SMELL</type>
             <priority>MAJOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>AnnotationOnSeparateLine</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>AnnotationSpacing</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>ArgumentListWrapping</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>ArrayPrimitive</key>
-            <type>CODE_SMELL</type>
-            <priority>CRITICAL</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>AvoidReferentialEquality</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>BooleanPropertyNaming</key>
-            <type>CODE_SMELL</type>
-            <priority>MAJOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>CastToNullableType</key>
-            <type>CODE_SMELL</type>
-            <priority>CRITICAL</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>ChainWrapping</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>ClassNaming</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>ClassOrdering</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>CommentSpacing</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>ConstructorParameterNaming</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>DataClassContainsFunctions</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>DataClassShouldBeImmutable</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>DeprecatedBlockTag</key>
-            <type>CODE_SMELL</type>
-            <priority>CRITICAL</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>Deprecation</key>
-            <type>CODE_SMELL</type>
-            <priority>CRITICAL</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>DontDowncastCollectionTypes</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>DoubleMutabilityForCollection</key>
-            <type>CODE_SMELL</type>
-            <priority>MAJOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>DuplicateCaseInWhenExpression</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>EmptyCatchBlock</key>
-            <type>CODE_SMELL</type>
-            <priority>MINOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>EmptyClassBlock</key>
-            <type>CODE_SMELL</type>
-            <priority>MINOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>EmptyDefaultConstructor</key>
-            <type>CODE_SMELL</type>
-            <priority>MINOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>EmptyDoWhileBlock</key>
-            <type>CODE_SMELL</type>
-            <priority>MINOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>EmptyElseBlock</key>
-            <type>CODE_SMELL</type>
-            <priority>MINOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>EmptyFinallyBlock</key>
-            <type>CODE_SMELL</type>
-            <priority>MINOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>EmptyForBlock</key>
-            <type>CODE_SMELL</type>
-            <priority>MINOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>EmptyFunctionBlock</key>
-            <type>CODE_SMELL</type>
-            <priority>MINOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>EmptyIfBlock</key>
-            <type>CODE_SMELL</type>
-            <priority>MINOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>EmptyInitBlock</key>
-            <type>CODE_SMELL</type>
-            <priority>MINOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>EmptyKtFile</key>
-            <type>CODE_SMELL</type>
-            <priority>MINOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>EmptySecondaryConstructor</key>
-            <type>CODE_SMELL</type>
-            <priority>MINOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>EmptyTryBlock</key>
-            <type>CODE_SMELL</type>
-            <priority>MINOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>EmptyWhenBlock</key>
-            <type>CODE_SMELL</type>
-            <priority>MINOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>EmptyWhileBlock</key>
-            <type>CODE_SMELL</type>
-            <priority>MINOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>EndOfSentenceFormat</key>
-            <type>CODE_SMELL</type>
-            <priority>MAJOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>EnumEntryNameCase</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>EnumNaming</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>EqualsAlwaysReturnsTrueOrFalse</key>
-            <type>CODE_SMELL</type>
-            <priority>CRITICAL</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>EqualsNullCall</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>EqualsOnSignatureLine</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>EqualsWithHashCodeExist</key>
-            <type>CODE_SMELL</type>
-            <priority>CRITICAL</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>ExceptionRaisedInUnexpectedLocation</key>
-            <type>CODE_SMELL</type>
-            <priority>MAJOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>ExitOutsideMain</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>ExplicitCollectionElementAccessMethod</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>ExplicitGarbageCollectionCall</key>
-            <type>CODE_SMELL</type>
-            <priority>CRITICAL</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>ExplicitItLambdaParameter</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>ExpressionBodySyntax</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>ForEachOnRange</key>
-            <type>CODE_SMELL</type>
-            <priority>CRITICAL</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>ForbiddenPublicDataClass</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>ForbiddenVoid</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>FunctionNaming</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>FunctionOnlyReturningConstant</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>FunctionParameterNaming</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>GlobalCoroutineUsage</key>
-            <type>CODE_SMELL</type>
-            <priority>CRITICAL</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>HasPlatformType</key>
-            <type>CODE_SMELL</type>
-            <priority>MAJOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>IgnoredReturnValue</key>
-            <type>CODE_SMELL</type>
-            <priority>CRITICAL</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>ImplicitDefaultLocale</key>
-            <type>CODE_SMELL</type>
-            <priority>MAJOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>ImplicitUnitReturnType</key>
-            <type>CODE_SMELL</type>
-            <priority>CRITICAL</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>ImportOrdering</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>Indentation</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>InjectDispatcher</key>
-            <type>CODE_SMELL</type>
-            <priority>CRITICAL</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>InstanceOfCheckForException</key>
-            <type>CODE_SMELL</type>
-            <priority>MAJOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>InvalidPackageDeclaration</key>
-            <type>CODE_SMELL</type>
-            <priority>MAJOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>InvalidRange</key>
-            <type>CODE_SMELL</type>
-            <priority>CRITICAL</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>IteratorHasNextCallsNextMethod</key>
-            <type>CODE_SMELL</type>
-            <priority>CRITICAL</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>IteratorNotThrowingNoSuchElementException</key>
-            <type>CODE_SMELL</type>
-            <priority>CRITICAL</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>LabeledExpression</key>
-            <type>CODE_SMELL</type>
-            <priority>MAJOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>LambdaParameterNaming</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>LateinitUsage</key>
-            <type>CODE_SMELL</type>
-            <priority>CRITICAL</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>LibraryCodeMustSpecifyReturnType</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>LibraryEntitiesShouldNotBePublic</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>MandatoryBracesIfStatements</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>MandatoryBracesLoops</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>MapGetWithNotNullAssertionOperator</key>
-            <type>CODE_SMELL</type>
-            <priority>MAJOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>MatchingDeclarationName</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>MemberNameEqualsClassName</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>MissingPackageDeclaration</key>
-            <type>CODE_SMELL</type>
-            <priority>MAJOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>MissingWhenCase</key>
-            <type>CODE_SMELL</type>
-            <priority>CRITICAL</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>ModifierOrder</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>ModifierOrdering</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>MultilineLambdaItParameter</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>NamedArguments</key>
-            <type>CODE_SMELL</type>
-            <priority>MAJOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>NestedClassesVisibility</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>NewLineAtEndOfFile</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>NoBlankLineBeforeRbrace</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>NoConsecutiveBlankLines</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>NoEmptyClassBody</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>NoEmptyFirstLineInMethodBlock</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>NoLineBreakBeforeAssignment</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>NoMultipleSpaces</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>NoNameShadowing</key>
-            <type>CODE_SMELL</type>
-            <priority>CRITICAL</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>NoSemicolons</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>NoTabs</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>NoTrailingSpaces</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>NoUnusedImports</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>NonBooleanPropertyPrefixedWithIs</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>NotImplementedDeclaration</key>
-            <type>CODE_SMELL</type>
-            <priority>MAJOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>NullableToStringCall</key>
-            <type>CODE_SMELL</type>
-            <priority>CRITICAL</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>ObjectExtendsThrowable</key>
-            <type>CODE_SMELL</type>
-            <priority>MAJOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>ObjectLiteralToLambda</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>ObjectPropertyNaming</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>OptionalAbstractKeyword</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>OptionalUnit</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>OptionalWhenBraces</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>OutdatedDocumentation</key>
-            <type>CODE_SMELL</type>
-            <priority>MAJOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>PackageName</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>PackageNaming</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>ParameterListWrapping</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>PreferToOverPairSyntax</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>PrintStackTrace</key>
-            <type>CODE_SMELL</type>
-            <priority>MAJOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>ProtectedMemberInFinalClass</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>RedundantElseInWhen</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>RedundantExplicitType</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>RedundantHigherOrderMapUsage</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>RedundantSuspendModifier</key>
-            <type>CODE_SMELL</type>
-            <priority>MINOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>RedundantVisibilityModifierRule</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>ReplaceSafeCallChainWithRun</key>
-            <type>CODE_SMELL</type>
-            <priority>MAJOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>RethrowCaughtException</key>
-            <type>CODE_SMELL</type>
-            <priority>MAJOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>ReturnFromFinally</key>
-            <type>CODE_SMELL</type>
-            <priority>CRITICAL</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>SafeCast</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>SerialVersionUIDInSerializableClass</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>SleepInsteadOfDelay</key>
-            <type>CODE_SMELL</type>
-            <priority>CRITICAL</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>SpacingAroundAngleBrackets</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>SpacingAroundColon</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>SpacingAroundComma</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>SpacingAroundCurly</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>SpacingAroundDot</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>SpacingAroundDoubleColon</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>SpacingAroundKeyword</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>SpacingAroundOperators</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>SpacingAroundParens</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>SpacingAroundRangeOperator</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>SpacingAroundUnaryOperator</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>SpacingBetweenDeclarationsWithAnnotations</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>SpacingBetweenDeclarationsWithComments</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>SpacingBetweenPackageAndImports</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>SpreadOperator</key>
-            <type>CODE_SMELL</type>
-            <priority>CRITICAL</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>StringTemplate</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>SuspendFunWithFlowReturnType</key>
-            <type>CODE_SMELL</type>
-            <priority>MINOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>SwallowedException</key>
-            <type>CODE_SMELL</type>
-            <priority>MAJOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>ThrowingExceptionFromFinally</key>
-            <type>CODE_SMELL</type>
-            <priority>CRITICAL</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>ThrowingExceptionInMain</key>
-            <type>CODE_SMELL</type>
-            <priority>MAJOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>ThrowingExceptionsWithoutMessageOrCause</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>ThrowingNewInstanceOfSameException</key>
-            <type>CODE_SMELL</type>
-            <priority>CRITICAL</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>TopLevelPropertyNaming</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>TrailingWhitespace</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>UnconditionalJumpStatementInLoop</key>
-            <type>CODE_SMELL</type>
-            <priority>CRITICAL</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>UnderscoresInNumericLiterals</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>UnnecessaryAnnotationUseSiteTarget</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>UnnecessaryApply</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>UnnecessaryFilter</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>UnnecessaryInheritance</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>UnnecessaryLet</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>UnnecessaryNotNullOperator</key>
-            <type>CODE_SMELL</type>
-            <priority>CRITICAL</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>UnnecessaryParentheses</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>UnnecessarySafeCall</key>
-            <type>CODE_SMELL</type>
-            <priority>CRITICAL</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>UnnecessaryTemporaryInstantiation</key>
-            <type>CODE_SMELL</type>
-            <priority>CRITICAL</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>UnreachableCatchBlock</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>UnreachableCode</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>UnsafeCallOnNullableType</key>
-            <type>CODE_SMELL</type>
-            <priority>CRITICAL</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>UnsafeCast</key>
-            <type>CODE_SMELL</type>
-            <priority>CRITICAL</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>UntilInsteadOfRangeTo</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>UnusedImports</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>UnusedPrivateClass</key>
-            <type>CODE_SMELL</type>
-            <priority>MAJOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>UnusedPrivateMember</key>
-            <type>CODE_SMELL</type>
-            <priority>MAJOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>UnusedUnaryOperator</key>
-            <type>CODE_SMELL</type>
-            <priority>CRITICAL</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>UseAnyOrNoneInsteadOfFind</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>UseArrayLiteralsInAnnotations</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>UseCheckNotNull</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>UseCheckOrError</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>UseDataClass</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>UseEmptyCounterpart</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>UseIfEmptyOrIfBlank</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>UseIfInsteadOfWhen</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>UseIsNullOrEmpty</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>UseOrEmpty</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>UseRequire</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>UseRequireNotNull</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>UselessCallOnNotNull</key>
-            <type>CODE_SMELL</type>
-            <priority>CRITICAL</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>UselessPostfixExpression</key>
-            <type>CODE_SMELL</type>
-            <priority>CRITICAL</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>UtilityClassWithPublicConstructor</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>VariableNaming</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>WildcardImport</key>
-            <type>CODE_SMELL</type>
-            <priority>INFO</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>sonar-detekt</repositoryKey>
-            <key>WrongEqualsTypeParameter</key>
-            <type>CODE_SMELL</type>
-            <priority>CRITICAL</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
     </rules>
 </profile>

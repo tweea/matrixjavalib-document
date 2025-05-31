@@ -1,4 +1,4 @@
-<?xml version='1.0' encoding='UTF-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <profile>
     <name>Matrix</name>
     <language>xml</language>
@@ -8,55 +8,103 @@
             <key>MyBatisMapperCheckRule01</key>
             <type>BUG</type>
             <priority>MINOR</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>RELIABILITY</softwareQuality>
+                    <severity>LOW</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>MyBatisLint</repositoryKey>
             <key>MyBatisMapperCheckRule02</key>
             <type>BUG</type>
             <priority>MAJOR</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>RELIABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>MyBatisLint</repositoryKey>
             <key>MyBatisMapperCheckRule03</key>
             <type>BUG</type>
             <priority>MAJOR</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>RELIABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>MyBatisLint</repositoryKey>
             <key>MyBatisMapperCheckRule05</key>
             <type>BUG</type>
             <priority>MAJOR</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>RELIABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>MyBatisLint</repositoryKey>
             <key>MyBatisMapperCheckRule06</key>
             <type>BUG</type>
             <priority>CRITICAL</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>RELIABILITY</softwareQuality>
+                    <severity>HIGH</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>MyBatisLint</repositoryKey>
             <key>MyBatisMapperCheckRule07</key>
             <type>BUG</type>
             <priority>MINOR</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>RELIABILITY</softwareQuality>
+                    <severity>LOW</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>xml</repositoryKey>
             <key>S105</key>
             <type>CODE_SMELL</type>
             <priority>MINOR</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>LOW</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>xml</repositoryKey>
             <key>S1120</key>
             <type>CODE_SMELL</type>
             <priority>MINOR</priority>
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>LOW</severity>
+                </impact>
+            </impacts>
             <parameters>
                 <parameter>
                     <key>indentSize</key>
@@ -73,28 +121,52 @@
             <key>S1134</key>
             <type>CODE_SMELL</type>
             <priority>MAJOR</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>xml</repositoryKey>
             <key>S1135</key>
             <type>CODE_SMELL</type>
             <priority>INFO</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>INFO</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>xml</repositoryKey>
             <key>S125</key>
             <type>CODE_SMELL</type>
             <priority>MAJOR</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>xml</repositoryKey>
             <key>S1778</key>
             <type>BUG</type>
             <priority>CRITICAL</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>RELIABILITY</softwareQuality>
+                    <severity>HIGH</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>xml</repositoryKey>
@@ -113,62 +185,105 @@
             <key>S2260</key>
             <type>CODE_SMELL</type>
             <priority>MAJOR</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>xml</repositoryKey>
             <key>S2321</key>
             <type>CODE_SMELL</type>
             <priority>MAJOR</priority>
-            <parameters />
-        </rule>
-        <rule>
-            <repositoryKey>xml</repositoryKey>
-            <key>S2647</key>
-            <type>VULNERABILITY</type>
-            <priority>CRITICAL</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>xml</repositoryKey>
             <key>S3281</key>
             <type>VULNERABILITY</type>
             <priority>BLOCKER</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>BLOCKER</severity>
+                </impact>
+                <impact>
+                    <softwareQuality>SECURITY</softwareQuality>
+                    <severity>BLOCKER</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>xml</repositoryKey>
             <key>S3282</key>
             <type>CODE_SMELL</type>
             <priority>BLOCKER</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>BLOCKER</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>xml</repositoryKey>
             <key>S3330</key>
             <type>SECURITY_HOTSPOT</type>
             <priority>MINOR</priority>
-            <parameters />
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>xml</repositoryKey>
             <key>S3355</key>
             <type>VULNERABILITY</type>
             <priority>CRITICAL</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>HIGH</severity>
+                </impact>
+                <impact>
+                    <softwareQuality>SECURITY</softwareQuality>
+                    <severity>HIGH</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>xml</repositoryKey>
             <key>S3374</key>
             <type>VULNERABILITY</type>
             <priority>BLOCKER</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>SECURITY</softwareQuality>
+                    <severity>BLOCKER</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>xml</repositoryKey>
             <key>S3419</key>
             <type>CODE_SMELL</type>
             <priority>MINOR</priority>
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>LOW</severity>
+                </impact>
+            </impacts>
             <parameters>
                 <parameter>
                     <key>regex</key>
@@ -181,6 +296,12 @@
             <key>S3420</key>
             <type>CODE_SMELL</type>
             <priority>MINOR</priority>
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>LOW</severity>
+                </impact>
+            </impacts>
             <parameters>
                 <parameter>
                     <key>regex</key>
@@ -193,98 +314,146 @@
             <key>S3421</key>
             <type>CODE_SMELL</type>
             <priority>MINOR</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>LOW</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>xml</repositoryKey>
             <key>S3422</key>
             <type>BUG</type>
             <priority>CRITICAL</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>RELIABILITY</softwareQuality>
+                    <severity>HIGH</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>xml</repositoryKey>
             <key>S3423</key>
             <type>CODE_SMELL</type>
             <priority>MINOR</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>MAINTAINABILITY</softwareQuality>
+                    <severity>LOW</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>xml</repositoryKey>
             <key>S3438</key>
             <type>BUG</type>
             <priority>MAJOR</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>RELIABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>xml</repositoryKey>
             <key>S3439</key>
             <type>BUG</type>
             <priority>MAJOR</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>RELIABILITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>xml</repositoryKey>
             <key>S3822</key>
             <type>BUG</type>
             <priority>CRITICAL</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>RELIABILITY</softwareQuality>
+                    <severity>HIGH</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>xml</repositoryKey>
             <key>S4507</key>
             <type>SECURITY_HOTSPOT</type>
             <priority>MINOR</priority>
-            <parameters />
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>xml</repositoryKey>
             <key>S5122</key>
             <type>SECURITY_HOTSPOT</type>
             <priority>MINOR</priority>
-            <parameters />
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>xml</repositoryKey>
             <key>S5322</key>
             <type>SECURITY_HOTSPOT</type>
             <priority>CRITICAL</priority>
-            <parameters />
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>xml</repositoryKey>
             <key>S5332</key>
             <type>SECURITY_HOTSPOT</type>
             <priority>CRITICAL</priority>
-            <parameters />
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>xml</repositoryKey>
             <key>S5594</key>
             <type>VULNERABILITY</type>
             <priority>MAJOR</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>SECURITY</softwareQuality>
+                    <severity>MEDIUM</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>xml</repositoryKey>
             <key>S5604</key>
             <type>SECURITY_HOTSPOT</type>
             <priority>MAJOR</priority>
-            <parameters />
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>xml</repositoryKey>
             <key>S6359</key>
             <type>VULNERABILITY</type>
             <priority>MINOR</priority>
-            <parameters />
+            <impacts>
+                <impact>
+                    <softwareQuality>SECURITY</softwareQuality>
+                    <severity>LOW</severity>
+                </impact>
+            </impacts>
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>xml</repositoryKey>
             <key>S6361</key>
             <type>SECURITY_HOTSPOT</type>
             <priority>MAJOR</priority>
-            <parameters />
+            <parameters></parameters>
         </rule>
         <rule>
             <repositoryKey>xml</repositoryKey>
@@ -294,6 +463,7 @@
             <name>Track uses of disallowed dependencies - commons-logging</name>
             <templateKey>S3417</templateKey>
             <description>详细信息见模板</description>
+            <cleanCodeAttribute>CONVENTIONAL</cleanCodeAttribute>
             <parameters>
                 <parameter>
                     <key>dependencyName</key>
