@@ -267,8 +267,7 @@ under the License.
       <id>nexus</id>
       <properties>
         <!-- SonarQube -->
-        <sonar.login>username/token</sonar.login>
-        <sonar.password>password/(empty)</sonar.password>
+        <sonar.token>token</sonar.token>
         <sonar.host.url>https://sonar.tweea.net.cn</sonar.host.url>
       </properties>
       <!-- Enable snapshots for the built in central repo to direct -->
